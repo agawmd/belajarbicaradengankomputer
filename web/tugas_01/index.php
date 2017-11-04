@@ -20,7 +20,7 @@
                         Email :
                     </td>
                     <td>
-                        <input type="text" name="namalengkap">
+                        <input type="email" name="email">
                     </td>
                 </tr>
                 <tr>
