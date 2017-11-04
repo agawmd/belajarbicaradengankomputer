@@ -1,0 +1,34 @@
+uses crt;
+
+var n, x, y : byte;
+
+
+procedure status(x,y : byte);
+begin
+  gotoxy(1, 10);
+  writeln('nilai y = ', y);
+  writeln('nilai x = ', x);
+  gotoxy(x+1,y);
+end;
+
+
+begin
+   clrscr;
+   write('N: ');
+   readln(n);
+
+   clrscr;
+   for y:=1 to n do begin
+     for x:= 1 to n do begin
+        write(y);
+        status(x,y);
+        readln;
+     end;
+   end;
+   writeln;
+   writeln;
+   writeln('selesai...............');
+
+
+   readln;
+end.
