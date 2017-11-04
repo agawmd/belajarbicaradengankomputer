@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <script src="jQuery.js"></script>
+  </head>
+  <body>
+    N <input id="n" >
+    <hr>
+    <h3>Proses</h3>
+    <br>
+    X<input id='xx' type='number'>
+    Y<input id='yy' type='number'>
+    <pre id='output'></pre>
+    <pre id='status'></pre>
+
+    <script>
+
+	function updateStatus(x, y) {
+		$("#status").text("x = "+x+"\ny = "+y);
+	}
+
+	function calculate() {
+		var
+		    output = $("#output"),
+		    status = $("#status"),
+		    xx     = $("#xx"),
+		    yy     = $("#yy");
+
+		console.log(xx.val());
+		output.text('');
+
+		for(y=1; y<=yy.val(); y++) {
+			for(x=1; x<=yy.val(); x++) {
+				output.append(" ",x);
+				updateStatus(x,y);
+			}
+			output.append("\n");
+		}
+
+
+	}
+
+
+
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+	$(document)
+		.ready(function(){
+			var xx      = $("#xx"), 
+			    yy      = $("#yy"),
+			    n       = $("#n");
+			xx.change(function(){calculate()});
+			yy.change(function(){calculate()});
+			
+			n.change(function(){
+
+				for(y=1; y<=n.val(); y++){
+					for(x=1; x<=n.val(); x++) {
+						sleep(3000);
+						console.log(x,y);
+						xx.val(x);
+						yy.val(y);
+
+						xx.trigger('change');
+						
+
+					}
+				}
+			});
+			
+		});
+    </script>
+  </body>
+</html>
