@@ -6,7 +6,7 @@
 package mahasiswa;
 
 import java.util.List;
-import struct.DataMahasiswa;
+import strukturdata.DataMahasiswa;
 
 /**
  *
