@@ -1,4 +1,4 @@
-package client;
+//package client;
 
 import java.io.*;
 import java.net.*;
@@ -49,7 +49,7 @@ public class Client extends Thread {
                     k.kirim_data(a, b);
                 }
                 delayTime = ((float)System.currentTimeMillis() -delayTime) /1000;
-                System.out.println("-----------------\nProses selesai, delay: "+String.format("%.2f", delayTime)+" detik\n-----------------");
+                System.out.println("-----------------\nProses selesai, delay: "+String.format("%.20f", delayTime)+" detik\n-----------------");
             }
             catch (IOException e) {
                 System.out.println("Terjadi kesalahan, membagun kembali koneksi...");
@@ -69,8 +69,13 @@ public class Client extends Thread {
 
 
     public static void main (String args[]) {
-        ipServer = "127.0.0.1";
-        new Client(ipServer).start();
+        if(args.length == 1) {
+          ipServer = args[0];
+          new Client(ipServer).start();
+        }
+      else {
+	System.out.println("error, butuh ip server");
+        }
     }
 }
 
@@ -124,7 +129,7 @@ class KoneksiServer {
         kirim.writeDouble(b);
         float c      = (float) terima.readDouble();
         responseTime = ((float)System.currentTimeMillis() - responseTime) / 1000;
-        System.out.println("Menerima data dari server ["+namaServer+"@"+ipServer+":"+portServer+ "]$ "+ String.format("%.2f", c)+"\n\t\t\t  response: "+String.format("%.2f", responseTime)+" detik");
+        System.out.println("Menerima data dari server ["+namaServer+"@"+ipServer+":"+portServer+ "]$ "+ String.format("%.2f", c)+"\n\t\t\t  response: "+String.format("%.20f", responseTime)+" detik");
 
     }
 }
