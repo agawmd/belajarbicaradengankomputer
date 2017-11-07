@@ -49,7 +49,7 @@ public class FormDaftar extends javax.swing.JFrame {
         txtNTugas = new javax.swing.JTextField();
         txtNKuis = new javax.swing.JTextField();
         txtNMid = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        cProdi = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -84,7 +84,12 @@ public class FormDaftar extends javax.swing.JFrame {
 
         jLabel8.setText("FINAL");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "S1 INFORMATIKA", "S1 SISTEM INFORMASI", "D3 INFORMATIKA" }));
+        cProdi.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "S1 INFORMATIKA", "S1 SISTEM INFORMASI", "D3 INFORMATIKA" }));
+        cProdi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cProdiActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -117,7 +122,7 @@ public class FormDaftar extends javax.swing.JFrame {
                         .addComponent(btnUpdate)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnSimpan))
-                    .addComponent(jComboBox1, 0, 195, Short.MAX_VALUE))
+                    .addComponent(cProdi, 0, 195, Short.MAX_VALUE))
                 .addContainerGap(53, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -134,7 +139,7 @@ public class FormDaftar extends javax.swing.JFrame {
                 .addGap(23, 23, 23)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cProdi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel6)
                 .addGap(22, 22, 22)
@@ -171,11 +176,8 @@ public class FormDaftar extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Harap isi semua data !", "Peringatan !", JOptionPane.WARNING_MESSAGE);
         } else {
             
-            String data = txtNim.getText() + "/t" + txtNama.getText() + "/t" +  txtProdi.getText();
+            String data = txtNim.getText() + "/t" + txtNama.getText() + "/t" +  cProdi.getSelectedItem().toString();
             
-            DataHandler.save(data);
-            
-            txt
         }
         
     /**    Mahasiswa p = new Mahasiswa();
@@ -193,6 +195,10 @@ public class FormDaftar extends javax.swing.JFrame {
         String hasil = txtNim.getText();
         
     }//GEN-LAST:event_txtNimActionPerformed
+
+    private void cProdiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cProdiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cProdiActionPerformed
 
     /**
      * @param args the command line arguments
@@ -232,7 +238,7 @@ public class FormDaftar extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnSimpan;
     private javax.swing.JButton btnUpdate;
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> cProdi;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

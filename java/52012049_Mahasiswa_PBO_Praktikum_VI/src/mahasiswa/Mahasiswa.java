@@ -5,46 +5,25 @@
  */
 package mahasiswa;
 
-import java.io.*;
+import java.util.List;
+import struct.DataMahasiswa;
 
 /**
  *
  * @author aga
  */
 public class Mahasiswa {
-    
-/**    private String nim, nama, prodi;
-    private Double nilai;
-    
-    public void setNim(String n) {
-        nim = n;
-    }
-    
-    public void setNama(String na) {
-        nama = na;
-    }
-    public void setProdi(String pr) {
-        prodi = pr;
-    }
-    
-    public String getNim () {
-        return(nim);
-    }
-    public String getNama () {
-        return(nama);
-    }
-    public String getProdi () {
-        return(prodi);
-    }
 
-
-*/ 
-    public void boolean simpanData() {
+    public boolean simpanData(String nim, String nama, String prodi) {
+        boolean berhasil = false;
         
-    }    
-    public static void main(String[] args) {
-        new Menu().setVisible(true);
+        return berhasil;
     }
-
-
+    
+    public List<DataMahasiswa> getData(String nim) {
+        List<DataMahasiswa> data = null;
+        
+        
+        return data;
+    }
 }
