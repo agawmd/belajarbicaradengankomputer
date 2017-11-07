@@ -8,7 +8,10 @@ package mahasiswa;
 /**
  *
  * @author aga
+ * @author BzKurozaki
  */
 public class Nilai {
+    
+    
     
 }

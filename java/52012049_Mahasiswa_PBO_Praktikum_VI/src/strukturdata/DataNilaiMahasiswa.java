@@ -11,6 +11,7 @@ package strukturdata;
  */
 public class DataNilaiMahasiswa {
     public String idMataKuliah;
+    public String namaMataKuliah;
     public String huruf;
     public String angka;
 }

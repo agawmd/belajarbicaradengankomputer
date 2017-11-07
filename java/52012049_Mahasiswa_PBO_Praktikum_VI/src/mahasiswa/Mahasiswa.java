@@ -11,6 +11,7 @@ import strukturdata.DataMahasiswa;
 /**
  *
  * @author aga
+ * @author BzKurozaki
  */
 public class Mahasiswa {
 
