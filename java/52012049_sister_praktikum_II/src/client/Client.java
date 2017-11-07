@@ -1,7 +1,11 @@
+package client;
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.lang.Thread;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Client extends Thread {
 
@@ -88,7 +92,11 @@ public class Client extends Thread {
 			catch (IOException e) {
 				System.out.println("Terjadi kesalahan, membagun kembali koneksi...");
 				for(KoneksiServer s : server) {
-					s.tutup_koneksi();
+                                    try {
+                                        s.tutup_koneksi();
+                                    } catch (IOException ex) {
+                                        Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
+                                    }
 				}
 				new Client(ipServer).start();
 				break;

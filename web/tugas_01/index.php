@@ -12,7 +12,7 @@
                         Nama Lengkap :
                     </td>
                     <td>
-                        <input type="text" name="namalengkap">
+                        <input type="text" name="namalengkap" required="">
                     </td>
                 </tr>
                 <tr>
