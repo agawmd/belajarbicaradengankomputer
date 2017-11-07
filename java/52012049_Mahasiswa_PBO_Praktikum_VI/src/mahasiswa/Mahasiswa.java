@@ -17,7 +17,7 @@ public class Mahasiswa {
 
     
     /**
-     * Menimpan data mahasiswa
+     * Menyimpan data mahasiswa
      * kemudian mengembalikan indikator keberhasilan
      * saat menyimpan data
      * 
@@ -48,6 +48,17 @@ public class Mahasiswa {
         
         
         return data;
+    }
+    
+    public DataMahasiswa hapusData(String nim, String nama, String prodi) {
+        DataMahasiswa data = null;
+        
+        return data;
+    }
+    
+    public DataMahasiswa updateData() {
+        
+        
     }
     
     
