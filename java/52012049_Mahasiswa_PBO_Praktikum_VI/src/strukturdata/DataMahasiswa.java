@@ -17,4 +17,6 @@ public class DataMahasiswa {
     public String prodi;
     
     public List<DataNilaiMahasiswa> nilai;
+    
+    
 }

@@ -55,11 +55,7 @@ public class Mahasiswa {
         
         return data;
     }
-    
-    public DataMahasiswa updateData() {
-        
-        
-    }
+
     
     
     /**
