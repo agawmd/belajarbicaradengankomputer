@@ -3,7 +3,7 @@
 include 'Config.php';
 
 if (!isset($_GET['id'])) {
-    header('Location: list-siswa.php');
+    header('Location: edit.php');
 }
 
 $id     = $_GET['id'];
