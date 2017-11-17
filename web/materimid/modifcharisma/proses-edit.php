@@ -15,7 +15,7 @@ if (isset($_POST['simpan'])) {
     $query  = mysqli_query($db, $sql);
     
     if ($query) {
-        header('Location:list-siswa.php');
+        header('Location:index.php?hal=2');
     } else {
         die("Gagal menyimpan perubahan...");
     }

@@ -18,7 +18,7 @@
 
 include 'Config.php';
 if (!isset($_GET['id'])) {
-    header('Location: p.hp');
+    header('Location: index.php');
 }
 
 $id     = $_GET['id'];
@@ -37,6 +37,12 @@ if (mysqli_num_rows($query) != 1) {
 
             <div class="box-content">
                 <form role="form" action="proses-edit.php" method="post">
+                    
+                    <div class="form-group">
+                        <input type="hidden" name="id" class="form-control" id="exampleInputEmail1" value="<?php echo $siswa['id'] ?>"/>
+                    </div>
+                                        
+                    
                     <div class="form-group">
                         <label for="nama">Nama :</label>
                         <input type="text" name="nama" class="form-control" id="exampleInputEmail1" placeholder="Nama Lengkap" value="<?php echo $siswa['nama']?>"/>
@@ -50,8 +56,8 @@ if (mysqli_num_rows($query) != 1) {
 					<?php $jk = $siswa['jenis_kelamin'] ?>
                     </div><br>
                     <div class="form-grup">
-                        <label><input type="radio" class="form-control" id="exampleInputPassword1" name="jenis_kelamin" value="Laki-laki">Laki-Laki</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <label><input type="radio" class="form-control" id="exampleInputPassword1" name="jenis_kelamin" value="Perempuan">Perempuan</label>                     
+                        <label><input type="radio" class="form-control" id="exampleInputPassword1" name="jenis_kelamin" value="Laki-laki" <?php echo ($jk == 'Laki-laki') ? "checked" : ""?>>Laki-Laki</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label><input type="radio" class="form-control" id="exampleInputPassword1" name="jenis_kelamin" value="Perempuan" <?php echo ($jk == 'Perempuan') ? "checked" : ""?>>Perempuan</label>                     
                     </div><br>
                     
                     <div class="form-grup">

@@ -30,6 +30,7 @@
     <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
     <thead>
     <tr>
+        <th>NO</th>
         <th>Nama</th>
         <th>Alamat</th>
         <th>Agama</th>
@@ -44,26 +45,26 @@
 
       while($siswa = mysqli_fetch_array($query)){ ?>
     <tr>
-        <td><?php echo $siswa['nama']; ?></td>
+        <td class="center"><?php echo $siswa['id']; ?></td>
+        <td class="center"><?php echo $siswa['nama']; ?></td>
         <td class="center"><?php echo $siswa['alamat']; ?></td>
         <td class="center"><?php echo $siswa['agama']; ?></td>
         <td class="center">
             <span class="label-success label label-default"><?php echo $siswa['jenis_kelamin']; ?></span>
         </td>
+        
         <td class="center">
-            <a class="btn btn-info" href="edit.php">
+            <a class="btn btn-info" href="<?php echo 'form-edit.php?id='.$siswa['id'];?>">
                 <i class="glyphicon glyphicon-edit icon-white"></i>
                 Edit
             </a>
-            <a class="btn btn-danger" href="hapus.php">
+            <a class="btn btn-danger" href="<?php echo 'hapus.php?id='.$siswa['id'];?>">
                 <i class="glyphicon glyphicon-trash icon-white"></i>
                 Delete
             </a>
         </td>
+        
     </tr>
-    <?php
-      }
-   ?>
     </tbody>
     </table>
     </div>

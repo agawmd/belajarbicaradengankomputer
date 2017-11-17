@@ -9,7 +9,7 @@ if (isset($_GET['id'])) {
     $query  = mysqli_query($db, $sql);
     
     if ($query) {
-        header('Location: table.php');
+        header('Location: index.php?hal=2');
     } else {
         die("Gagal menghapus...");
     }

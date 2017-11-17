@@ -45,8 +45,8 @@ if (mysqli_num_rows($query) != 1) {
                     <label for="jenis_kelamin">Jenis Kelamin :</label>
                     <?php $jk = $siswa['jenis_kelamin'] ?>
                     <label for="jenis_kelamin">
-                        <input type="radio" name="jenis_kelamin" value="Laki-laki" <?php echo ($jk == 'Laki-laki') ? "checked" : ""?> >Bencong</input>
-                        <input type="radio" name="jenis_kelamin" value="Perempuan" <?php echo ($jk == 'Perempuan') ? "checked" : ""?> >ences</input>
+                        <input type="radio" name="jenis_kelamin" value="Laki-laki" <?php echo ($jk == 'Laki-laki') ? "checked" : ""?> >Laki-laki</input>
+                        <input type="radio" name="jenis_kelamin" value="Perempuan" <?php echo ($jk == 'Perempuan') ? "checked" : ""?> >Perempuan</input>
                     </label>
                 </p>
                 
