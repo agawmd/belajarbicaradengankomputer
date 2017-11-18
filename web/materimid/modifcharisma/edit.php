@@ -53,7 +53,7 @@ if (mysqli_num_rows($query) != 1) {
                     </div>
                     <div class="form-group">
                         	<label for="jenis_kelamin">Jenis Kelamin :</label>
-					<?php $jk = $siswa['jenis_kelamin'] ?>
+				<?php $jk = $siswa['jenis_kelamin'] ?>
                     </div><br>
                     <div class="form-grup">
                         <label><input type="radio" class="form-control" id="exampleInputPassword1" name="jenis_kelamin" value="Laki-laki" <?php echo ($jk == 'Laki-laki') ? "checked" : ""?>>Laki-Laki</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

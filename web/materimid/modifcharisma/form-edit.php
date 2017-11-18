@@ -13,6 +13,9 @@ $siswa = mysqli_fetch_array($query);
 if (mysqli_num_rows($query) != 1) {
     die("Data tidak ditemukan..");
 }
+$jk= $siswa['jenis_kelamin'];
+$agama = $siswa['agama'];
+
 ?>
 
 
@@ -25,7 +28,7 @@ if (mysqli_num_rows($query) != 1) {
         <?php include("topbar.php"); ?>
         <div class="ch-container">
             <div class="row">
-                <?php include_once "inc/leftmenu.php"; ?>
+                
                 <div id="content" class="col-lg-10 col-sm-10">
 
 
@@ -79,7 +82,7 @@ if (mysqli_num_rows($query) != 1) {
                                             <label for="sekolah_asal">Sekolah Asal :</label>
                                             <input type="text" name="sekolah_asal" class="form-control" placeholder="Asal Sekolah" value="<?php echo $siswa['sekolah_asal'] ?>"/>
                                         </div><br>
-                                        <button type="submit" name="daftar" class="btn btn-default" >Submit</button>
+                                        <button type="submit" name="daftar" class="btn btn-default" >Simpan</button>
                                     </form>
 
                                 </div>
@@ -93,7 +96,7 @@ if (mysqli_num_rows($query) != 1) {
                 </div><!--/#content.col-md-0-->
             </div><!--/fluid-row-->
             <hr>
-            <?php include_once 'inc/footer.php ' ?>
+            <?php include_once 'inc/footer.php' ?>
         </div><!--/.fluid-container-->
     </body>
 </html>

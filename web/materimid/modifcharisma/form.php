@@ -4,10 +4,8 @@
         <?php include_once 'inc/head.php'; ?>
     </head>
     <body>
-        <?php include("topbar.php"); ?>
         <div class="ch-container">
             <div class="row">
-                <?php include_once "inc/leftmenu.php"; ?>
                 <div id="content" class="col-lg-10 col-sm-10">
 
 
@@ -60,7 +58,7 @@
                                             <label for="sekolah_asal">Sekolah Asal :</label>
                                             <input type="text" name="sekolah_asal" class="form-control" placeholder="Asal Sekolah"/>
                                         </div><br>
-                                        <button type="submit" name="daftar" class="btn btn-default" >Submit</button>
+                                        <button type="submit" name="daftar" class="btn btn-default" >Daftar</button>
                                     </form>
 
                                 </div>
@@ -74,7 +72,6 @@
                 </div><!--/#content.col-md-0-->
             </div><!--/fluid-row-->
             <hr>
-            <?php include_once 'inc/footer.php ' ?>
         </div><!--/.fluid-container-->
     </body>
 </html>
