@@ -25,7 +25,6 @@ if (isset($_POST['hasil'])) {
     $kuis  = $_POST['nKuis'];
     $mid   = $_POST['nMid'];
     $final = $_POST['nFinal'];
-    $ip    = $nilai->getIP();
 
 
     if($prodi == "SI") {
@@ -34,6 +33,8 @@ if (isset($_POST['hasil'])) {
     else {
         $nilai = new NilaiTI($tugas, $kuis, $mid, $final);
     }
+    
+    $ip    = $nilai->getIP();
 
 }
 /**
