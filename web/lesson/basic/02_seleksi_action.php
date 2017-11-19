@@ -1,20 +1,5 @@
 <?php
 
-if (isset($_POST['hasil'])) {
-    $nilai = $_POST['nilai'];           
-        if (100.0>=$nilai && $nilai>=80.0) {
-            echo "A";
-        } elseif (79.0>=$nilai && $nilai>=60.0) {
-            echo "B";
-        } elseif (59.0>=$nilai && $nilai>=40.0) {
-            echo "C";
-        } elseif (39.0>=$nilai && $nilai>=20.0) {
-        } elseif (19.0>=$nilai && $nilai>=0.0) {
-            echo "E";
-        }
-        
-}
-
 if (isset($_POST['kalkulasi'])) {
     $Absen = $_POST['nAbsen'];
     $Tugas = $_POST['nTugas'];
@@ -24,31 +9,98 @@ if (isset($_POST['kalkulasi'])) {
     
     
     
-    
-    echo "Absen \n".$Absen.""."<br>";
-    
+    echo "HASIL PENILAIAN";
     
     
+    echo "<br>"."Absen \n".$Absen."\n";
+    if ($Absen>=80.0) {
+        echo "A";
+    } elseif (80.0>$Absen && $Absen>=60.0) {
+        echo "B";
+    } elseif (60.0>$Absen && $Absen>=40.0) {
+        echo "C";
+    } elseif (40.0>$Absen && $Absen>=20.0) {
+        echo "D";
+    } elseif (20.0>$Absen && $Absen>=0.0) {
+        echo "E";
+    }
     
-    echo "Tugas \n".$Tugas.""."<br>";
-    echo "Kuis \n".$Kuis.""."<br>";
-    echo "MID \n".$MID.""."<br>";
-    echo "FINAL \n".$FINAL.""."<br>";
+    
+    
+    
+    echo "<br>"."Tugas \n".$Tugas."\n";
+    if ($Tugas>=80.0) {
+        echo "A";
+    } elseif (80.0>$Tugas && $Tugas>=60.0) {
+        echo "B";
+    } elseif (60.0>$Tugas && $Tugas>=40.0) {
+        echo "C";
+    } elseif (40.0>$Tugas && $Tugas>=20.0) {
+        echo "D";
+    } elseif (20.0>$Tugas && $Tugas>=0.0) {
+        echo "E";
+    }
+    
+    
+    
+    echo "<br>"."Kuis \n".$Kuis."\n";
+    if ($Kuis>=80.0) {
+        echo "A";
+    } elseif (80.0>$Kuis && $Kuis>=60.0) {
+        echo "B";
+    } elseif (60.0>$Kuis && $Kuis>=40.0) {
+        echo "C";
+    } elseif (40.0>$Kuis && $Kuis>=20.0) {
+        echo "D";
+    } elseif (20.0>$Kuis && $Kuis>=0.0) {
+        echo "E";
+    }
+    
+    
+    
+    echo "<br>"."MID \n".$MID."\n";
+    if ($MID>=80.0) {
+        echo "A";
+    } elseif (80.0>$MID && $MID>=60.0) {
+        echo "B";
+    } elseif (60.0>$MID && $MID>=40.0) {
+        echo "C";
+    } elseif (40.0>$MID && $MID>=20.0) {
+        echo "D";
+    } elseif (20.0>$MID && $MID>=0.0) {
+        echo "E";
+    }
+    
+    
+    
+    echo "<br>"."FINAL \n".$FINAL."\n";
+    if ($FINAL>=80.0) {
+        echo "A";
+    } elseif (80.0>$FINAL && $FINAL>=60.0) {
+        echo "B";
+    } elseif (60.0>$FINAL && $FINAL>=40.0) {
+        echo "C";
+    } elseif (40.0>$FINAL && $FINAL>=20.0) {
+        echo "D";
+    } elseif (20.0>$FINAL && $FINAL>=0.0) {
+        echo "E";
+    }
+    
     
     echo "<br>";
     $ip  = ($Absen+$Tugas+$Kuis+$MID+$FINAL)/5;
-    echo "IP : ".$ip;
+    echo "IP : ".$ip."\n";
     
     
-    if ($ip>=80) {
+    if ($ip>=80.0) {
         echo "A";
-    } elseif (80<=$ip && $ip>=60) {
+    } elseif (80.0>$ip && $ip>=60.0) {
         echo "B";
-    } elseif (60<=$ip && $ip>=40) {
+    } elseif (60.0>$ip && $ip>=40.0) {
         echo "C";
-    } elseif (40<=$ip && $ip>=20) {
+    } elseif (40.0>$ip && $ip>=20.0) {
         echo "D";
-    } elseif (20<=$ip && $ip>=0) {
+    } elseif (20.0>$ip && $ip>=0.0) {
         echo "E";
     }
     
@@ -62,7 +114,6 @@ if (isset($_POST['kalkulasi'])) {
 <html>
     <body>
         <br>
-        <a href="seleksi_02.php"/>Bact To Seleksi II<br>
-        <a href="seleksi_01.php"/>Back To Seleksi I
+        <a href="02_seleksi_form.php"/>Bact To Seleksi <br>
     </body>
 </html> 
