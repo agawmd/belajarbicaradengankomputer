@@ -17,7 +17,7 @@
          <hr>
          <!--   Tulis dibawah   -->
          
-         <form action="hasil.php" method="post">
+         <form action="01_seleksi_action.php" method="post">
             Masukkan Input :
             <input type="text" name="nilai"/>
             <input type="submit" name="hasil" value="Hitung"/>
