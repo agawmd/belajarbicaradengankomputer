@@ -29,7 +29,7 @@
          <hr>
         </pre>
         <!--   Tulis dibawah   -->
-        <form action="04_seleksi_action.php" method="post">
+        <form action="04_seleksi_with_class_action.php" method="post">
             <label for="prodi">PRODI :</label>
             <select name="prodi">
                 <option>TI</option>
