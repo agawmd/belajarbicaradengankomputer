@@ -3,7 +3,6 @@
 /**
  * Import Section
  */
-require_once 'class/class.nilai.php';
 require_once 'class/class.NilaiSI.php';
 require_once 'class/class.NilaiTI.php';
 /**
