@@ -5,6 +5,19 @@
  * Class ini diuntukkan untuk menghitung nilai dengan prodi TI
  */
 class NilaiTI extends Nilai {
+
+
+    /**
+     * Constructor CLass Nilai TI
+     */
+    public function __constructor ($tugas, $kuis, $mid, $final) {
+        $this->tugas = $tugas;
+        $this->kuis  = $kuis;
+        $this->mid   = $mid;
+        $this->final = $final;
+    }
+
+
     /**
      * Method untuk mendapatkan Index Huruf dari Nilai
      */

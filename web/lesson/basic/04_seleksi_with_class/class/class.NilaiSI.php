@@ -4,6 +4,20 @@
  * Class ini diuntukkan untuk menghitung nilai dengan prodi TI
  */
 class NilaiSI {    
+
+
+    /**
+     * Constructor CLass Nilai TI
+     */
+    public function __constructor ($absen, $tugas, $kuis, $mid, $final) {
+        $this->absen = $absen;
+        $this->tugas = $tugas;
+        $this->kuis  = $kuis;
+        $this->mid   = $mid;
+        $this->final = $final;
+    }
+
+
     /**
      * Method untuk mendapatkan Index Huruf dari Nilai
      */
