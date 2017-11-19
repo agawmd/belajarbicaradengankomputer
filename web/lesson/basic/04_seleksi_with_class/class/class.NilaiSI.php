@@ -1,5 +1,14 @@
 <?php
 /**
+ * Import Section
+ */
+require_once __DIR__.'/class.nilai.php';
+/**
+ * End of Import Section
+ */
+
+
+/**
  * CLASS Nilai SI
  * Class ini diuntukkan untuk menghitung nilai dengan prodi TI
  */
