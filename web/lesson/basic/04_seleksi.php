@@ -4,12 +4,12 @@
          *                                                 *        keterangan (TI):
          *   Input :                                       *        ----------------------------------------------
          *   ------------------                            *        (       ANGKA  >= 90 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
-         *   quiz  = 10,                                   *        ( 90 >  ANGKA  >= 70 ) ->  HURUF  =  'B'     -> STATUS = 'LULUS'
-         *   mid   = 70,                                   *        ( 70 >  ANGKA  >= 50 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
-         *   tugas = 40,                                   *        ( 50 >  ANGKA  >= 30 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
-         *   final = 88,                                   *        ( 30 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'PARAH'
-         *   absen = 90                                    *        
-         *                                                 *              quiz + mid + tugas + final
+         *   prodi (SI/TI) = SI                            *        ( 90 >  ANGKA  >= 70 ) ->  HURUF  =  'B'     -> STATUS = 'LULUS'
+         *   quiz          = 10                            *        ( 70 >  ANGKA  >= 50 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
+         *   mid           = 70                            *        ( 50 >  ANGKA  >= 30 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
+         *   tugas         = 40                            *        ( 30 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'PARAH'
+         *   final         = 88                            *        
+         *   absen         = 90                            *              quiz + mid + tugas + final
          *                                                 *        IP = ----------------------------
          *   Output:                                       *                             4
          *   +-------+---------------+-----------+         *     
