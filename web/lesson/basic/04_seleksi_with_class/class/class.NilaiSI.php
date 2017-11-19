@@ -53,7 +53,7 @@ class NilaiSI {
     /**
      * Method untuk mendapatkan status dari Nilai
      */
-    public function status($n) {
+    public function status($s) {
         if ($s >= 80.0) {
             $status = 'LULUS';
         } 

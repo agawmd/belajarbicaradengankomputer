@@ -53,7 +53,7 @@ class NilaiTI extends Nilai {
     /**
      * Method untuk mendapatkan satus dari nilai
      */
-    public function status($n) {
+    public function status($s) {
         if ($s >= 70.0) {
             $status = 'LULUS';
         } 
