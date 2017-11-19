@@ -14,16 +14,16 @@ require_once __DIR__.'/class.nilai.php';
  */
 class NilaiSI extends Nilai {    
 
-
+    
     /**
-     * Constructor CLass Nilai TI
+     * Constructor CLass Nilai SI
      */
-    public function __constructor ($absen, $tugas, $kuis, $mid, $final) {
-        $this->absen = $absen;
-        $this->tugas = $tugas;
-        $this->kuis  = $kuis;
-        $this->mid   = $mid;
-        $this->final = $final;
+    public function __construct ($a, $t, $k, $m, $f) {
+        $this->absen = $a;
+        $this->tugas = $t;
+        $this->kuis  = $k;
+        $this->mid   = $m;
+        $this->final = $f;
     }
 
 
@@ -78,7 +78,7 @@ class NilaiSI extends Nilai {
      * Method untuk menghitung nilai IP
      */
     public function getIP() {
-        return ($this->kuis + $this->mid + $this->tugas + $this->final + $this->absen) /4;
+        return ($this->kuis + $this->mid + $this->tugas + $this->final + $this->absen) /5;
     }
 }
 /**

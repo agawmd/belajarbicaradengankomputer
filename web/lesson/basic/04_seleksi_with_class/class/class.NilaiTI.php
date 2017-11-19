@@ -18,7 +18,7 @@ class NilaiTI extends Nilai {
     /**
      * Constructor CLass Nilai TI
      */
-    public function __constructor ($tugas, $kuis, $mid, $final) {
+    public function __construct ($tugas, $kuis, $mid, $final) {
         $this->tugas = $tugas;
         $this->kuis  = $kuis;
         $this->mid   = $mid;

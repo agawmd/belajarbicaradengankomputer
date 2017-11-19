@@ -8,7 +8,7 @@
             </select>
             
             <?php
-            <label>Muncul</label>
+            echo "<label>".."</label>";
             ?>
             <input type="submit" name="ini" value="Pilih"/>
         </form>

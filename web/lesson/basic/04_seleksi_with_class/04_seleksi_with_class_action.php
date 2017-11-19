@@ -25,6 +25,7 @@ if (isset($_POST['hasil'])) {
     $mid   = $_POST['nMid'];
     $final = $_POST['nFinal'];
 
+    echo "Pilihan $prodi";
 
     if($prodi == "SI") {
         $nilai = new NilaiSI($absen, $tugas, $kuis, $mid, $final);
@@ -34,7 +35,7 @@ if (isset($_POST['hasil'])) {
     }
     
     $ip    = $nilai->getIP();
-
+    
 }
 /**
  * End Of logic section
@@ -95,6 +96,6 @@ if (isset($_POST['hasil'])) {
             </tbody>
         </table>
         <hr>
-        <a href="04_seleksi_form.php"/>Bact To Seleksi <br>
+        <a href="04_seleksi_with_class_form.php"/>Bact To Seleksi <br>
     </body>
 </html> 
