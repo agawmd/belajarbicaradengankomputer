@@ -56,37 +56,37 @@ if (isset($_POST['hasil'])) {
                 
                 <tr>
                     <td>ABSEN</td>
-                    <td><?php echo $absen;?></td>
+                    <td><?php echo $nilai->absen;?></td>
                     <td><?php echo $nilai->huruf($absen); ?></td>
                     <td><?php echo $nilai->status($absen)?></td>
                 </tr>
                 <tr>
                     <td>TUGAS</td>
-                    <td><?php echo $tugas; ?></td>
+                    <td><?php echo $nilai->tugas; ?></td>
                     <td><?php echo $nilai->huruf($tugas); ?></td>
                     <td><?php echo $nilai->status($tugas)?></td>
                 </tr>
                 <tr>
                     <td>KUIS</td>
-                    <td><?php echo $kuis; ?></td>
+                    <td><?php echo $nilai->kuis; ?></td>
                     <td><?php echo $nilai->huruf($kuis); ?></td>
                     <td><?php echo $nilai->status($kuis)?></td>
                 </tr>
                 <tr>
                     <td>MID</td>
-                    <td><?php echo $mid; ?></td>
+                    <td><?php echo $nilai->mid; ?></td>
                     <td><?php echo $nilai->huruf($mid); ?></td>
                     <td><?php echo $nilai->status($mid)?></td>
                 </tr>
                 <tr>
                     <td>FINAL</td>
-                    <td><?php echo $final; ?></td>
+                    <td><?php echo $nilai->final; ?></td>
                     <td><?php echo $nilai->huruf($final); ?></td>
                     <td><?php echo $nilai->status($final)?></td>
                 </tr>
                 <tr>
                     <td>IP</td>
-                    <td><?php echo $ip ?></td>
+                    <td><?php echo $nilai->ip ?></td>
                     <td><?php echo $nilai->huruf($ip); ?></td>
                     <td><?php echo $nilai->status($ip)?></td>
                 </tr>
