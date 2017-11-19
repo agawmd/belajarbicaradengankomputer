@@ -12,7 +12,7 @@ require_once __DIR__.'/class.nilai.php';
  * CLASS Nilai SI
  * Class ini diuntukkan untuk menghitung nilai dengan prodi TI
  */
-class NilaiSI {    
+class NilaiSI extends Nilai {    
 
 
     /**
