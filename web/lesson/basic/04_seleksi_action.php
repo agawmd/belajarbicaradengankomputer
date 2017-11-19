@@ -6,31 +6,22 @@ if (isset($_POST['hasil'])) {
     $kuis  = $_POST['nKuis'];
     $mid   = $_POST['nMid'];
     $final = $_POST['nFinal'];
-    $ip    = ($absen + $tugas + $kuis + $mid + $final)/4;
+
 }
 
-function status($s) {
-   if ($s>=80.0) {
-        $status = 'LULUS';
-    } 
-    else if (80.0>$s && $s>=60.0) {
-        $status = 'BAGUS';
-    } 
-    else if (60.0>$s && $s>=40.0) {
-        $status = 'CUKUP';
-    } 
-    else if (40.0>$s && $s>=20.0) {
-        $status = 'PARAH';
-    } 
-    else if (20.0>$s) {
-        $status = 'ERROR';
-    }
-    
-    return $status; 
-}
 
     echo "Pilihan $prodi<br><br>";   
     if ($prodi == "SI") {
+        if (isset($_POST['hasil'])) {
+            $prodi = $_POST['prodi']; 
+            $absen = $_POST['nAbsen'];
+            $tugas = $_POST['nTugas'];
+            $kuis  = $_POST['nKuis'];
+            $mid   = $_POST['nMid'];
+            $final = $_POST['nFinal'];
+            $ip    = ($absen + $tugas + $kuis + $mid + $final)/5;
+        }
+        
         function huruf($n) {
             if ($n>=80.0) {
                 $huruf = 'A';
@@ -69,6 +60,14 @@ function status($s) {
         }        
     }
     elseif ($prodi == "TI") {
+        if (isset($_POST['hasil'])) {
+            $prodi = $_POST['prodi']; 
+            $tugas = $_POST['nTugas'];
+            $kuis  = $_POST['nKuis'];
+            $mid   = $_POST['nMid'];
+            $final = $_POST['nFinal'];
+            $ip    = ($tugas + $kuis + $mid + $final)/4;
+        }        
         function huruf($n) {
             if ($n>=90.0) {
                 $huruf = 'A';

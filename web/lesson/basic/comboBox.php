@@ -5,7 +5,11 @@
             <select name="pilih">
                 <option>Satu</option>
                 <option>Dua</option>
-            </select>    
+            </select>
+            
+            <?php
+            <label>Muncul</label>
+            ?>
             <input type="submit" name="ini" value="Pilih"/>
         </form>
     </body>
