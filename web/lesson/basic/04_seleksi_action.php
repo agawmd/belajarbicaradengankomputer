@@ -6,7 +6,7 @@ if (isset($_POST['hasil'])) {
     $kuis  = $_POST['nKuis'];
     $mid   = $_POST['nMid'];
     $final = $_POST['nFinal'];
-    $ip    = ($absen + $tugas + $kuis + $mid + $final)/5;
+    $ip    = ($absen + $tugas + $kuis + $mid + $final)/4;
 }
 
 function status($s) {
@@ -47,8 +47,26 @@ function status($s) {
             else if (20.0>$n) {
                 $huruf = 'E';
             }
-        return $huruf;    
+            return $huruf;    
         }
+        function status($s) {
+           if ($s>=80.0) {
+                $status = 'LULUS';
+            } 
+            else if (80.0>$s && $s>=60.0) {
+                $status = 'BAGUS';
+            } 
+            else if (60.0>$s && $s>=40.0) {
+                $status = 'CUKUP';
+            } 
+            else if (40.0>$s && $s>=20.0) {
+                $status = 'PARAH';
+            } 
+            else if (20.0>$s) {
+                $status = 'ERROR';
+            }
+            return $status; 
+        }        
     }
     elseif ($prodi == "TI") {
         function huruf($n) {
@@ -69,6 +87,25 @@ function status($s) {
             }
         return $huruf;    
         }
+        function status($s) {
+          if ($s>=80.0) {
+               $status = 'LULUS';
+           } 
+           else if (80.0>$s && $s>=60.0) {
+               $status = 'LULUS';
+           } 
+           else if (60.0>$s && $s>=40.0) {
+               $status = 'CUKUP';
+           } 
+           else if (40.0>$s && $s>=20.0) {
+               $status = 'PARAH';
+           } 
+           else if (20.0>$s) {
+               $status = 'PARAH';
+           }
+           return $status; 
+        }       
+        
     }
 
 
