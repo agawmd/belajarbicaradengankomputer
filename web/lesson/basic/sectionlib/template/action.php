@@ -15,8 +15,6 @@
 
         <!-- Put your code here... -->
 
-        <hr>
-        <a href="index.php"/>Back
     </body>
 </html>
 
