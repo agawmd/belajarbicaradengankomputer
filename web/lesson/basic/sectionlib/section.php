@@ -35,10 +35,11 @@ class Section {
 
 
 	public static function printQuest($dir) {
-		$chapter = end(explode(DIRECTORY_SEPARATOR, $dir));
+		$chapter = explode(DIRECTORY_SEPARATOR, $dir);
+		$chapter = end($chapter);
 		$color   = self::random_color();
 		$color2  = self::random_color();
-		
+
 		echo
 			'
 			<style>
