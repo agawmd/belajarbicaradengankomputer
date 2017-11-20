@@ -295,5 +295,16 @@
 @endQuest
 
 
+@Quest('13_perulangan')
+|   n = 3       |    n = 5
+|   -----       |    -----
+|   1 x 3 = 3   |    1 x 3 = 3
+|   2 x 3 = 6   |    2 x 3 = 6
+|   3 x 3 = 9   |    3 x 3 = 9
+|               |    4 x 3 = 12
+|               |    5 x 3 = 15
+@endQuest
+
+
 @Quest('04')
 @endQuest

@@ -22,14 +22,14 @@
 		a {
 			text-decoration: none;
 			padding: 10px;
-			font-size: 18px;
+			font-size: 12px;
 			line-height: 1.3em;
 			color: #ffffff;
 			animation: cubic-bezier(.66,2.38,0,-0.54) .5s;
 		}
 		a:hover{
 			font-weight: 800;
-			font-size: 24px;
+			font-size: 14px;
 			text-shadow: 0px 0px 5px green;
 		}
 		.navigator {
