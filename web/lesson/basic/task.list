@@ -225,21 +225,21 @@
 
 
 @Quest('07_perulangan')
-|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  n = 3   |  n = 5      |  n = 2    |   n = 8                  
 |  -----   |  -----      |  -----    |   -----               
 |  123     |  12345      |  12       |   12345678            
 @endQuest
 
 
 @Quest('08_perulangan')
-|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  n = 3   |  n = 5      |  n = 2    |   n = 8                  
 |  -----   |  -----      |  -----    |   -----               
 |  333     |  55555      |  22       |   88888888            
 @endQuest
 
 
 @Quest('09_perulangan')
-|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  n = 3   |  n = 5      |  n = 2    |   n = 8                  
 |  -----   |  -----      |  -----    |   -----               
 |  13      |  135        |  1        |   1357    
 
@@ -247,8 +247,17 @@
 @endQuest
 
 
-@Quest('09_perulangan')
-|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+
+@Quest('10_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n = 8                  
+|  -----   |  -----      |  -----    |   -----               
+|  101     |  10101      |  10       |   10101010
+@endQuest
+
+
+
+@Quest('11_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n = 8                  
 |  -----   |  -----      |  -----    |   -----               
 |  2       |  24         |  2        |   2468    
 
@@ -256,14 +265,29 @@
 @endQuest
 
 
-@Quest('10_perulangan')
-|  n = 3   |  n = 5      |  n = 2    |   n 8                  
-|  -----   |  -----      |  -----    |   -----               
-|  101     |  10101      |  10       |   10101010
+
+@Quest('12_perulangan')
+|  n = 3   |  n = 5       |  n = 2   |   n = 8                  
+|  -----   |  -----       |  -----   |   -----               
+|  1 2 *   |  1 2 * 4 5   |  1 2     |   1 2 * 4 5 * 7 9
+
+*ket = ubah setiap angka yang habis dibagi 3 menjadi *
 @endQuest
 
 
-@Quest('11_perulangan')
+
+@Quest('13_perulangan')
+|  n = 4     |  n = 8             |  n = 12   
+|  -----     |  -----             |  -----    
+|  1 * 3 #   |  1 * 3 # 5 * 7 #   |  1 * 3 # 5 * 7 # 9 * 11 #
+
+*ket = ubah setiap angka yang habis dibagi 4 menjadi #
+*ket = ubah setiap angka yang habis dibagi 2 menjadi *
+@endQuest
+
+
+
+@Quest('14_perulangan')
 |  n = 3   |  n = 5      |  n = 2    |   n 8                  
 |  -----   |  -----      |  -----    |   -----               
 |  6       |  15         |  3        |   36
@@ -272,7 +296,8 @@
 @endQuest
 
 
-@Quest('12_perulangan')
+
+@Quest('15_perulangan')
 |  n = 3
 |  -----
 |  1 + 2 + 3 = 6
@@ -295,7 +320,7 @@
 @endQuest
 
 
-@Quest('13_perulangan')
+@Quest('16_perulangan')
 |   n = 3       |    n = 5
 |   -----       |    -----
 |   1 x 3 = 3   |    1 x 3 = 3
