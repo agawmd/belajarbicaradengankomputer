@@ -2,7 +2,7 @@
 /**
  * Put Your code here...
  */
-$en = $_POST['n'];
+$gan = $_POST['ganjil'];
 ?>
 
 <html>
@@ -10,12 +10,12 @@ $en = $_POST['n'];
 
         <!-- Put your code here... -->
         <?php
-            for ($i = 1; $i <= $en; $i++) {
-                echo $i;
+            for ($i = 1; $i <= $gan; $i++) {
+                if ($i % 2 == 1) {
+                    echo $i;
+                }
             }
         ?>
-        <hr>
-        <a href="index.php"/>Back
     </body>
 </html>
 
