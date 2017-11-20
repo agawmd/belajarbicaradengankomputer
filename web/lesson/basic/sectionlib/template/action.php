@@ -16,7 +16,7 @@
         <!-- Put your code here... -->
 
         <hr>
-        <a href="idex.php"/>Back
+        <a href="index.php"/>Back
     </body>
 </html>
 
