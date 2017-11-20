@@ -227,6 +227,38 @@
 @Quest('07_perulangan')
 |  n = 3   |  n = 5      |  n = 2    |   n 8                  
 |  -----   |  -----      |  -----    |   -----               
+|  123     |  12345      |  12       |   12345678            
+@endQuest
+
+
+@Quest('08_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  -----   |  -----      |  -----    |   -----               
+|  333     |  55555      |  22       |   88888888            
+@endQuest
+
+
+@Quest('09_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  -----   |  -----      |  -----    |   -----               
+|  13      |  135        |  1        |   1357    
+
+*ket = menampilkan bilangan ganjil 
+@endQuest
+
+
+@Quest('09_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  -----   |  -----      |  -----    |   -----               
+|  2       |  24         |  2        |   2468    
+
+*ket = menampilkan bilangan genap 
+@endQuest
+
+
+@Quest('10_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  -----   |  -----      |  -----    |   -----               
 |  ***     |  ****       |  **       |   ********             
 |  ***     |  ****       |  **       |   ********              
 |  ***     |  ****       |           |   ********              
