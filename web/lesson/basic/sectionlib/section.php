@@ -37,8 +37,17 @@ class Section {
 	public static function printQuest($dir) {
 		$chapter = end(explode(DIRECTORY_SEPARATOR, $dir));
 		$color   = self::random_color();
+		$color2  = self::random_color();
+		
 		echo
-			'<h3 align="right" style="color:'.$color.';">'.$chapter.'</h3>
+			'
+			<style>
+				summary:hover {
+					font-weight: 800;
+					color: '.$color2.' !important;
+				}
+			</style>
+			<h3 align="right" style="color:'.$color.';">'.$chapter.'</h3>
 				<details style="cursor:pointer;">
 					<summary style="color:'.$color.';">Toggle Quest</summary>
 					<pre>'.self::getSectionQuest($chapter).'</pre>
