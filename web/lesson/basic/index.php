@@ -5,7 +5,7 @@
 					'is_dir'
 				), 
 				function($d) {
-					return !in_array($d, ['nbproject']);
+					return !in_array($d, ['nbproject','sectionlib']);
 				}
 			);
 ?>

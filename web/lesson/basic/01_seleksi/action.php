@@ -21,6 +21,6 @@ if (isset($_POST['hasil'])) {
 <html>
     <body>
         <br>
-        <a href="seleksi_01.php"/>Bact To
+        <a href="index.php"/>Bact To
     </body>
 </html> 

@@ -77,6 +77,6 @@ if (isset($_POST['kalkulasi'])) {
             </tr>
         </table>
         <hr>
-        <a href="02_seleksi_form.php"/>Bact To Seleksi <br>
+        <a href="index.php"/>Bact To Seleksi <br>
     </body>
 </html> 

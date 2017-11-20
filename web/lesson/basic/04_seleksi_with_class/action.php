@@ -96,6 +96,6 @@ if (isset($_POST['hasil'])) {
             </tbody>
         </table>
         <hr>
-        <a href="04_seleksi_with_class_form.php"/>Bact To Seleksi <br>
+        <a href="index.php"/>Bact To Seleksi <br>
     </body>
 </html> 

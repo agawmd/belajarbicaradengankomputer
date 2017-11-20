@@ -75,6 +75,6 @@ $totBayar   = $hargaK+$hargaM+$hargaP+$hargaT+$hargaTep;
         </table><br><br>
     
         
-        <a href="05_seleksi_form.php"/>Silahkan isi kembali...
+        <a href="index.php"/>Silahkan isi kembali...
     </body>
 </html>
