@@ -11,6 +11,9 @@
 
         <form action="action.php" method="post">
             <!--   Put your cede here   -->
+            <label for="n">n : </label>
+            <input type="text" name="n"/>
+            <input type="submit" name="tampil" value="Cek"/>
         </form>
 
         
