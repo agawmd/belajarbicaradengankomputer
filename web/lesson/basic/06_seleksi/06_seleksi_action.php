@@ -17,8 +17,6 @@ $hargaTep  = $tepung*4500;
 $jumBeli   = $kacang+$pisang+$terong+$mentega+$tepung;
 
 $totBayar   = $hargaK+$hargaM+$hargaP+$hargaT+$hargaTep;
-     
-                    
 
 
 
@@ -69,15 +67,20 @@ $totBayar   = $hargaK+$hargaM+$hargaP+$hargaT+$hargaTep;
                 <tr>
                     <th colspan="2">TOTAL</th>
                     <td><?php
-                        if ($jumBeli>5) {
-                            $totBayar-5000;
-                        }
-                    echo $jumBeli;
+                    
+                    echo $jumBeli; 
+                    
                     ?></td>
                     <td><?php 
-                    
-
+                    if ($jumBeli >= 5 && $jumBeli<10) {
+                        $totBayar = $totBayar - 5000;
+                    } elseif ($jumBeli>=10 && $jumBeli<15) {
+                        $totBayar = $totBayar - 10000;
+                    } elseif ($jumBeli>=15) {
+                        $totBayar = $totBayar - 15000;
+                    }                    
                     echo $totBayar; 
+                    
                     ?></td>
                 </tr>
 
