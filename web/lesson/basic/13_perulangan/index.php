@@ -12,8 +12,8 @@
         <form action="action.php" method="post" target='action-frame'>
             <!--   Put your cede here   -->
             <label>n = </label>
-            <input type="text" name="lo"/>
-            <input type="submit" name="ii" value="q"/>
+            <input type="text" name="t"/>
+            <input type="submit" name="w" value="Cek"/>
         </form>
 
         <iframe name='action-frame' width="100%" height="500px"></iframe>

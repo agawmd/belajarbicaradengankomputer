@@ -3,8 +3,8 @@
  * Put Your code here...
  */
 
-$hi = $_POST['lo'];
 
+$q = $_POST['t'];
 
 
 
@@ -15,12 +15,15 @@ $hi = $_POST['lo'];
 
         <!-- Put your code here... -->
         <?php
-        for ($i=1; $i<=$hi; $i++) {
-            if ($i % 3 == 0) {
+        for ($i= 1; $i<=$q; $i++) {
+            if ($i % 2 == 0) {
                 echo "*";
+            } elseif ($i % 4 == 0) {
+                echo "#";
             } else {
                 echo $i;
             }
+            
         }
         ?>
     </body>
