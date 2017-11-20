@@ -72,159 +72,176 @@
 
 
 @Quest('03_seleksi')
-         *                                                 *
-         *   Input :                                       *
-         *   ------------------                            *
-         *   quiz  = 10,                                   * 
-         *   mid   = 70,                                   * 
-         *   tugas = 40,                                   * 
-         *   final = 88,                                   * 
-         *   absen = 90                                    *
-         *                                                 *
-         *                                                 *
-         *   Output:                                       *   keterangan:
-         *   +-------+---------------+-----------+         *   ----------------------------------------------
-         *   | NILAI | ANGKA | HURUF | STATUS    |         *   (       ANGKA  >= 80 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
-         *   + ------+-------+-------+-----------+         *   ( 80 >  ANGKA  >= 60 ) ->  HURUF  =  'B'     -> STATUS = 'BAGUS'
-         *   | quiz  | 10    | E     | ERROR     |         *   ( 60 >  ANGKA  >= 40 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
-         *   | mid   | 70    | B     | BAGUS     |         *   ( 40 >  ANGKA  >= 20 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
-         *   | tugas | 40    | C     | CUKUP     |         *   ( 20 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'ERROR'
-         *   | final | 88    | A     | LULUS     |         *   
-         *   | absen | 90    | A     | LULUS     |         *         quiz + mid + tugas + final + absen
-         *   +-------+-------+-------+-----------+         *   IP = ----------------------------------
-         *   | IP    | 59.6  | D     | PARAH     |         *                        5
-         *   +-------+-------+-------+-----------+         *
-         *                                                 *
-         *                                                 *
-         *
+*                                                 *
+*   Input :                                       *
+*   ------------------                            *
+*   quiz  = 10,                                   * 
+*   mid   = 70,                                   * 
+*   tugas = 40,                                   * 
+*   final = 88,                                   * 
+*   absen = 90                                    *
+*                                                 *
+*                                                 *
+*   Output:                                       *   keterangan:
+*   +-------+---------------+-----------+         *   ----------------------------------------------
+*   | NILAI | ANGKA | HURUF | STATUS    |         *   (       ANGKA  >= 80 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
+*   + ------+-------+-------+-----------+         *   ( 80 >  ANGKA  >= 60 ) ->  HURUF  =  'B'     -> STATUS = 'BAGUS'
+*   | quiz  | 10    | E     | ERROR     |         *   ( 60 >  ANGKA  >= 40 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
+*   | mid   | 70    | B     | BAGUS     |         *   ( 40 >  ANGKA  >= 20 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
+*   | tugas | 40    | C     | CUKUP     |         *   ( 20 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'ERROR'
+*   | final | 88    | A     | LULUS     |         *   
+*   | absen | 90    | A     | LULUS     |         *         quiz + mid + tugas + final + absen
+*   +-------+-------+-------+-----------+         *   IP = ----------------------------------
+*   | IP    | 59.6  | D     | PARAH     |         *                        5
+*   +-------+-------+-------+-----------+         *
+*                                                 *
+*                                                 *
+*
 @endQuest
 
 
 @Quest('04_seleksi')
-         *                                                 *        keterangan (TI):
-         *   Input :                                       *        ----------------------------------------------
-         *   ------------------                            *        (       ANGKA  >= 90 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
-         *   prodi (SI/TI) = SI                            *        ( 90 >  ANGKA  >= 70 ) ->  HURUF  =  'B'     -> STATUS = 'LULUS'
-         *   quiz          = 10                            *        ( 70 >  ANGKA  >= 50 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
-         *   mid           = 70                            *        ( 50 >  ANGKA  >= 30 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
-         *   tugas         = 40                            *        ( 30 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'PARAH'
-         *   final         = 88                            *        
-         *   absen         = 90                            *              quiz + mid + tugas + final
-         *                                                 *        IP = ----------------------------
-         *   Output:                                       *                             4
-         *   +-------+---------------+-----------+         *     
-         *   | NILAI | ANGKA | HURUF | STATUS    |         *     
-         *   + ------+-------+-------+-----------+         *        keterangan (SI):
-         *   | quiz  | 10    | E     | ERROR     |         *        ----------------------------------------------
-         *   | mid   | 70    | B     | BAGUS     |         *        (       ANGKA  >= 80 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
-         *   | tugas | 40    | C     | CUKUP     |         *        ( 80 >  ANGKA  >= 60 ) ->  HURUF  =  'B'     -> STATUS = 'BAGUS'
-         *   | final | 88    | A     | LULUS     |         *        ( 60 >  ANGKA  >= 40 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
-         *   | absen | 90    | A     | LULUS     |         *        ( 40 >  ANGKA  >= 20 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
-         *   +-------+-------+-------+-----------+         *        ( 20 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'ERROR'
-         *   | IP    | 59.6  | D     | PARAH     |         *        
-         *   +-------+-------+-------+-----------+         *              quiz + mid + tugas + final + absen
-         *                                                 *        IP = ----------------------------------
-         *                                                 *                             5
-         *
+*                                                 *        keterangan (TI):
+*   Input :                                       *        ----------------------------------------------
+*   ------------------                            *        (       ANGKA  >= 90 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
+*   prodi (SI/TI) = SI                            *        ( 90 >  ANGKA  >= 70 ) ->  HURUF  =  'B'     -> STATUS = 'LULUS'
+*   quiz          = 10                            *        ( 70 >  ANGKA  >= 50 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
+*   mid           = 70                            *        ( 50 >  ANGKA  >= 30 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
+*   tugas         = 40                            *        ( 30 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'PARAH'
+*   final         = 88                            *        
+*   absen         = 90                            *              quiz + mid + tugas + final
+*                                                 *        IP = ----------------------------
+*   Output:                                       *                             4
+*   +-------+---------------+-----------+         *     
+*   | NILAI | ANGKA | HURUF | STATUS    |         *     
+*   + ------+-------+-------+-----------+         *        keterangan (SI):
+*   | quiz  | 10    | E     | ERROR     |         *        ----------------------------------------------
+*   | mid   | 70    | B     | BAGUS     |         *        (       ANGKA  >= 80 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
+*   | tugas | 40    | C     | CUKUP     |         *        ( 80 >  ANGKA  >= 60 ) ->  HURUF  =  'B'     -> STATUS = 'BAGUS'
+*   | final | 88    | A     | LULUS     |         *        ( 60 >  ANGKA  >= 40 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
+*   | absen | 90    | A     | LULUS     |         *        ( 40 >  ANGKA  >= 20 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
+*   +-------+-------+-------+-----------+         *        ( 20 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'ERROR'
+*   | IP    | 59.6  | D     | PARAH     |         *        
+*   +-------+-------+-------+-----------+         *              quiz + mid + tugas + final + absen
+*                                                 *        IP = ----------------------------------
+*                                                 *                             5
+*
 @endQuest
 
 
 @Quest('04_seleksi_with_class')
-         *                                                 *        keterangan (TI):
-         *   Input :                                       *        ----------------------------------------------
-         *   ------------------                            *        (       ANGKA  >= 90 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
-         *   prodi (SI/TI) = SI                            *        ( 90 >  ANGKA  >= 70 ) ->  HURUF  =  'B'     -> STATUS = 'LULUS'
-         *   quiz          = 10                            *        ( 70 >  ANGKA  >= 50 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
-         *   mid           = 70                            *        ( 50 >  ANGKA  >= 30 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
-         *   tugas         = 40                            *        ( 30 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'PARAH'
-         *   final         = 88                            *        
-         *   absen         = 90                            *              quiz + mid + tugas + final
-         *                                                 *        IP = ----------------------------
-         *   Output:                                       *                             4
-         *   +-------+---------------+-----------+         *     
-         *   | NILAI | ANGKA | HURUF | STATUS    |         *     
-         *   + ------+-------+-------+-----------+         *        keterangan (SI):
-         *   | quiz  | 10    | E     | ERROR     |         *        ----------------------------------------------
-         *   | mid   | 70    | B     | BAGUS     |         *        (       ANGKA  >= 80 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
-         *   | tugas | 40    | C     | CUKUP     |         *        ( 80 >  ANGKA  >= 60 ) ->  HURUF  =  'B'     -> STATUS = 'BAGUS'
-         *   | final | 88    | A     | LULUS     |         *        ( 60 >  ANGKA  >= 40 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
-         *   | absen | 90    | A     | LULUS     |         *        ( 40 >  ANGKA  >= 20 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
-         *   +-------+-------+-------+-----------+         *        ( 20 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'ERROR'
-         *   | IP    | 59.6  | D     | PARAH     |         *        
-         *   +-------+-------+-------+-----------+         *              quiz + mid + tugas + final + absen
-         *                                                 *        IP = ----------------------------------
-         *                                                 *                             5
-         *
+*                                                 *        keterangan (TI):
+*   Input :                                       *        ----------------------------------------------
+*   ------------------                            *        (       ANGKA  >= 90 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
+*   prodi (SI/TI) = SI                            *        ( 90 >  ANGKA  >= 70 ) ->  HURUF  =  'B'     -> STATUS = 'LULUS'
+*   quiz          = 10                            *        ( 70 >  ANGKA  >= 50 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
+*   mid           = 70                            *        ( 50 >  ANGKA  >= 30 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
+*   tugas         = 40                            *        ( 30 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'PARAH'
+*   final         = 88                            *        
+*   absen         = 90                            *              quiz + mid + tugas + final
+*                                                 *        IP = ----------------------------
+*   Output:                                       *                             4
+*   +-------+---------------+-----------+         *     
+*   | NILAI | ANGKA | HURUF | STATUS    |         *     
+*   + ------+-------+-------+-----------+         *        keterangan (SI):
+*   | quiz  | 10    | E     | ERROR     |         *        ----------------------------------------------
+*   | mid   | 70    | B     | BAGUS     |         *        (       ANGKA  >= 80 ) ->  HURUF  =  'A'     -> STATUS = 'LULUS'
+*   | tugas | 40    | C     | CUKUP     |         *        ( 80 >  ANGKA  >= 60 ) ->  HURUF  =  'B'     -> STATUS = 'BAGUS'
+*   | final | 88    | A     | LULUS     |         *        ( 60 >  ANGKA  >= 40 ) ->  HURUF  =  'C'     -> STATUS = 'CUKUP'
+*   | absen | 90    | A     | LULUS     |         *        ( 40 >  ANGKA  >= 20 ) ->  HURUF  =  'D'     -> STATUS = 'PARAH'
+*   +-------+-------+-------+-----------+         *        ( 20 >  ANGKA        ) ->  HURUF  =  'E'     -> STATUS = 'ERROR'
+*   | IP    | 59.6  | D     | PARAH     |         *        
+*   +-------+-------+-------+-----------+         *              quiz + mid + tugas + final + absen
+*                                                 *        IP = ----------------------------------
+*                                                 *                             5
+*
 @endQuest
 
 
 @Quest('05_seleksi')
-         *                                                 *        keterangan :
-         *   Input :                                       *        ----------------------------------------------
-         *   ------------------                            *        Kacang  = 10.000 /kg      
-         *   Kacang  = 5                                   *        Pisang  = 3.000  /tandan
-         *   Pisang  = 2                                   *        Terong  = 2.000  /buah               
-         *   Terong  = 3                                   *        Mentega = 5.000  /kg               
-         *   Mentega = 4                                   *        Tepung  = 4.500  /kg               
-         *   Tepung  = 1                                   *                       
-         *                                                 *                       
-         *                                                 *
-         *   --------------------------------------------------------------------------------------------------------
-         *
-         *
-         *   Output:                                                               
-         *   +---------+------------------------------+----------------------------+                        
-         *   | KET     | HARGA      | JUMLAH          | TOTAL                      |                        
-         *   + --------+------------+-----------------+----------------------------+                 
-         *   | Kacang  | 10.000     | 5               | 50000                      |                 
-         *   | Pisang  | 3.000      | 2               | 6000                       |                 
-         *   | Terong  | 2.000      | 3               | 6000                       |                 
-         *   | Mentega | 5.000      | 4               | 20000                      |                 
-         *   | Teping  | 4.500      | 1               | 4500                       |                 
-         *   +---------+------------+-----------------+----------------------------+                 
-         *   | TOTAL                | 15              | 86500                      |                 
-         *   +----------------------+-----------------+----------------------------+                 
-         *                                                                  
-         *                                                                  
-         *
+*                                                 *        keterangan :
+*   Input :                                       *        ----------------------------------------------
+*   ------------------                            *        Kacang  = 10.000 /kg      
+*   Kacang  = 5                                   *        Pisang  = 3.000  /tandan
+*   Pisang  = 2                                   *        Terong  = 2.000  /buah               
+*   Terong  = 3                                   *        Mentega = 5.000  /kg               
+*   Mentega = 4                                   *        Tepung  = 4.500  /kg               
+*   Tepung  = 1                                   *                       
+*                                                 *                       
+*                                                 *
+*   --------------------------------------------------------------------------------------------------------
+*
+*
+*   Output:                                                               
+*   +---------+------------------------------+----------------------------+                        
+*   | KET     | HARGA      | JUMLAH          | TOTAL                      |                        
+*   + --------+------------+-----------------+----------------------------+                 
+*   | Kacang  | 10.000     | 5               | 50000                      |                 
+*   | Pisang  | 3.000      | 2               | 6000                       |                 
+*   | Terong  | 2.000      | 3               | 6000                       |                 
+*   | Mentega | 5.000      | 4               | 20000                      |                 
+*   | Teping  | 4.500      | 1               | 4500                       |                 
+*   +---------+------------+-----------------+----------------------------+                 
+*   | TOTAL                | 15              | 86500                      |                 
+*   +----------------------+-----------------+----------------------------+                 
+*                                                                  
+*                                                                  
+*
 @endQuest
 
 
 @Quest('06_seleksi')
-         *                                                 *        keterangan :
-         *   Input :                                       *        ----------------------------------------------
-         *   ------------------                            *        Kacang  = 10.000 /kg      
-         *   Kacang  = 5                                   *        Pisang  = 3.000  /tandan
-         *   Pisang  = 2                                   *        Terong  = 2.000  /buah               
-         *   Terong  = 3                                   *        Mentega = 5.000  /kg               
-         *   Mentega = 4                                   *        Tepung  = 4.500  /kg               
-         *   Tepung  = 1                                   *                       
-         *                                                 *        @TOTAL_JUMLAH > 5     -> discount 5000
-         *                                                 *        @TOTAL_JUMLAH > 10    -> discount 10000
-         *                                                 *        @TOTAL_JUMLAH > 15    -> discount 15000
-         *                                                 *
-         *   --------------------------------------------------------------------------------------------------------
-         *
-         *
-         *   Output:                                                               
-         *   +---------+------------------------------+----------------------------+                        
-         *   | KET     | HARGA      | JUMLAH          | TOTAL                      |                        
-         *   + --------+------------+-----------------+----------------------------+                 
-         *   | Kacang  | 10.000     | 5               | 50000                      |                 
-         *   | Pisang  | 3.000      | 2               | 6000                       |                 
-         *   | Terong  | 2.000      | 3               | 6000                       |                 
-         *   | Mentega | 5.000      | 4               | 20000                      |                 
-         *   | Teping  | 4.500      | 1               | 4500                       |                 
-         *   +---------+------------+-----------------+----------------------------+                 
-         *   | TOTAL                | 15              | 76500                      |                 
-         *   +----------------------+-----------------+----------------------------+                 
-         *                                                                  
-         *                                                                  
-         *
+*                                                 *        keterangan :
+*   Input :                                       *        ----------------------------------------------
+*   ------------------                            *        Kacang  = 10.000 /kg      
+*   Kacang  = 5                                   *        Pisang  = 3.000  /tandan
+*   Pisang  = 2                                   *        Terong  = 2.000  /buah               
+*   Terong  = 3                                   *        Mentega = 5.000  /kg               
+*   Mentega = 4                                   *        Tepung  = 4.500  /kg               
+*   Tepung  = 1                                   *                       
+*                                                 *        @TOTAL_JUMLAH > 5     -> discount 5000
+*                                                 *        @TOTAL_JUMLAH > 10    -> discount 10000
+*                                                 *        @TOTAL_JUMLAH > 15    -> discount 15000
+*                                                 *
+*   --------------------------------------------------------------------------------------------------------
+*
+*
+*   Output:                                                               
+*   +---------+------------------------------+----------------------------+                        
+*   | KET     | HARGA      | JUMLAH          | TOTAL                      |                        
+*   + --------+------------+-----------------+----------------------------+                 
+*   | Kacang  | 10.000     | 5               | 50000                      |                 
+*   | Pisang  | 3.000      | 2               | 6000                       |                 
+*   | Terong  | 2.000      | 3               | 6000                       |                 
+*   | Mentega | 5.000      | 4               | 20000                      |                 
+*   | Teping  | 4.500      | 1               | 4500                       |                 
+*   +---------+------------+-----------------+----------------------------+                 
+*   | TOTAL                | 15              | 76500                      |                 
+*   +----------------------+-----------------+----------------------------+                 
+*                                                                  
+*                                                                  
+*
 @endQuest
 
 
-@Quest('04')
+@Quest('07_perulangan')
+|  n = 3   |  n = 5      |  n = 2    |   n 8                  
+|  -----   |  -----      |  -----    |   -----               
+|  ***     |  ****       |  **       |   ********             
+|  ***     |  ****       |  **       |   ********              
+|  ***     |  ****       |           |   ********              
+|          |  ****       |           |   ********     
+|          |  ****       |           |   ********     
+|          |             |           |   ********    
+|          |             |           |   ********
+|          |             |           |   ********
+                                                                 
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                         
+                                                         
 @endQuest
 
 
