@@ -18,7 +18,7 @@ $q = $_POST['t'];
         for ($i= 1; $i<=$q; $i++) {
             if ($i % 2 == 0) {
                 echo "*";
-            } elseif ($i % 4 == 0) {
+            } elseif ($i % 4 == 0 ) {
                 echo "#";
             } else {
                 echo $i;
