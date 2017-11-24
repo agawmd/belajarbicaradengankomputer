@@ -1,19 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package mid_52012049;
 import java.io.IOException;
 import java.io.*;
 import java.net.*;
 import javax.swing.SwingUtilities;
 
-
-/**
- *
- * @author BzKurozaki
- */
 public class Persegi {
 
     public DataInputStream  persegiTerima;
