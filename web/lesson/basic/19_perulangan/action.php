@@ -17,11 +17,12 @@ $damn = 0;
         
         <?php
         for ($i=1; $i<=$yes; $i++) {
-            echo $i-$fun;
+            $hasilBagi = $i % $fun;
+            echo "$hasilBagi ";
             if ($i < $yes) {
                 echo " + ";
             }
-            $damn= $damn + $i;
+            $damn = $damn + $hasilBagi;
         }   
         
         echo " = $damn";
