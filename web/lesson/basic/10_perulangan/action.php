@@ -20,7 +20,9 @@ $vo = $_POST['ff'];
                 echo "1";
             } elseif ($i % 2 == 0) {
                 echo "0";
-            } 
+            } elseif ($i < $yes) {
+                echo " + ";
+        }
         }
         ?>
     </body>
