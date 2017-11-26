@@ -3,8 +3,8 @@
  * Put Your code here...
  */
 
-$x = $_POST['bb'];
-$dos = 0;
+$o = $_POST['q'];
+$l = 0;
 
 ?>
 
@@ -13,9 +13,8 @@ $dos = 0;
 
         <!-- Put your code here... -->
         <?php
-        
-        for ($i=-$x; $i<=$x; $i++) {
-            echo "$i " ;
+        for ($i=0; $i<=$o; $i+=0.25) {
+            echo "$i  ";
         }
         ?>
         
