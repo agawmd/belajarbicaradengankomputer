@@ -8,6 +8,7 @@
 					return !in_array($d, ['nbproject','sectionlib']);
 				}
 			);
+	$dir =  array_reverse($dir);
 ?>
 
 <!DOCTYPE html>
