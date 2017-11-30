@@ -1,16 +1,9 @@
 <?php
-	$dir =	array_filter(
-				array_filter(
-					glob('*'), 
-					'is_dir'
-				), 
-				function($d) {
-					return !in_array($d, ['nbproject','sectionlib']);
-				}
-			);
-	$dir =  array_reverse($dir);
-?>
+	require_once 'sectionlib/section.php';
 
+	Section::updateQuest();
+	$dir = Section::getExistingQuest();
+?>
 <!DOCTYPE html>
 <html>
 <head>
