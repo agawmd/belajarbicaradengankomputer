@@ -13,16 +13,21 @@ $l = 0;
 
         <!-- Put your code here... -->
         <?php
-        for ($i=2; $i<=$o*2; $i+=2) {
-            echo $i;
-            if ($i < $o*2) {
-                echo " + ";
+        if ($o % 2 == 1) {
+            for ($i=2.5; $i<=$o*2.5; $i+=2.5) {
+                echo "$i ";
             }
-            $l = $l + $i;
+        } elseif ($o == 2) {
+            for ($i=0.5; $i<=$o; $i+=1.5) {
+                echo "$i ";
+            }
+        } elseif ($o % 4 == 0) {
+            for ($i=4; $i<=$o*4; $i+=4) {
+                echo "$i ";
+            }
         }
         
-        echo "= $l";
-        
+               
         ?>
         
         
