@@ -25,7 +25,7 @@ public class Client extends javax.swing.JFrame {
     public Client() {
         initComponents();
         try {
-            System.out.println("connecting to segitiga server...");
+            System.out.println("connecting to MANAGER server...");
             socket = new Socket("127.0.0.1", 8880);
             terima = new DataInputStream(socket.getInputStream());
             kirim = new DataOutputStream(socket.getOutputStream());
