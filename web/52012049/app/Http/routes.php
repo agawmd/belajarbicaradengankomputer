@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/biodata', function () {
-    return view('biodatxxa');
+    return view('biodata');
 });
