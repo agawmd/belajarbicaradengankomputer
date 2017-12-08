@@ -1,20 +1,18 @@
-package pkg52012049_persegip;
+package pkg52012049_serialization_server;
 
 import java.io.IOException;
-import java.io.*;
 import java.net.*;
-import javax.swing.SwingUtilities;
 
-public class Persegi {
+public class Server {
 
-    public Persegi() {
+    public Server() {
         ServerSocket ss = null;
         try {
-            System.out.println("START PERSEGI PANJANG SERVER...");
-            ss = new ServerSocket(8889);
+            System.out.println("START Server...");
+            ss = new ServerSocket(8080);
             System.out.println("Waiting for connection...");
             while (true) {
-                new PersegiHandler(ss.accept()).start();
+                new ClientHandler(ss.accept()).start();
             }
         } catch (IOException e) {
             System.out.println("ERROR...");
@@ -31,7 +29,7 @@ public class Persegi {
 
     public static void main(String[] args) {
         while (true) {
-            new Persegi();
+            new Server();
         }
     }
 }
