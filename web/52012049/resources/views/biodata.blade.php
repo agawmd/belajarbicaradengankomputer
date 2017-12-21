@@ -1,15 +1,19 @@
-<html>
-    <head>
-        <title>Register Data</title>
-    </head>
-    <body>
-        <form>
-            <label>Nama Lengkap :</label>
-            <input type="text" name="nama"/><br>
-            
-            <label>Alamat :</label>
-            <input type="text" name="alamat"/><br>
+<?php
 
-        </form>
-    </body>
-</html>
+Route::get('form', function () {
+    return ""
+    . "<form action='submit' method='post'>"
+            . "<input type='text' name='nama'>"
+            . "<input type='submit' value='submit'>"
+    . "</form>";
+
+    
+});
+
+Route::post('submit',  function () {
+    return Input::get('nama');
+})
+
+
+
+?>
