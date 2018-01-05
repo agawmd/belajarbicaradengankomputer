@@ -9,6 +9,7 @@ package rmi;
 
 import java.rmi.*;
 import java.rmi.registry.*;
+import rmi.Hitung;
 
 
 
@@ -18,6 +19,8 @@ import java.rmi.registry.*;
  */
 
 public class HitungServer {
+    
+    
 
     /**
      * @param args the command line arguments
@@ -26,10 +29,8 @@ public class HitungServer {
         // TODO code application logic here
         try {
             Registry r = java.rmi.registry.LocateRegistry.createRegistry(5000);
-            r.rebind("Hitung", new Hitung(3, 9));
+            r.rebind("Hitung", new Hitung(0, 0));
             System.out.println("RMI Server Started...");
-//            Hitung me = new Hitung();
-//            Naming.rebind("rmi://localhost:5000/kharisma", me);
 
         } 
         catch (Exception e) {

@@ -15,5 +15,6 @@ import java.rmi.*;
 public interface HitungInterface extends Remote{
     public double Jumlah(double a, double b) throws RemoteException;
     public double Kali(double a, double b) throws RemoteException;
-    
+    public double Kurang(double a, double b) throws RemoteException;
+    public double Bagi(double a, double b) throws RemoteException;
 }

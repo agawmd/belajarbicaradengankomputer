@@ -1543,8 +1543,9 @@ xkeyframes
 /* Contact Section */
 
 .contact_content{
-    width: 80%;
+    width: 57%;
     margin: 50px auto;
+    align-content: center;
 }
 .single_left_contact p{
     font-family:''titillium_weblight;
@@ -1640,7 +1641,7 @@ xkeyframes
     float:left;
 }
 .copyright{
-    text-align:right;
+    text-align:center;
 }
 .copyright p{
     font-size: 1.125rem;
@@ -1687,6 +1688,29 @@ xkeyframes
 	margin-left: -6px;
 	text-decoration: none;
 
+}
+
+table {
+    font-family: arial,sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+
+}
+
+th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
 }
 
 

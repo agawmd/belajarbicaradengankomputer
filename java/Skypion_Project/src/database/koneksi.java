@@ -7,25 +7,34 @@ package database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import javax.swing.JOptionPane;
+import java.sql.SQLException;
+import java.util.Properties;
 
 /**
- *
+ * 156.67.220.226 IP server active
  * @author aga
  */
 public class koneksi {
+    private final String username;
+    private final int password;
+    private String root;
 
-    public void config() {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://156.67.220.226/", "root", "1234");
-            Statement stm = con.createStatement();
-            ResultSet rs = stm.executeQuery("select * from db_skypion");
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Koneksi gagal !" + e.getMessage());
+    public koneksi() {
+        this.username = root;
+        this.password = 1234;
+    }
+    
+    public Connection GetConnection() throws SQLException {
+        Connection  conn = null;
+        Properties connectionProps = new Properties();
+        connectionProps.put("user", this.username);
+        connectionProps.put("password", this.password);
+        
+        if (this.dbms.equals("mysql")) {
+            conn = DriverManager.getConnection("jdbc:" + this.dbms + "://" + this.serverName + )
+        } else {
         }
+        
     }
     
 }

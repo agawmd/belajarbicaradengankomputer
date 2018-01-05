@@ -1,0 +1,1095 @@
+--------[ Start content-0165BZ ]--------
+--------[ End of content-0165BZ ]--------
+
+
+--------[ Start content-1ZKKBZ ]--------
+PBO - REVIEW
+
+DASAR - DASAR JAVA
+
+- Struktur program
+
+	package (nama paket)
+	import (nama paket & class)
+	(identifier) class (nama class)
+		/* deklarasi Anggota Data */
+		- - -
+		/* deklarasi Anggota Metode */
+		- - -
+		public static void main (String args[]) {
+			-perintah-perintah-
+		}
+
+- Variabel & Tipe Data
+	
+	Tradisional : byte, short, int, long, float, double, char, boolean
+	
+	Bentukan Class : String, Boolean, Integer, Double, Mahasiswa (dibuat sendiri)
+
+- Array
+
+	Deklarasi
+		int temp[];
+		String kata[];
+		Mahasiswa abj[];
+
+	Buat Objek Array
+		temp = new int[5];
+		obj = new Mahasiswa[100];
+
+
+final dapat dipake untuk atribut yang nilainya tidak dapat diubah ubah (konstan nilainya)
+sesuatu yang terwariskan tidak dapat ditolak
+
+
+
+*NOTE
+Buatlah program java yang membaca dua angka dari command promt yang disertakan penjumlahan nilai dari keduanya.
+--------[ End of content-1ZKKBZ ]--------
+
+
+--------[ Start content-3UM39Y ]--------
+WEBSITE PENGADUAN
+
+--------[ End of content-3UM39Y ]--------
+
+
+--------[ Start content-4RC49Y ]--------
+Pengantar POLIMORFIS
+
+Pilar Utama PBO
+
+Poly : Banyak sedangkan Morphos : Bentuk
+
+Secara bahasa : sesuatu yang memiliki banyak bentuk, banyak perilaku.
+
+Dalam PBO Polimorfis adalah kemampuan bahasa PBO yang memproses objek dan kelas yang beragam yang beragam tipe dengan antarmuka tunggal dan seragam
+
+Model Polimorfis :
+Overloading -> static polymorphism adalah jenis polimorfis yang pemanggilan metode objek dilakukan saat di compile.
+Dapat terjadi di
+Overriding -> dynamic polymorphism adalah proses pemanggilan metode objek yang terjadi pada saat runtime(eksekusi program)
+
+Metode PUSHPOP
+push(2);
+push(2.5);
+push('Hello');--------[ End of content-4RC49Y ]--------
+
+
+--------[ Start content-59NK9Y ]--------
+SISTEM TERDISTRIBUSI
+
+sampul
+kata pengantar
+pendahulluan
+
+definisi2 sister
+karakteristik sister
+keuntungan dan kekurangan sister
+
+tipe sister
+contoh2 sister
+isu penting :transparansi,fleksibilitas,reliabilitas,performansi,skalabilitas
+platform sister dan middleware
+komputasi terdistribusi
+referensi /bibliografi
+
+
+basriyasin@hotmail.com
+mungkongs3820TG--------[ End of content-59NK9Y ]--------
+
+
+--------[ Start content-5KCXAZ ]--------
+LARAVEL
+
+Laravel adalah framework.
+Framework adalah pekerjaan yang setengah jadi dimana strukturnya sudah jelas.
+Framework juga dapat dikatakan pekerjaan yang bekerja dalam satu area kerja yang dimana memiliki batasan.
+
+Keunggulan Laravel
+- Komputasi yang berat mudah ditangani
+- Fitur lebih lengkap
+- lebih mudah digunakan--------[ End of content-5KCXAZ ]--------
+
+
+--------[ Start content-6MO1AZ ]--------
+Arsitektur Dasar Software Berorientasi Objek
+
+Yang perlu diperhatikan :
+- Organisasi atau nonstruktur sistem (software)
+- Sistem dipandang sebagia kumpulan komponen software yang memiliki fungsi tertentu
+- Tujuannya : mengidentifikasi kebutuhan yang berdampak pda struktur bangunan sistem
+- Arsitektur yang baik berdampak pada kualitas software dan mengurangi resiko bisnis terkait dengan membangun solusi teknis
+
+EXTERNAL SYSTEMS
+service ustomers
+
+service layer
+service interface 
+messages types
+
+UI
+BUSSINESS/LOGIC
+DATA
+
+ARSITEKTUR APLIKASI ENTERPRISE JAVA
+CLIENT MACHINE
+SERVER
+DATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------[ End of content-6MO1AZ ]--------
+
+
+--------[ Start content-8A65BZ ]--------
+t--------[ End of content-8A65BZ ]--------
+
+
+--------[ Start content-8BMAAZ ]--------
+Sinkronisasi di Sistem Terdistribusi
+
+Variabel status diberi  nilai awal 0. 
+Manajer hanya akan mengirim thread ke server jika variabel status bernilai 1, begitupun sebaliknya.--------[ End of content-8BMAAZ ]--------
+
+
+--------[ Start content-ADH3AZ ]--------
+EKSEPSI
+
+- Kondisi tidak normal yang terjadi selama program dieksekusi (Runtime) yang dapat mengganggu alur eksekusi program
+
+- Jenis-jenis kesalahan ketika terjadi :
+	1. kesalahan waktu dikompilasi
+	2. kesalahan waktu eksekusi
+
+- Jenis/tipe kesalahan/error :
+	1. sintaks error
+	2. semantic (arti)
+
+Exception Handling
+
+Bentuk dasar penanganan Eksepsi
+
+try {
+	// kode yang dijaga
+} catch (Exception type e) {
+	// pesan eksepsi
+	// atau penanganannya	
+}
+
+*NOTE :
+Catatan mengenai Exception Handling di Java
+--------[ End of content-ADH3AZ ]--------
+
+
+--------[ Start content-BST29Y ]--------
+O you who have faith! 
+Repent to Allah with sincere repentance! 
+Maybe your Lord will absolve you of your misdeeds and admit you into gardens with streams running in them, on the day when Allah will not let the Prophet down and the faithful who are with him. 
+Their light will move swiftly before them and on their right. 
+They will say, ‘Our Lord! 
+Perfect our light for us, and forgive us! Indeed You have power over all things.’
+QS. Al-Tahrim(The Forbidding)-(Surah 66-ayat 8).--------[ End of content-BST29Y ]--------
+
+
+--------[ Start content-EDXPAZ ]--------
+Penulisan Daftar Pustaka
+
+Nama Pengarang (penulisan nama dibalik, misalnya Ali Shodiqin, maka menjadi Shodiqin, Ali). Tahun terbit. Judul buku. Tempat Terbit: Nama Penerbit
+
+Nama Pengarang, Judul Buku, Penerbit, Tahun Terbit, Halaman--------[ End of content-EDXPAZ ]--------
+
+
+--------[ Start content-ETURAZ ]--------
+RMI
+
+Jika network = komputer, kita dapat menempatkan dua class pada komputer yang berbeda
+
+Dari kedua class dibuat objek-objek instan
+
+CORBA
+has long been king
+
+Mendukung transmisi objek antara berbagai program (bahasa pemrograman)
+
+Objek dideskripsikan di IDL mirip definisi data di C++
+
+CORBA = kompleks
+
+MICROSOFT mendukung CORBA, kemudia COM, sekarang .NET
+
+RMI original dibangun dari spesifikasi Java (hanya berkomunikasi menggunakan bahasa Java)
+RMI lebih sederhana dibanding CORBA
+
+Yang diperlukan oleh RMI
+untuk mengirim pesan ke remote server objek:
+-client perlu menemukan objek
+-java memerlukan parameter serilizable
+-server objek harus melakukan unmarshall parameter, ekstrak dan melakukan komputasi dan melakukan marsahll respon-nya
+-the client objek harus melakukan unmarshall response server
+
+Terminology
+-remote objek = objek pada komputer lain
+-client objek = objek yang membuat request 
+-the server objek = objek yang menerima request
+-client dan server dapat dengan mudah berinteraksi
+-the rmiregistry = server khusus yang mencari atau menyimpan objek melalui namanya
+-RMIC merupakan RMI compiler
+
+
+Process
+running :
+-client
+-server
+
+
+interface define behavior
+clasess define implementation
+--------[ End of content-ETURAZ ]--------
+
+
+--------[ Start content-G8Y39Y ]--------
+ABSTRAKSI
+- proses penyembunyian implementasi untuk menyederhanakan kompleksitas kerumitan  e menyediakan kemudahan akses
+
+- Dua Tipe Abstraksi
+1. Parsial -> Kelas Abstrak (setengah proses namun ada kejelasan terlihat)
+	- hanya satu kelas turunannya atau hanya satu kelas 		      induknya(abstract)
+2. Full -> Interface (sepenuhnya)
+	- sepenuhnya menerapkan interface(implements) --------[ End of content-G8Y39Y ]--------
+
+
+--------[ Start content-H377AZ ]--------
+Cipher Aliran
+
+Enkripsi plainteks menjadi cipherteks bit per bit
+Cipher status (ekripsi tiao bit bergantung pada status saat ini)
+Vernam Cipher
+Cipherteks = Aliran kunci di XOR kan dengan aliran bit plainteks
+Plainteks = Aliran bit cipherteks di XOR kan dengan aliran kunci
+
+Keamanan cipher aliran bergantung pada pembangkit aliran kunci
+Semakin acak keluaran yang dihasilkan oleh pembangkit aliran kunci, semakin sulit kriptanalis memecahkan cipherteks
+
+Pembangkit Aliran Kunci
+
+Membangkitkan bit bit kunci (keystream) baik berbentuk per-bit maupun blok bit
+Tiga kondisi keystream generator :
+- Keystream seluruhnya 0
+- Keystream berulang secara periodik
+- Keystream benar-benar acak
+
+Keystream generator diimplementasikan sebagai prosedur yang sama di sisi pengirim dan penerima pesan
+Prosedur menerima masukan sebuah kunci U. Keluaran dari prosedur merupakan fungsi dari U.
+
+Pengirim dan penerima harus memiliki kunci U yang sama. Kunci U ini harus dijaga kerahasiaannya
+Cipher aliran menggunakan kunci U yang relatif pendek untuk membangkitkan bit bit kunci yang panjang
+Prosedur pembangkitan aliran kunci
+-next state function
+-output function
+
+Contoh U = 1111
+(U merupakan kunci empat bit yang dipilih sembarang, kecuali 0000)
+Cara sederhana memperoleh keystream
+-XOR bit pertama dengan bit terakhir dari empat bit sebelumnya
+-Berulang setiap 15 bit
+
+1 XOR 0 = 1
+0 XOR 1 = 1
+0 XOR 0 = 0
+1 XOR 1 = 0
+
+Jenis Cipher Aliran
+-Synchronous Stream Cipher (keystream dihasilkan dari key)
+-Self-Synchronizing Stream Cipher (keystream dihasilkan dari key dan plaintext)
+
+Linear Feedback Shift Register (LFSR)
+-Cipher aliran menggunakan LFSR sebagai pembangkit aliran kunci
+-Terdiri dari dua bagian :
+Shift Register - barisan bit yang panjangnya n
+Fungsi umpan balik (feedback) - fungsi yang menerima masukan dari shift register dan mengembalikan nilai fungsi ke shift register
+
+
+
+
+
+
+--------[ End of content-H377AZ ]--------
+
+
+--------[ Start content-HV9SAZ ]--------
+Rencana 8 Januari 2017
+
+- Pinjam Uang 2 jt
+- Berangkat ke Jakarta
+- Tiba di Jakarta mampir beli cake
+- Ke kantor FirstWap
+- Surprise
+- Back to Bandara
+- Pulang ke Rumah--------[ End of content-HV9SAZ ]--------
+
+
+--------[ Start content-I20PAZ ]--------
+Barang
+- id Obat
+- kode Obat
+- nama Obat
+- kategori Obat
+- tgl kadaluarsa Obat
+- tgl masuk Obat
+- stok reorder Obat
+- harga beli Obat
+- harga jual Obat
+- satuan Obat
+- id Suplier
+
+
+Suplier
+- id Suplier
+- nama Suplier
+- alamat Suplier
+- kontak Suplier
+- no_tlp Suplier
+
+
+Harga
+- id Harga
+- harga beli Obat (sebelum PPN)
+- harga beli Obat (setelah  PPN)
+- harga jual per racikan Obat
+- harga jual per box Obat--------[ End of content-I20PAZ ]--------
+
+
+--------[ Start content-IZJW9Y ]--------
+TUGAS PERTAMA PBO
+Buatlah resume/ringkasan tentang abstraksi di pemrograman berorientasi objek termasuk parsial atau semu dan full abstrak juga perbedaan abstrac class dan interface di java.--------[ End of content-IZJW9Y ]--------
+
+
+--------[ Start content-L3SV9Y ]--------
+MYSQL
+stack itu Last In First Out (LIFO)
+queue itu First In First Out (FIFO)--------[ End of content-L3SV9Y ]--------
+
+
+--------[ Start content-NBDXAZ ]--------
+CONTOH KOMPUTASI MODERN
+
+Akurasi (big, Floating Point)
+Kecepatan (dalam satuan Hz)
+Problem Volume Besar (Down Sizzing atau paralel)
+Modeling (NN & GA)
+Kompleksitas /Teori Big O/--------[ End of content-NBDXAZ ]--------
+
+
+--------[ Start content-O002AZ ]--------
+SERIALISASI - SISTEM TERDISTRIBUSI
+
+Mekanisme yang memungkinkan objek direpresentasikan sebagai urutan byte yang memuat informasi tentang objek (data dan metode)
+Serialisasi memungkinkan objek dikirim dan diterima melalui jaringan
+Mengirim  sekaligus sejumlah data dalam sebuah paket memungkinkan dilakukan
+
+*NOTE : Serialisasi memungkinkan objek diterima dan dikirim oleh jaringan
+
+Kebutuhan di Java
+- Interface Serialisasi
+- ObjectInpuStream, ObjectOutputStream
+- writeObject dan readObject
+- Exception Handling
+
+*Contoh
+public class Pesan implements Serializable {
+	private int data1;
+	private int data2;
+	public Pesan(int d1,d2) {
+		data1=d1;
+		data2=d2;	
+	}
+}
+
+public class Main {
+	public static void main(String args[]) {
+	Pesan data = new Pesan(20,30);
+	}
+}
+
+*TUGAS
+Tuliskan langkah-langkah untuk mengimplementasikan serialisasi di Java, sertakan penjelasan Anda dengan contoh sederhana program Client dan Server.--------[ End of content-O002AZ ]--------
+
+
+--------[ Start content-O2M49Y ]--------
+TUGAS KEDUA PBO
+Tuliskan contoh kode program sederhana (kasus lain) yang mendemokan overloading dan overriding.
+
+*Contoh kasus yang digunakan harus relevan.--------[ End of content-O2M49Y ]--------
+
+
+--------[ Start content-PUMA9Y ]--------
+KAMUS DATA
+- Nama Arus Data
+- Alias
+- Bentuk Data
+- Arus Data
+- Penjelasan
+- Periode
+- Volume
+- Struktur Data--------[ End of content-PUMA9Y ]--------
+
+
+--------[ Start content-QWDR9Y ]--------
+Secure Electronic Commerce
+
+-Authentication
+-Confidentiality
+-Data Integrity--------[ End of content-QWDR9Y ]--------
+
+
+--------[ Start content-UE3H9Y ]--------
+Diagram Rinci yaitu diagram yang menguraikan proses yg ada pada diagram zero(o)/diagram konteks atau memungkinkan proses diagram zero lebih diperinci lagi
+
+berupa:
+proses dan entitas
+proses dan tabel
+proses, entitas, tabel
+
+note:
+- arus proses harus jelas 
+- proses dengan proses tidak boleh berinteraksi langsung
+
+
+PR DIAGRAM BERJENJANG
+
+
+--------[ End of content-UE3H9Y ]--------
+
+
+--------[ Start content-XUI19Y ]--------
+UML
+
+Natural languages are used to communicate the requirements
+
+Programming languages (more broadly, technology-based implementation languages such as the Extensible Markup Language (XML), the Structured Query Language (SQL), Java, C#, and so forth) are used to communicate the details of the system
+
+Natural languages are less precise than programming languages, modeling languages(such as the UML) are used in a problem-solving process to bridge the chasm between the requirements and the system
+
+UML merupakan bahasa visual untuk pemodelan dan komunikasi pada system terhadap penggunaaan diagram dan teks pendukung.--------[ End of content-XUI19Y ]--------
+
+
+--------[ Start content-YT0PBZ ]--------
+PERPUSTAKAAN
+
+dibedakan secara :
+
+BUKU CETAK
+	nomor kelas (menggunakan metode devey decimal classification)
+	judul 
+	pengarang
+	penerbit
+	kota
+	tahun
+	ISBN
+
+SKRIPSI
+	judul
+	nama mahasiswa
+	pembimbing 1 pembimbing 2
+	stambuk
+	jurusan
+	tahun
+
+JOURNAL & PROCIDING
+	judul
+	penulis 1 dan penulis 2 (batas sampai penulis ke lima)
+	nama journal/bidang ilmu
+	penerbit
+	hal pertama dan hal terakhir
+	volume/edisi
+	nomor
+	bulan
+	tahun
+	kota
+	ISSN/ISBN
+
+
+TUGAS APLIKASI
+	judul
+	nama mahasiswa
+	penulis 2 (pembimbing)
+	stambuk
+	jurusan
+	tahun
+
+Buku Tertentu
+	Statistika
+	Ilmu Matematika
+	Handbook
+
+Laporan
+	Jumlah pengunjung (sesuai kategori)
+	Jurusan
+
+
+Pengunjung
+	waktu
+	nama
+	stambuk
+	jurusan
+	jam masuk
+	jam keluar
+	keterangan
+
+Peminjam
+	waktu
+	nama
+	stambuk/jurusan
+	judul
+	pengarang
+	penerbit
+	waktu pengembalian
+	waktu dikembalikan
+	paraf
+	keterangan
+
+Masa tenggang buku hanya 10 tahun
+
+kode rak hanya dapat dilihat pada proses pencarian di web katalog kampus
+
+
+20 Desember 2017
+- Download template
+- Memahami struktur css dan alur responsive
+
+*kendala yang ditemukan
+- ada semacam button namun bukan button karena tak memiliki struktur pemanggilan form
+
+
+21 Desember 2017
+- Belajar ISBN
+contoh ISBN 978-602-8519-93-9
+978 : EAN Prefix
+602 : kode kelompok
+8519 : kode penerbit
+93 : kode judul
+9 : angka pemeriksa
+
+22 Desember 2017
+- hubungkan database dengan php
+- secara keseluruhan table telah siap sisa inputan data dari mysql yang masih manual--------[ End of content-YT0PBZ ]--------
+
+
+--------[ Start content-YX0HAZ ]--------
+UML
+
+Unified Model Language (Modeling/pemodelan )
+(pemodelan bahasa secara universal yang sudah disepakati tapi pemodelan yang dimaksud disini yaitu pemodelan dalam development)
+
+Development adalah pengembangan dari aplikasi
+
+Sesuatu yang menandakan sesuatu(Markup)--------[ End of content-YX0HAZ ]--------
+
+
+--------[ Start content-ZF65BZ ]--------
+--------[ End of content-ZF65BZ ]--------
+
+
+--------[ Start default-style ]--------
+decorations 1
+height 200
+width 200
+confirm_destroy 1
+edit_lock 0
+sticky_on_start 1
+tray_enabled 1
+tray_click_configuration 1
+back rgb(92,53,102)
+use_back 1
+text rgb(255,255,255)
+use_text 1
+fontname Ubuntu Medium 17
+toolbar 1
+auto_hide_toolbar 1
+scrollbar 1
+buttons New, Delete, Separator, Cut, Copy, Paste, Separator, Undo, Redo
+autostart_wait_systray 1
+autostart_delay 0
+autostart_new_pad 0
+autostart_display_pads 2
+--------[ End of default-style ]--------
+
+
+--------[ Start info-0RDR9Y ]--------
+width 308
+height 328
+x 857
+y 434
+follow_font 1
+follow_color 1
+sticky 0
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-QWDR9Y
+--------[ End of info-0RDR9Y ]--------
+
+
+--------[ Start info-28NK9Y ]--------
+width 751
+height 697
+x 609
+y 65
+follow_font 1
+follow_color 1
+sticky 0
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-59NK9Y
+--------[ End of info-28NK9Y ]--------
+
+
+--------[ Start info-31ITAZ ]--------
+width 461
+height 352
+x 283
+y 295
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-HV9SAZ
+--------[ End of info-31ITAZ ]--------
+
+
+--------[ Start info-3GH3AZ ]--------
+width 677
+height 703
+x 683
+y 65
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-ADH3AZ
+--------[ End of info-3GH3AZ ]--------
+
+
+--------[ Start info-44Y39Y ]--------
+width 635
+height 347
+x 714
+y 415
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-G8Y39Y
+--------[ End of info-44Y39Y ]--------
+
+
+--------[ Start info-4JCXAZ ]--------
+width 612
+height 413
+x 733
+y 83
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-5KCXAZ
+--------[ End of info-4JCXAZ ]--------
+
+
+--------[ Start info-4Z77AZ ]--------
+width 1366
+height 703
+x 0
+y 59
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-H377AZ
+--------[ End of info-4Z77AZ ]--------
+
+
+--------[ Start info-5TMHAZ ]--------
+width 1027
+height 265
+x 74
+y 183
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-YX0HAZ
+--------[ End of info-5TMHAZ ]--------
+
+
+--------[ Start info-7LDXAZ ]--------
+width 555
+height 237
+x 787
+y 198
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-NBDXAZ
+--------[ End of info-7LDXAZ ]--------
+
+
+--------[ Start info-9KO1AZ ]--------
+width 677
+height 666
+x 683
+y 61
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-6MO1AZ
+--------[ End of info-9KO1AZ ]--------
+
+
+--------[ Start info-A42H9Y ]--------
+width 400
+height 672
+x 947
+y 78
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-UE3H9Y
+--------[ End of info-A42H9Y ]--------
+
+
+--------[ Start info-BX0PBZ ]--------
+width 677
+height 660
+x 597
+y 325
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-YT0PBZ
+--------[ End of info-BX0PBZ ]--------
+
+
+--------[ Start info-BZM49Y ]--------
+width 616
+height 160
+x 733
+y 175
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-O2M49Y
+--------[ End of info-BZM49Y ]--------
+
+
+--------[ Start info-I402AZ ]--------
+width 514
+height 660
+x 806
+y 65
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-O002AZ
+--------[ End of info-I402AZ ]--------
+
+
+--------[ Start info-KOT29Y ]--------
+width 550
+height 335
+x 770
+y 112
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-BST29Y
+--------[ End of info-KOT29Y ]--------
+
+
+--------[ Start info-KZ0PAZ ]--------
+width 1366
+height 666
+x 0
+y 65
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-I20PAZ
+--------[ End of info-KZ0PAZ ]--------
+
+
+--------[ Start info-LOEW9Y ]--------
+width 619
+height 135
+x 722
+y 166
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-IZJW9Y
+--------[ End of info-LOEW9Y ]--------
+
+
+--------[ Start info-LVM39Y ]--------
+width 300
+height 200
+x 1043
+y 547
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-3UM39Y
+--------[ End of info-LVM39Y ]--------
+
+
+--------[ Start info-NRI19Y ]--------
+width 677
+height 703
+x 683
+y 65
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-XUI19Y
+--------[ End of info-NRI19Y ]--------
+
+
+--------[ Start info-OZSV9Y ]--------
+width 512
+height 200
+x 761
+y 305
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-L3SV9Y
+--------[ End of info-OZSV9Y ]--------
+
+
+--------[ Start info-P0XPAZ ]--------
+width 569
+height 200
+x 63
+y 132
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-EDXPAZ
+--------[ End of info-P0XPAZ ]--------
+
+
+--------[ Start info-QA65BZ ]--------
+width 300
+height 200
+x 1062
+y 339
+follow_font 1
+follow_color 1
+sticky 1
+hidden 0
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-ZF65BZ
+--------[ End of info-QA65BZ ]--------
+
+
+--------[ Start info-TNURAZ ]--------
+width 677
+height 688
+x 683
+y 37
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-ETURAZ
+--------[ End of info-TNURAZ ]--------
+
+
+--------[ Start info-U2C49Y ]--------
+width 677
+height 703
+x 6
+y 65
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-4RC49Y
+--------[ End of info-U2C49Y ]--------
+
+
+--------[ Start info-UO75BZ ]--------
+width 525
+height 337
+x 464
+y 301
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-0165BZ
+--------[ End of info-UO75BZ ]--------
+
+
+--------[ Start info-UTMA9Y ]--------
+width 308
+height 328
+x 6
+y 130
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-PUMA9Y
+--------[ End of info-UTMA9Y ]--------
+
+
+--------[ Start info-XFMAAZ ]--------
+width 679
+height 172
+x 668
+y 516
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-8BMAAZ
+--------[ End of info-XFMAAZ ]--------
+
+
+--------[ Start info-XTKKBZ ]--------
+width 1366
+height 688
+x 0
+y 37
+follow_font 1
+follow_color 1
+sticky 1
+hidden 1
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-1ZKKBZ
+--------[ End of info-XTKKBZ ]--------
+
+
+--------[ Start info-Z755BZ ]--------
+width 717
+height 273
+x 248
+y 297
+follow_font 1
+follow_color 1
+sticky 1
+hidden 0
+back rgb(92,53,102)
+text rgb(255,255,255)
+fontname Ubuntu Medium 17
+content content-8A65BZ
+--------[ End of info-Z755BZ ]--------
+
+

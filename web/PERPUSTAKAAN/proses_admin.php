@@ -1,13 +1,9 @@
 <?php
+	include './Config.php';
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 ?>
 
-<html>
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -31,9 +27,8 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        
     </head>
-    
+        
     <body>
         
         <!--[if lt IE 8]>
@@ -65,71 +60,49 @@
             </div> <!-- /container -->       
         </section>
 
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="" /></a>
-                </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Beranda</a></li>
-                        <li><a href="buku.php">KOLEKSI BUKU</a></li>
-                        <li><a href="aplikasi.php">TUGAS APLIKASI</a></li>
-                        <li><a href="ilmiah.php">KARYA ILMIAH</a></li>
-                        <li class="active"><a href="jurnal.php">JOURNAL & PROCIDING</a></li>
-                        <li class="login"><a href="admin.php">Admin</a></li>
+
+                        <li class="login"><a href="keluar.php">Log Out</a></li>
+                        
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>            
         
-        <table align="center">
-            <tr>
-                <th>Judul</th>
-                <th>Penulis</th>
-                <th>Bidang Ilmu</th>
-                <th>Penerbit</th>
-                <th>Deskripsi</th>
-            </tr>
-        </table>
-        
-        
-        <!--Footer-->
-        <footer id="footer" class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-wrapper">
+        <div class="main_contact whitebackground">
+            <div class="head_title text-center">
+                <?php
 
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="footer-brand">
-                                <img src="" />
-                            </div>
-                        </div>
 
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="copyright">
-                                <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+                        $username	= $_POST['username'];
+                        $password	= $_POST['password'];
 
-                            </div>
-                        </div>
 
-                    </div>
-                </div>
+                        $username	= stripcslashes($username);
+                        $password	= stripcslashes($password);
+                        $username	= mysqli_real_escape_string($dbase, $_POST['username']);
+                        $password	= mysqli_real_escape_string($dbase, $_POST['password']);
+
+                        mysqli_select_db($dbase,"tb_admin");
+
+                        $result         = mysqli_query($dbase, "SELECT * FROM tb_admin where username = '$username' and password = '$password'")
+                                          or die("Failed to query database ...".  mysqli_error());
+                        $row            = mysqli_fetch_array($result);
+
+                        if ($row['username'] == $username && $row['password'] == $password) {
+                            echo "<br>";
+                            echo "Login Success ! Welcome ".$row['username'];
+                        } else {
+                            echo "Failed to login ! ";
+                        }
+
+                ?>
             </div>
-        </footer>
-		
-		
+            
+        </div>
+        
 		<div class="scrollup">
 			<a href="#"><i class="fa fa-chevron-up"></i></a>
 		</div>
@@ -144,5 +117,4 @@
         
         
     </body>
-    
-</html>
+</html>        

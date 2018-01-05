@@ -1,12 +1,9 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+    include './Config.php';  
+    
 ?>
+
 
 <html class="no-js" lang="">
     <head>
@@ -87,7 +84,7 @@
                         <li><a href="aplikasi.php">TUGAS APLIKASI</a></li>
                         <li><a href="ilmiah.php">KARYA ILMIAH</a></li>
                         <li><a href="jurnal.php">JOURNAL & PROCIDING</a></li>
-                        <li class="login"><a href="admin.php">Admin</a></li>
+                        
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
@@ -96,41 +93,41 @@
         
                     <div class="main_contact whitebackground">
                         <div class="head_title text-center">
-                            <h2>PEMINJAMAN BUKU</h2>
-							<p>Peminjam hanya akan diberikan waktu peminjaman selama 3 hari, selebihnya akan dikenakan denda sejumlah Rp.1000/hari.</p>
+                            <h2>ADMIN</h2>
+							<p>Anda dapat menambahkan sejumlah berkas seperti buku, tugas aplikasi, journal dan karya ilmiah. Silahkan masuk sebagai Admin.</p>
                         </div>
+                        
                         <div class="contact_content">
                             <div class="col-md-6">
                                 <div class="single_left_contact">
-                                    <form action="index.html" id="formid">
+                                    <form action="proses_admin.php" id="formid" method="post">
 
+                                    <p>
                                         <div class="form-group">
-                                            <label for="nim">NIM :</label>
-                                            <input type="text" class="form-control" name="nim" placeholder="Nomor Induk Mahasiswa" required="">
+                                            <label for="username">Admin :</label>
+                                            <input type="text" id="username" class="form-control" name="username" placeholder="username" required="">
                                         </div>
+                                    </p>
 
+                                    <p>
                                         <div class="form-group">
-                                            <label for="nama">Nama Lengkap :</label>
-                                            <input type="text" class="form-control" name="nama" placeholder="Nama Mahasiswa" required="">
+                                            <label for="password">Kata Sandi :</label>
+                                            <input type="password" id="password" class="form-control" name="password" placeholder="password" required="">
                                         </div>
+                                    </p>
 
-                                        <div class="form-group">
-                                            <label for="prodi">Program Studi :</label>
-                                            <select class="form-control" name="prodi">
-                                                <option>INFORMATIKA</option>
-                                                <option>SISTEM INFORMASI</option>
-                                            </select>
-                                        </div>
-                                        
-                                        
-                                        <div class="form-group">
-                                            <label for="tgl">Tanggal Pengembalian :</label>
-                                            <input type="date" class="form-control" name="tglBalik" required="">
-                                        </div>
-
+                                    <p>
                                         <div class="center-content">
-                                            <input type="submit" name="pinjam" value="Pinjam Sekarang" class="btn btn-default">
+                                            <input type="submit" id="btn" name="masuk" value="Masuk" class="btn btn-default">
+                                            
                                         </div>
+                                    </p>
+
+                                        <br>
+                                        <div>
+                                            <span>Lupa <a href="#">Kata Sandi?</a></span>
+                                        </div>
+                                        
                                     </form>
                                 </div>
                             </div>
