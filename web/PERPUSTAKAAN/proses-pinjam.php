@@ -8,7 +8,7 @@
         $nama   = $_POST['nama'];
         $prodi   = $_POST['prodi'];
         $tgl   = $_POST['tglBalik'];
-        $sekolah   = $_POST['sekolah_asal'];
+
         
         $sql    = "INSERT INTO tb_pinjam (nim, nama, prodi, tglBalik) VALUE ('$nim','$nama','$prodi','$tgl')";
         
