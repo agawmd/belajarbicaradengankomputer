@@ -104,7 +104,7 @@
             <tbody>
                 <?php
                     $lem    = "SELECT * FROM tb_buku";
-                    $query  = mysqli_query($db, $lem);
+                    $query  = mysqli_query($dbase, $lem);
                     
                     while ($buku    = mysqli_fetch_array($query)) {
                     

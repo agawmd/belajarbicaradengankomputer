@@ -102,10 +102,19 @@
             </div>
             
         </div>
+                
+                
+                <div class="contact_content">
+                    <div class="col-md-6">
+                        <div class="single_left_contact">
+                            <p></p>
+                        </div>
+                    </div>                    
+                </div>
         
-		<div class="scrollup">
-			<a href="#"><i class="fa fa-chevron-up"></i></a>
-		</div>
+        <div class="scrollup">
+                <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
 
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>

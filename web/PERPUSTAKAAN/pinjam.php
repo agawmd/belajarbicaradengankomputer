@@ -102,7 +102,7 @@
                         <div class="contact_content">
                             <div class="col-md-6">
                                 <div class="single_left_contact">
-                                    <form action="index.html" id="formid">
+                                    <form action="buku.php" id="formid">
 
                                         <div class="form-group">
                                             <label for="nim">NIM :</label>
@@ -124,7 +124,7 @@
                                         
                                         
                                         <div class="form-group">
-                                            <label for="tgl">Tanggal Pengembalian :</label>
+                                            <label for="tglBalik">Tanggal Pengembalian :</label>
                                             <input type="date" class="form-control" name="tglBalik" required="">
                                         </div>
 

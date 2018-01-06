@@ -3,21 +3,22 @@
     include 'Config.php';
 
     if (isset($_POST['pinjam'])) {
-        $id     = $_POST['id'];
-        $nim    = $_POST['nim'];
+    
+        $nim   = $_POST['nim'];
         $nama   = $_POST['nama'];
-        $prodi  = $_POST['prodi'];
-        $tgl    = $_POST['tgl'];
+        $prodi   = $_POST['prodi'];
+        $tgl   = $_POST['tglBalik'];
+        $sekolah   = $_POST['sekolah_asal'];
         
-        $sql    = "INSERT INTO tb_pinjam (nama, nim, prodi) SELECT judul FROM tb_buku";
+        $sql    = "INSERT INTO tb_pinjam (nim, nama, prodi, tglBalik) VALUE ('$nim','$nama','$prodi','$tgl')";
         
-        $query  = mysqli_query($db, $sql);
+        $query  = mysqli_query($dbase, $sql);
         
         if ($query) {
-            header('Location:index.html?status=sukses');
+            header('Location:buku.php?status=sukses');
         } else {
-            header('Location:index.html?status=gagal');
-        }    
+            header('Location:buku.php?status=gagal');
+        }
     } else {
         die("Akses dilarang...");
     }
