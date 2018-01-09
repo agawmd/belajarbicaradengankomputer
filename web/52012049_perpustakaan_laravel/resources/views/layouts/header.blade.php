@@ -44,12 +44,23 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="{{ route('home.index') }}">Beranda</a></li>
-                <li><a href="{{ route('home.buku') }}">KOLEKSI BUKU</a></li>
-                <li><a href="{{ route('home.aplikasi') }}">TUGAS APLIKASI</a></li>
-                <li><a href="{{ route('home.ilmiah') }}">KARYA ILMIAH</a></li>
-                <li><a href="{{ route('home.jurnal') }}">JOURNAL & PROCIDING</a></li>
-                <li class="login"><a href="admin.php">Admin</a></li>
+                <li class="{{ Request::route()->getName() != 'home.index' ?: 'active'}}">
+                    <a href="{{ route('home.index') }}">Beranda</a>
+                </li>
+                <li class="{{ Request::route()->getName() != 'home.buku' ?: 'active'}}">
+                    <a href="{{ route('home.buku') }}">KOLEKSI BUKU</a>
+                </li>
+                <li class="{{ Request::route()->getName() != 'home.aplikasi' ?: 'active'}}">
+                    <a href="{{ route('home.aplikasi') }}">TUGAS APLIKASI</a>
+                </li>
+                <li class="{{ Request::route()->getName() != 'home.ilmiah' ?: 'active'}}">
+                    <a href="{{ route('home.ilmiah') }}">KARYA ILMIAH</a>
+                </li>
+                <li class="{{ Request::route()->getName() != 'home.jurnal' ?: 'active'}}">
+                    <a href="{{ route('home.jurnal') }}">JOURNAL & PROCIDING</a>
+                </li>
+                <li class="login">
+                    <a href="admin.php">Admin</a></li>
 
             </ul>
 

@@ -21,7 +21,8 @@ class TabelBuku extends Migration
             $table->string('kota');
             $table->year('tahun');            
             $table->string('isbn');
-            
+            $table->integer('jumlah');
+            $table->boolean('status');
             $table->timestamps();
             
         });    

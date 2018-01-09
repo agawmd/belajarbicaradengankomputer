@@ -15,15 +15,19 @@ class TabelJurnal extends Migration
     {
         Schema::create('jurnal', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('judul');
             $table->string('penulis');
-            $table->string('bidang');
             $table->string('penerbit');
+            $table->string('jurnal');
+            $table->string('bidang');
             $table->string('volume');
             $table->string('edisi');
-            $table->date('tglBulan');
-            $table->string('kota');
+            $table->integer('nomor');
+            $table->date('bulan');
             $table->year('tahun');
+            $table->string('kota');
             $table->string('isbn');
+            $table->integer('jumlah');
             
             $table->timestamps();
             

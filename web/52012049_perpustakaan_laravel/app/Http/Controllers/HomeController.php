@@ -3,19 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Buku;
 use Auth;
 
-class HomeController extends Controller
-{
+// Model
+use App\Buku;
+use App\Ilmiah;
+use App\Jurnal;
+use App\TugasAplikasi;
+
+
+class HomeController extends Controller {
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
+    public function __construct() {
+//        $this->middleware('auth');
     }
 
     /**
@@ -23,8 +27,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+    public function index() {
         return view('home.index');
     }
     
@@ -35,34 +38,26 @@ class HomeController extends Controller
                 ->with(compact('daftarBuku'));
     }
     
+    
     public function aplikasi() {
-        $daftarBuku = Buku::get();
+        $daftarBuku = TugasAplikasi::get();
         return view('home.aplikasi')
                 ->with(compact('daftarBuku'));
     }
 
-        /**
-     * bikin sendiri dlu sisanya
-     * nnti klw sudah baru blg
-     * 
-     * ie mi
-     * s mau rabu2 membersihkan bru mandi bru sholla
-     * sbar
-     * tunggu
-     * 
-     */ 
+     
     
     public function ilmiah() {
-        $daftarBuku = Buku::get();
+        $daftarBuku = Ilmiah::get();
         return view('home.ilmiah')
-                ->with(compact('$daftarBuku'));
+                ->with(compact('daftarBuku'));
     }
     
     
     public function jurnal() {
-        $daftarBuku = Buku::get();
+        $daftarBuku = Jurnal::get();
         return view('home.jurnal')
-                ->with(compact('$daftarBuku'));
+                ->with(compact('daftarBuku'));
     }
     
 }

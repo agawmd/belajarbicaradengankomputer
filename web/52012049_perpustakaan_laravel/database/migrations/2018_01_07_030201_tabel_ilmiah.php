@@ -18,8 +18,10 @@ class TabelIlmiah extends Migration
             $table->string('judul');
             $table->string('nim');
             $table->string('nama');
+            $table->string('pembimbing');
             $table->string('bidang');
             $table->year('tahun');
+            $table->integer('jumlah');
             
             $table->timestamps();
         });

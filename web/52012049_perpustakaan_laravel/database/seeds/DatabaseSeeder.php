@@ -45,13 +45,15 @@ class DatabaseSeeder extends Seeder {
             ->insert([
                 'judul'     => "Flying to The Moon",
                 'penulis'       => "52012049",
-                'bidang'      => "Barack Obama",
                 'penerbit'   => "Intelegency",
+                'jurnal'    => "Blade",
+                'bidang'      => "Barack Obama",                
                 'volume'     => "179",
                 'edisi'     => "Season",
-                'tglBulan'     => 10-09-2017,
-                'kota'     => "Luwuk",
+                'nomor'     => 3,
+                'bulan'     => 10-09-2017,
                 'tahun'     => 1793,
+                'kota'     => "Luwuk",
                 'isbn'     => "179 902 781 33"
             ]);
         

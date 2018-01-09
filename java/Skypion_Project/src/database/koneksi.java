@@ -15,25 +15,16 @@ import java.util.Properties;
  * @author aga
  */
 public class koneksi {
-    private final String username;
-    private final int password;
-    private String root;
 
-    public koneksi() {
-        this.username = root;
-        this.password = 1234;
-    }
-    
-    public Connection GetConnection() throws SQLException {
-        Connection  conn = null;
-        Properties connectionProps = new Properties();
-        connectionProps.put("user", this.username);
-        connectionProps.put("password", this.password);
+        String host = "jdbc:aga//156.67.220.226/db_skypion";
+        String user = "root";
+        int pass = 1234;
         
-        if (this.dbms.equals("mysql")) {
-            conn = DriverManager.getConnection("jdbc:" + this.dbms + "://" + this.serverName + )
-        } else {
-        }
+        Connection con;
+    
+    
+    public static void main(String[] args) {
+        
         
     }
     
