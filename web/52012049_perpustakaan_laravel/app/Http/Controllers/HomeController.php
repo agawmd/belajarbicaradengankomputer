@@ -10,6 +10,7 @@ use App\Buku;
 use App\Ilmiah;
 use App\Jurnal;
 use App\TugasAplikasi;
+use App\Admin;
 
 
 class HomeController extends Controller {
@@ -59,5 +60,13 @@ class HomeController extends Controller {
         return view('home.jurnal')
                 ->with(compact('daftarBuku'));
     }
+    
+    
+    public function admin() {
+        $daftarAdmin = Admin::get();
+        return view('home.admin')
+                ->with(compact('daftarAdmin'));
+    }
+    
     
 }

@@ -32,7 +32,7 @@ class AplikasiController extends Controller {
         $aplikasi->jurusan     = $r->jurusan;
         $aplikasi->tahun       = $r->tahun;
         $aplikasi->jumlah      = $r->jumlah;
-        $aplikasi->status      = true;
+        
         
         if ($aplikasi->save()) {
             $status = 'Sukses';

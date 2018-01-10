@@ -9,10 +9,17 @@
                 {!! session()->get('pesan') !!}           
         </div>
         @endif        
-        <form>
-            <input class="form-control" name="judul" placeholder="Judul"><br>
-            <input class="form-control" name="lalala" placeholder="Nomor Induk Mahasiswa"><br>
-            <input class="form-control" name="lalala" placeholder="Nama Mahasiswa"><br>
+        <form method="post" action="{{ route('ilmiah.save')}}">
+            
+            <div>
+                <input class="form-control" name="judul" placeholder="Judul"><br>
+                <input class="form-control" name="lalala" placeholder="Nomor Induk Mahasiswa"><br>
+                <input class="form-control" name="lalala" placeholder="Nama Mahasiswa"><br>               
+            </div>
+
+            <div>
+                
+            </div>
             <input class="form-control" name="lalala" placeholder="Pembimbing"><br>
             <input class="form-control" name="lalala" placeholder="Bidang Ilmu"><br>
             <input class="form-control" name="tahun" placeholder="Tahun" type="number"><br>

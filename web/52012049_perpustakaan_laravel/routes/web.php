@@ -22,6 +22,7 @@ Route::get('/buku',     'HomeController@buku')->name('home.buku');
 Route::get('/aplikasi', 'HomeController@aplikasi')->name('home.aplikasi');
 Route::get('/ilmiah',   'HomeController@ilmiah')->name('home.ilmiah');
 Route::get('/jurnal',   'HomeController@jurnal')->name('home.jurnal');
+Route::get('/admin',    'HomeController@admin')->name('home.admin');
 
 
 Route::middleware(['auth'])->group(function() {

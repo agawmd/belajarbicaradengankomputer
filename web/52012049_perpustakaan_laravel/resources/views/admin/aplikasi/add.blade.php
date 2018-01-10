@@ -4,11 +4,7 @@
 <div class="container">
     <div class="row">
         <h5>Tambah Tugas Aplikasi</h5>
-        @if(session()->has('status))
-        <div class="alert alert-{{ session()->get('status') }} fade in alert-dismissable">
-                {!! session()->get('pesan') !!}           
-        </div>
-        @endif
+
         <form method="post" action="{{ route('aplikasi.save') }}">
             {{ csrf_field() }}
             <div class="col-md-6">

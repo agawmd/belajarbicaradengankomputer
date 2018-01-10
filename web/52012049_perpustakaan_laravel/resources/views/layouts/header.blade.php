@@ -59,8 +59,8 @@
                 <li class="{{ Request::route()->getName() != 'home.jurnal' ?: 'active'}}">
                     <a href="{{ route('home.jurnal') }}">JOURNAL & PROCIDING</a>
                 </li>
-                <li class="login">
-                    <a href="admin.php">Admin</a></li>
+                <li class="{{ Request::route()->getName() != 'home.admin' ?: 'active'}}">
+                    <a href="{{ route('home.admin') }}">Admin</a></li>
 
             </ul>
 
