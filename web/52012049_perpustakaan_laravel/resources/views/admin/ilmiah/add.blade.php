@@ -4,28 +4,27 @@
 <div class="container">
     <div class="row">
         <h5>Tambah Karya Ilmiah</h5>
-        @if(session()->has('status))
-        <div class="alert alert-{{ session()->get('status') }} fade in alert-dismissable">
-                {!! session()->get('pesan') !!}           
-        </div>
-        @endif        
+   
         <form method="post" action="{{ route('ilmiah.save')}}">
-            
-            <div>
+            {{ csrf_field() }}
+            <div class="col-md-6">
                 <input class="form-control" name="judul" placeholder="Judul"><br>
-                <input class="form-control" name="lalala" placeholder="Nomor Induk Mahasiswa"><br>
-                <input class="form-control" name="lalala" placeholder="Nama Mahasiswa"><br>               
+                <input class="form-control" name="nim" placeholder="Nomor Induk Mahasiswa"><br>
+                <input class="form-control" name="nama" placeholder="Nama Mahasiswa"><br>               
+                <input class="form-control" name="pembimbing" placeholder="Pembimbing"><br>
             </div>
 
-            <div>
-                
+            <div class="col-md-6">
+                <input class="form-control" name="bidang" placeholder="Bidang Ilmu"><br>
+                <input class="form-control" name="tahun" placeholder="Tahun" type="number"><br>
+                <input class="form-control" name="jumlah" placeholder="Jumlah" type="number"><br>                
             </div>
-            <input class="form-control" name="lalala" placeholder="Pembimbing"><br>
-            <input class="form-control" name="lalala" placeholder="Bidang Ilmu"><br>
-            <input class="form-control" name="tahun" placeholder="Tahun" type="number"><br>
-            <input class="form-control" name="lalala" placeholder="Jumlah" type="number"><br>
-                        
-            <input type="submit" value="Simpan">
+            <hr>
+            
+            <div class="col-md-6 col-md-offest-6">
+                <a class="btn btn-danger" href="{{ route('home.ilmiah') }}">Batal</a>
+                <input type="submit" value="Simpan" class="btn btn-success float-right">                
+            </div>
         </form>
     </div>
 </div>

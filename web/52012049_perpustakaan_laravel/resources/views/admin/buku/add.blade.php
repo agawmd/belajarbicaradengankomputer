@@ -14,17 +14,17 @@
         <form method="post" action="{{ route('buku.save') }}">
             {{ csrf_field() }}
             <div class="col-md-6">
-                <input class="form-control" name="judul" placeholder="Judul">
-                <input class="form-control" name="pengarang" placeholder="Pengarang">
-                <input class="form-control" name="penerbit" placeholder="Penerbit">
-                <input class="form-control" name="kota" placeholder="Kota">
+                <input class="form-control" name="judul" placeholder="Judul"><br>
+                <input class="form-control" name="pengarang" placeholder="Pengarang"><br>
+                <input class="form-control" name="penerbit" placeholder="Penerbit"><br>
+                <input class="form-control" name="kota" placeholder="Kota"><br>
             </div>
 
             <div class="col-md-6">
-                <input class="form-control" name="tahun" placeholder="Tahun" type="number">
-                <input class="form-control" name="isbn" placeholder="Kode ISBN">
-                <input class="form-control" name="jumlah" placeholder="Jumlah" type="number">
-                <input class="form-control" name="status" placeholder="Status">
+                <input class="form-control" name="tahun" placeholder="Tahun" type="number"><br>
+                <input class="form-control" name="isbn" placeholder="Kode ISBN"><br>
+                <input class="form-control" name="jumlah" placeholder="Jumlah" type="number"><br>
+                <input class="form-control" name="status" placeholder="Status"><br>
             </div>
             <hr>
             <div class="col-md-6 col-md-offset-6">

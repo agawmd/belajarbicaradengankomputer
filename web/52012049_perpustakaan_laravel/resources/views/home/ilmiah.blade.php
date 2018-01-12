@@ -9,7 +9,6 @@
             <th>Penulis</th>
             <th>Bidang Ilmu</th>
             <th>Tahun</th>
-            <th>Lakukan Peminjaman</th>
         </tr>
     </thead>
     <tbody>
@@ -20,9 +19,6 @@
             <td>{{ $ilmiah->nama }}</td>
             <td>{{ $ilmiah->bidang }}</td>
             <td>{{ $ilmiah->tahun }}</td>
-            <td>
-                <a href="#">Pinjam</a>
-            </td>
         </tr>
         @endforeach
     </tbody>

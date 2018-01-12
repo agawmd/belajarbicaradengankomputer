@@ -8,15 +8,15 @@
         <form method="post" action="{{ route('aplikasi.save') }}">
             {{ csrf_field() }}
             <div class="col-md-6">
-                <input class="form-control" name="judul" placeholder="Judul">
-                <input class="form-control" name="nim" placeholder="Nomor Induk Mahasiswa">
-                <input class="form-control" name="nama" placeholder="Nama Mahasiswa">
-                <input class="form-control" name="pembimbing" placeholder="Pembimbing">
+                <input class="form-control" name="judul" placeholder="Judul"><br>
+                <input class="form-control" name="nim" placeholder="Nomor Induk Mahasiswa"><br>
+                <input class="form-control" name="nama" placeholder="Nama Mahasiswa"><br>
+                <input class="form-control" name="pembimbing" placeholder="Pembimbing"><br>
             </div>
             <div class="col-md-6">
-                <input class="form-control" name="jurusan" placeholder="Jurusan">
-                <input class="form-control" name="tahun" placeholder="Tahun" type="number">
-                <input class="form-control" name="jumlah" placeholder="Jumlah" type="number">
+                <input class="form-control" name="jurusan" placeholder="Jurusan"><br>
+                <input class="form-control" name="tahun" placeholder="Tahun" type="number"><br>
+                <input class="form-control" name="jumlah" placeholder="Jumlah" type="number"><br>
             </div>     
             <hr>
             

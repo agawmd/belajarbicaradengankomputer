@@ -38,7 +38,6 @@ class JurnalController extends Controller {
         $jurnal->kota        = $r->kota;
         $jurnal->isbn        = $r->isbn;
         $jurnal->jumlah      = $r->jumlah;
-        $jurnal->status      = true;
         
         if ($jurnal->save()) {
             $status = 'Sukses';

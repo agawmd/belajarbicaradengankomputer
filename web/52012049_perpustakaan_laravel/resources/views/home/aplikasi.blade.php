@@ -9,7 +9,6 @@
             <th>Nama Mahasiswa</th>
             <th>Jurusan</th>
             <th>Tahun</th>
-            <th>Lakukan Peminjaman</th>
         </tr>
     </thead>
     <tbody>
@@ -20,9 +19,6 @@
             <td>{{ $aplikasi->nama }}</td>
             <td>{{ $aplikasi->jurusan }}</td>
             <td>{{ $aplikasi->tahun }}</td>
-            <td>
-                <a href="#">Pinjam</a>
-            </td>
         </tr>
         @endforeach
     </tbody>

@@ -21,7 +21,7 @@
             <td>{{ $buku->penerbit }}</td>
             <td>{{ $buku->tahun }}</td>
             <td>
-                <a href="#">Pinjam</a>
+                <a href="pinjam.blade.php">Pinjam</a>
             </td>
         </tr>
         @endforeach

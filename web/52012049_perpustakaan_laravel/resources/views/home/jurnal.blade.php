@@ -13,7 +13,6 @@
             <th>Edisi</th>
             <th>Kota</th>
             <th>Tahun</th>
-            <th>Lakukan Peminjaman</th>
         </tr>
     </thead>
     <tbody>
@@ -27,9 +26,6 @@
             <td>{{ $jurnal->edisi }}</td>
             <td>{{ $jurnal->kota }}</td>
             <td>{{ $jurnal->tahun }}</td>
-            <td>
-                <a href="#">Pinjam</a>
-            </td>
         </tr>
         @endforeach
     </tbody>

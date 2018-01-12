@@ -32,7 +32,6 @@ class IlmiahController extends Controller {
         $ilmiah->bidang      = $r->bidang;
         $ilmiah->tahun       = $r->tahun;
         $ilmiah->jumlah      = $r->jumlah;
-        $ilmiah->status      = true;
 
         if ($ilmiah->save()) {
             $status = 'Sukses';
