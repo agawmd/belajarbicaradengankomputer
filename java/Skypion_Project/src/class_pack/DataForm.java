@@ -3,12 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package connection;
+package class_pack;
 
 /**
  *
  * @author aga
  */
-public class Database {
+public class DataForm {
+    public String id;
+    public String nama;
+    public String alamat;
+    public String phone;
+    public String email;
     
 }

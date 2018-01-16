@@ -20,21 +20,13 @@
             <td>{{ $buku->pengarang }}</td>
             <td>{{ $buku->penerbit }}</td>
             <td>{{ $buku->tahun }}</td>
+            
             <td>
-                <a href="pinjam.blade.php">Pinjam</a>
+                <a href="{{ route('buku.pinjam', $buku->id) }}">Pinjam</a>
             </td>
         </tr>
         @endforeach
     </tbody>
-    <tfoot>
-        @if(Auth::check())
-        <tr>
-            <td colspan="5">
-                <!--Kalau admin sudah login muncul tombol tambah buku--> 
-                <a class="col-md-12 btn btn-success" href="{{ route('buku.add') }}">Tambah Buku</a>
-            </td>
-        </tr>
-        @endif
-    </tfoot>
+
 </table>
 @endsection

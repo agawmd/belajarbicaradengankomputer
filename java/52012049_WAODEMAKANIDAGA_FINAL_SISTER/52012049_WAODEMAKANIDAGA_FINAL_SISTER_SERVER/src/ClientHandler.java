@@ -1,13 +1,13 @@
-package pkg52012049_serialization_server;
 
+
+import server_kecil.*;
 import java.io.IOException;
 import java.io.*;
 import java.net.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.SwingUtilities;
-import messages.RequestMessage;
-import messages.ResponseMessage;
+import message.RequestMessage;
+
 
 public class ClientHandler extends Thread {
 
@@ -15,7 +15,7 @@ public class ClientHandler extends Thread {
     public ObjectOutputStream kirim;
     public Socket api;
     RequestMessage req;
-    ResponseMessage res;
+
 
     public ClientHandler(Socket s) {
         try {
@@ -24,7 +24,7 @@ public class ClientHandler extends Thread {
             kirim = new ObjectOutputStream(api.getOutputStream());
             System.out.println("new client connected...");
             req = new RequestMessage();
-            res = new ResponseMessage();
+
         } catch (IOException e) {
             System.out.println("ERROR...");
             System.out.println(e.getMessage() + "");
@@ -37,10 +37,7 @@ public class ClientHandler extends Thread {
                 System.out.println("Waiting for input...");
                 req = (RequestMessage) terima.readObject();
                 System.out.println("Request  -> " + req.toString());
-                res.keliling = 2 * (req.lebar + req.panjang);
-                res.luas     = req.lebar * req.panjang;
-                System.out.println("Response -> " + res.toString());
-                kirim.writeObject(res);
+
             }
 
         } catch (IOException e) {

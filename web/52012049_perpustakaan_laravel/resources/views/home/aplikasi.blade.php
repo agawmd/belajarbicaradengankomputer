@@ -21,17 +21,6 @@
             <td>{{ $aplikasi->tahun }}</td>
         </tr>
         @endforeach
-    </tbody>
-    <tfoot>
-        @if(Auth::check())
-        <tr>
-            <td colspan="5">
-                <!--Kalau admin sudah login muncul tombol tambah buku--> 
-                <a class="col-md-12 btn btn-success" href="{{ route('aplikasi.add') }}">Tambah Buku</a>
-            </td>
-        </tr>
-        @endif
-    </tfoot>
-    
+
 </table>
 @endsection

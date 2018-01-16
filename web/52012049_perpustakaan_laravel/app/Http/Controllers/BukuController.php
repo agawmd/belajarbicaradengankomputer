@@ -45,10 +45,11 @@ class BukuController extends Controller {
 
     public function edit() {
         
-    }
+    } 
 
     public function update(Request $r) {
         
     }
 
+    
 }

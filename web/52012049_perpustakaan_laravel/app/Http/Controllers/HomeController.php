@@ -11,6 +11,7 @@ use App\Ilmiah;
 use App\Jurnal;
 use App\TugasAplikasi;
 use App\Admin;
+use App\Pinjam;
 
 
 class HomeController extends Controller {
