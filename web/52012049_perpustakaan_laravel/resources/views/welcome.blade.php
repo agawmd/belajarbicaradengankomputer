@@ -14,20 +14,6 @@
                             <h1>"Books are the windows through which the soul looks out ..."</h1>
                             <p>- Henry Ward Beecher -</p>
 
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                    <div class="home-contact">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Enter your email address">
-                                            <input type="submit" class="form-control" value="Use It Free">
-
-                                        </div><!-- /input-group -->   
-
-
-                                    </div>
-                                </div>
-                            </div>
-
 
                         </div>
                     </div>

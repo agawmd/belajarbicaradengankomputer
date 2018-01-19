@@ -5,15 +5,8 @@
  */
 package form_;
 
+import com.mysql.jdbc.MySQLConnection;
 import database.koneksi;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -104,38 +97,15 @@ public class login_admin extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        PreparedStatement ps;
-        Connection con;
-        
+        String Sql = "select * from tb_admin where username=? and password=?";
         try {
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_skypion","root","1234");
-            ps = con.prepareStatement("SELECT `username`, `password` FROM `tb_admin` WHERE `username` = ? AND `password` = ?");
-            ResultSet result = ps.executeQuery();
             
-            if (result.next()) {
-                String st = "Login Successesfully";
-                JOptionPane.showMessageDialog(null, st);
-            } else {
-                String ts = "Invalid Username or Password";
-                JOptionPane.showMessageDialog(null, ts);
-            }
-            
-        } catch (SQLException ex) {
-            Logger.getLogger(login_admin.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (Exception e) {
         }
-        
-        
-        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
-        // TODO add your handling code here:
-        if (jCheckBox1.isSelected()) {
-            jPasswordField1.setEchoChar((char)0);
-        } else {
-            jPasswordField1.setEchoChar('*');
-        }
+        
     }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**

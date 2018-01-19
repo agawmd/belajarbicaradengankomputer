@@ -16,7 +16,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Anda diharapkan Login sebagai Admin Atau Register sebagai Admin.
                 </div>
             </div>
         </div>

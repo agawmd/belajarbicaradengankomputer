@@ -63,10 +63,10 @@ class HomeController extends Controller {
     }
     
     
-    public function admin() {
-        $daftarAdmin = Admin::get();
+    public function user() {
+        $masukAdmin = User::get();
         return view('home.admin')
-                ->with(compact('daftarAdmin'));
+                ->with(compact('masukAdmin'));
     }
     
     

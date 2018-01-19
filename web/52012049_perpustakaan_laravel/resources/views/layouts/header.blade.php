@@ -44,7 +44,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="{{ Request::route()->getName() != 'home.index' ?: 'active'}}">
+                <li class="{{ Request::route()->getName() != 'layouts.template' ?: 'active'}}">
                     <a href="{{ route('home.index') }}">Beranda</a>
                 </li>
                 <li class="{{ Request::route()->getName() != 'home.buku' ?: 'active'}}">
@@ -59,7 +59,7 @@
                 <li class="{{ Request::route()->getName() != 'home.jurnal' ?: 'active'}}">
                     <a href="{{ route('home.jurnal') }}">JOURNAL & PROCIDING</a>
                 </li>
-                <li class="{{ Request::route()->getName() != 'home.admin' ?: 'active'}}">
+                <li class="{{ Request::route()->getName() != 'home.index' ?: 'active'}}">
                     <a href="{{ route('home.admin') }}">Admin</a></li>
 
             </ul>
