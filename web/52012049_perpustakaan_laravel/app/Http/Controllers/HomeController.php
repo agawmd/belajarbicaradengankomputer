@@ -10,7 +10,6 @@ use App\Buku;
 use App\Ilmiah;
 use App\Jurnal;
 use App\TugasAplikasi;
-use App\Admin;
 use App\Pinjam;
 
 
@@ -63,11 +62,18 @@ class HomeController extends Controller {
     }
     
     
-    public function user() {
+    public function admin() {
         $masukAdmin = User::get();
         return view('home.admin')
                 ->with(compact('masukAdmin'));
     }
     
+    
+    public function pinjam() {
+        $pinjamBuku = Pinjam::get();
+        return view('buku.pinjam')
+                ->with(compact('pinjamBuku'));
+    }
+
     
 }

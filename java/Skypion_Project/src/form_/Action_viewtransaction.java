@@ -31,7 +31,7 @@ public class Action_viewtransaction extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
+        btnBackTrans = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -43,7 +43,12 @@ public class Action_viewtransaction extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jButton1.setText("Back");
+        btnBackTrans.setText("Back");
+        btnBackTrans.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBackTransActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("PRINT STRUCT");
 
@@ -62,7 +67,7 @@ public class Action_viewtransaction extends javax.swing.JFrame {
                         .addGap(0, 224, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jButton1)
+                        .addComponent(btnBackTrans)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton2)))
                 .addContainerGap())
@@ -76,7 +81,7 @@ public class Action_viewtransaction extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
+                    .addComponent(btnBackTrans)
                     .addComponent(jButton2))
                 .addGap(20, 20, 20))
         );
@@ -100,6 +105,11 @@ public class Action_viewtransaction extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnBackTransActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackTransActionPerformed
+        Action_transaction tr = new Action_transaction();
+        tr.setVisible(true);
+    }//GEN-LAST:event_btnBackTransActionPerformed
 
     /**
      * @param args the command line arguments
@@ -152,7 +162,7 @@ public class Action_viewtransaction extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnBackTrans;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;

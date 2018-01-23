@@ -5,6 +5,16 @@
  */
 package database;
 
+import class_pack.Order;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JOptionPane;
+
 
 
 /**
@@ -12,6 +22,27 @@ package database;
  * @author aga
  */
 public class koneksi {
+    
+    
+        
+    public Connection getConnection() {
+        Connection con = null;
+        
+        try {
+            con = DriverManager.getConnection("jdbc:mysql://localhost/db_skypion", "root", "1234");
+            Statement stmt = con.createStatement();
+            String query = "SELECT * FROM db_skypion";
+            ResultSet rs = stmt.executeQuery(query);
+            JOptionPane.showMessageDialog(null, "Connected");
+            return con;
+        } catch (SQLException ex) {
+            Logger.getLogger(Order.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showMessageDialog(null, "Not Connected");
+            return null;
+        }
+        
+    }    
+    
     
     public static void main(String[] args) {
         

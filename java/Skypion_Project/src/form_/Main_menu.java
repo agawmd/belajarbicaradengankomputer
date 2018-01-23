@@ -5,6 +5,9 @@
  */
 package form_;
 
+import java.sql.Connection;
+import database.koneksi;
+
 /**
  *
  * @author aga
@@ -16,6 +19,10 @@ public class Main_menu extends javax.swing.JFrame {
      */
     public Main_menu() {
         initComponents();
+        
+        koneksi p = new koneksi();
+        p.getConnection();
+        
     }
 
     /**
@@ -29,7 +36,7 @@ public class Main_menu extends javax.swing.JFrame {
 
         jSeparator2 = new javax.swing.JSeparator();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
+        jMyMenu = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
@@ -48,7 +55,7 @@ public class Main_menu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jMenu1.setText("File");
+        jMyMenu.setText("File");
 
         jMenuItem1.setText("Data User");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -56,22 +63,22 @@ public class Main_menu extends javax.swing.JFrame {
                 jMenuItem1ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        jMyMenu.add(jMenuItem1);
 
         jMenuItem3.setText("Data Facility");
-        jMenu1.add(jMenuItem3);
+        jMyMenu.add(jMenuItem3);
 
         jMenuItem2.setText("Data Vendor");
-        jMenu1.add(jMenuItem2);
+        jMyMenu.add(jMenuItem2);
 
         jMenuItem4.setText("Data Staff");
-        jMenu1.add(jMenuItem4);
-        jMenu1.add(jSeparator3);
+        jMyMenu.add(jMenuItem4);
+        jMyMenu.add(jSeparator3);
 
         jMenuItem8.setText("Exit ...");
-        jMenu1.add(jMenuItem8);
+        jMyMenu.add(jMenuItem8);
 
-        jMenuBar1.add(jMenu1);
+        jMenuBar1.add(jMyMenu);
 
         jMenu2.setText("Action");
 
@@ -122,7 +129,7 @@ public class Main_menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
@@ -130,31 +137,6 @@ public class Main_menu extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Main_menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Main_menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Main_menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Main_menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -164,7 +146,6 @@ public class Main_menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar1;
@@ -177,6 +158,7 @@ public class Main_menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JMenu jMyMenu;
     private javax.swing.JRadioButtonMenuItem jRadioButtonMenuItem1;
     private javax.swing.JRadioButtonMenuItem jRadioButtonMenuItem2;
     private javax.swing.JPopupMenu.Separator jSeparator1;
