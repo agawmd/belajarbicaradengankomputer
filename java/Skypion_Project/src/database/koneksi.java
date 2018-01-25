@@ -31,8 +31,6 @@ public class koneksi {
         try {
             con = DriverManager.getConnection("jdbc:mysql://localhost/db_skypion", "root", "1234");
             Statement stmt = con.createStatement();
-            String query = "SELECT * FROM db_skypion";
-            ResultSet rs = stmt.executeQuery(query);
             JOptionPane.showMessageDialog(null, "Connected");
             return con;
         } catch (SQLException ex) {

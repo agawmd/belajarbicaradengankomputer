@@ -22,7 +22,7 @@
             <td>{{ $buku->tahun }}</td>
             
             <td>
-                <a href="{{ route('buku.pinjam', $buku->id) }}">Pinjam</a>
+                <a href="{{ route('home.buku', $buku->id) }}">Pinjam</a>
             </td>
         </tr>
         @endforeach

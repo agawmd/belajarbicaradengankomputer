@@ -5,7 +5,7 @@
     <div class="row">
         <h5>Peminjaman Buku</h5>
 
-        <form method="post" action="{{ route('buku.pinjam') }}">
+        <form method="post" action="{{ route('home.buku') }}">
             {{ csrf_field() }}
             <div class="col-md-6">
                 <input class="form-control" name="nim" placeholder="Nomor Induk Mahasiswa"><br>
