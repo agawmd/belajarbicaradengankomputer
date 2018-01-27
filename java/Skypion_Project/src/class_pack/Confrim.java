@@ -5,15 +5,17 @@
  */
 package class_pack;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author aga
  */
-public class DataForm {
-    public String id;
-    public String nama;
-    public String alamat;
-    public String phone;
-    public String email;
+public class Confrim {
+    
+    public static void main (String[] args) {
+        int firm = JOptionPane.showConfirmDialog(null, "Do you want to Logout?");
+    }
+    
     
 }

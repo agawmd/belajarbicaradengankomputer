@@ -3,18 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package class_pack;
+package rmi_final;
+
+import java.rmi.RemoteException;
+
 /**
  *
  * @author aga
  */
-public class Skypion_Project {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-
-    }
-    
+interface MaxMinInterface {
+    public int Max(int a, int b, int c) throws RemoteException;
+    public int Min(int a, int b, int c) throws RemoteException;
 }
