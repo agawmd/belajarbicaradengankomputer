@@ -14,7 +14,7 @@ class TabelAplikasi extends Migration
     public function up()
     {
         Schema::create('aplikasi', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->index();
             $table->string('judul');
             $table->string('nim');
             $table->string('nama');

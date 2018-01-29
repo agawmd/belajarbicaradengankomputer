@@ -14,7 +14,7 @@ class TabelIlmiah extends Migration
     public function up()
     {
         Schema::create('ilmiah', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->index();
             $table->string('judul');
             $table->string('nim');
             $table->string('nama');

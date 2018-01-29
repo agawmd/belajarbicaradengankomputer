@@ -14,7 +14,7 @@ class TabelJurnal extends Migration
     public function up()
     {
         Schema::create('jurnal', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->index();
             $table->string('judul');
             $table->string('penulis');
             $table->string('penerbit');

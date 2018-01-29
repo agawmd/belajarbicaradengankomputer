@@ -14,15 +14,15 @@ class TabelBuku extends Migration
     public function up()
     {
         Schema::create('buku', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->index();
             $table->string('judul');
             $table->string('pengarang');
             $table->string('penerbit');
             $table->string('kota');
             $table->year('tahun');            
             $table->string('isbn');
-            $table->integer('jumlah');
-            $table->boolean('status');
+            $table->integer('jumlah')->default(1);
+            $table->boolean('status')->default(1);
             $table->timestamps();
             
         });    

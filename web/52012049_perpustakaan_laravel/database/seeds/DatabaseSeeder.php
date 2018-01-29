@@ -23,40 +23,40 @@ class DatabaseSeeder extends Seeder {
                 'isbn'      => "Lalalala"
             ]);
         
-        DB::table('aplikasi')
-            ->insert([
-                'judul'     => "Flying to The Moon",
-                'nim'       => "52012049",
-                'nama'      => "Barack Obama",
-                'jurusan'   => "Intelegency",
-                'tahun'     => 1793
-            ]);
-        
-        DB::table('ilmiah')
-            ->insert([
-                'judul'     => "Flying to The Moon",
-                'nim'       => "52012049",
-                'nama'      => "Barack Obama",
-                'bidang'   => "Intelegency",
-                'tahun'     => 1793
-            ]);
-
-        DB::table('jurnal')
-            ->insert([
-                'judul'     => "Flying to The Moon",
-                'penulis'       => "52012049",
-                'penerbit'   => "Intelegency",
-                'jurnal'    => "Blade",
-                'bidang'      => "Barack Obama",                
-                'volume'     => "179",
-                'edisi'     => "Season",
-                'nomor'     => 3,
-                'bulan'     => 10-09-2017,
-                'tahun'     => 1793,
-                'kota'     => "Luwuk",
-                'isbn'     => "179 902 781 33"
-            ]);
-        
+//        DB::table('aplikasi')
+//            ->insert([
+//                'judul'     => "Flying to The Moon",
+//                'nim'       => "52012049",
+//                'nama'      => "Barack Obama",
+//                'jurusan'   => "Intelegency",
+//                'tahun'     => 1793
+//            ]);
+//        
+//        DB::table('ilmiah')
+//            ->insert([
+//                'judul'     => "Flying to The Moon",
+//                'nim'       => "52012049",
+//                'nama'      => "Barack Obama",
+//                'bidang'   => "Intelegency",
+//                'tahun'     => 1793
+//            ]);
+//
+//        DB::table('jurnal')
+//            ->insert([
+//                'judul'     => "Flying to The Moon",
+//                'penulis'       => "52012049",
+//                'penerbit'   => "Intelegency",
+//                'jurnal'    => "Blade",
+//                'bidang'      => "Barack Obama",                
+//                'volume'     => "179",
+//                'edisi'     => "Season",
+//                'nomor'     => 3,
+//                'bulan'     => 10-09-2017,
+//                'tahun'     => 1793,
+//                'kota'     => "Luwuk",
+//                'isbn'     => "179 902 781 33"
+//            ]);
+//        
         
     }
 

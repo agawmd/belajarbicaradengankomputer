@@ -45,10 +45,10 @@ Route::middleware(['auth'])->group(function() {
         // proses edit buku
         Route::post('update',   'BukuController@update')->name('buku.update');
         
-        Route::get('pinjam/{idBuku}',         'PinjamController@pinjam'     )->name('buku.pinjam');
-        Route::get('pinjam/{idBuku}/simpan',  'PinjamController@savePinjam' )->name('buku.pinjam.simpan');
-        Route::get('kembali/{idBuku}',        'PinjamController@kembali'    )->name('buku.kembali');
-        Route::get('kembali/{idBuku}/simpan', 'PinjamController@saveKembali')->name('buku.kembali.simpan');
+        Route::get ('pinjam/{idBuku}',         'PinjamController@pinjam'     )->name('buku.pinjam');
+        Route::post('pinjam/{idBuku}/simpan',  'PinjamController@savePinjam' )->name('buku.pinjam.simpan');
+        Route::get ('kembali/{idBuku}',        'PinjamController@kembali'    )->name('buku.kembali');
+        Route::post('kembali/{idBuku}/simpan', 'PinjamController@saveKembali')->name('buku.kembali.simpan');
 
     });
 

@@ -19,7 +19,7 @@ class TabelPinjam extends Migration
             $table->string('nim');
             $table->date('tgl_pinjam');
             $table->integer('lama_pinjam');
-            $table->date('tgl_kembali');
+            $table->date('tgl_kembali')->nullalbe();
             $table->timestamps();
         });
 
