@@ -1,15 +1,6 @@
 package form_;
 
-import java.sql.Connection;
-import database.koneksi;
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
 import form_.Action_ordering;
-import java.awt.PopupMenu;
-import java.awt.event.ActionListener;
-import javax.swing.Action;
-import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 /**
  *
@@ -52,6 +43,7 @@ public class Main_menu extends javax.swing.JFrame {
         jRadioButtonMenuItem2 = new javax.swing.JRadioButtonMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("MAIN MENU - EVENT ORGANIZER SYSTEM");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -180,31 +172,39 @@ public class Main_menu extends javax.swing.JFrame {
     private void jMenuUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuUserActionPerformed
         Data_user u = new Data_user();
         u.show();
+        this.dispose();
     }//GEN-LAST:event_jMenuUserActionPerformed
 
     private void jMenuFacActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuFacActionPerformed
         Data_facility f = new Data_facility();
         f.show();
+        this.dispose();
     }//GEN-LAST:event_jMenuFacActionPerformed
 
     private void jMenuVenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuVenActionPerformed
         Data_vendor v = new Data_vendor();
         v.show();
+        this.dispose();
     }//GEN-LAST:event_jMenuVenActionPerformed
 
     private void jMenuStaffActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuStaffActionPerformed
         Data_staff s = new Data_staff();
         s.show();
+        this.dispose();
     }//GEN-LAST:event_jMenuStaffActionPerformed
 
         
     private void jMenuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuExitActionPerformed
-        
+        int confirm = JOptionPane.showConfirmDialog(null, "Exit Program ?", "EXIT", JOptionPane.YES_NO_OPTION);
+        if (confirm == JOptionPane.YES_OPTION) {
+            dispose();
+        }
     }//GEN-LAST:event_jMenuExitActionPerformed
 
     private void jMenuOrderingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuOrderingActionPerformed
         Action_ordering ar = new Action_ordering();
         ar.show();
+        this.dispose();
     }//GEN-LAST:event_jMenuOrderingActionPerformed
 
     private void jMenuScheActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuScheActionPerformed
