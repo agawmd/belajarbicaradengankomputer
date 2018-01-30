@@ -25,7 +25,7 @@ public class OperasiFile {
     
     double a, b ;
     
-    private static final String filename = "/home/aga/record.txt";
+    private static final String filename = "Z:/data.dat";
     
     private double getLuas(double p, double l) {
         this.a= p;
@@ -43,27 +43,44 @@ public class OperasiFile {
         
     }
 
-    public static void main(String[] args) {
     
-        BufferedReader br = null;
-        FileReader fr = null;
+    public String getData() {
+    
+        String result = "";
                
         
+        System.out.println("lala");
         try {
+            BufferedReader br = null;
+            FileReader fr = null;
             fr = new FileReader(filename);
             br = new BufferedReader(fr);
             
             String s;
             
             while ((s = br.readLine()) != null) {                
-                System.out.println(s);
+                System.out.println(s);    
+                
+                String[] n = s.split(" ");                
+                double p = Double.parseDouble(n[0]);
+                double l = Double.parseDouble(n[1]);
+                
+                double luas = getLuas(p, l);
+                double keli = getKeliling(p, l);
+
+                result = result 
+                        + "panjang  = "+ n[0] +"\n"
+                        + "lebar    = "+ n[1] +"\n"
+                        + "Keliling = "+ String.valueOf(keli) +"\n"
+                        + "Luas     = "+ String.valueOf(luas)
+                        + "\n------------------\n";
+                                
+                
             }
         } catch (IOException e) {
             e.getMessage();
-            // push
-            
         } 
         
+        return result;
     }
-    
 }
