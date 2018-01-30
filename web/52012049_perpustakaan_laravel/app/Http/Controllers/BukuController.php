@@ -31,11 +31,11 @@ class BukuController extends Controller {
         $buku->status    = true;   
         
         if($buku->save()) {
-            $status = 'Sukses';
+            $status = 'success';
             $pesan = "Buku dengan judul <strong>{$r->judul}</strong> berhasil disimpan.";
         }
         else {
-            $status = 'Gagal';
+            $status = 'danger';
             $pesan = 'Terjadi kesalahan saat menyimpan buku, coba lagi';
         }
         

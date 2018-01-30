@@ -27,15 +27,15 @@ class PinjamController extends Controller {
         $pinjam->lama_pinjam  = $r->lama_pinjam;
 
         if($pinjam->save()) {
-            $status = 'Sukses';
+            $status = 'success';
             $pesan = "Peminjaman buku dengan judul <strong>{$buku->judul}</strong> berhasil disimpan.";
         }
         else {
-            $status = 'Gagal';
+            $status = 'danger';
             $pesan = 'Terjadi kesalahan saat menyimpan peminjaman, coba lagi';
         }
         
-        return redirect()->route('buku.index')
+        return redirect()->route('home.buku')
                 ->with(compact('status','pesan'));
     }
 
