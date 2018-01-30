@@ -7,10 +7,9 @@ package source;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 /**
  *
@@ -43,26 +42,10 @@ public class OperasiFile {
         
     }
 
-    public static void main(String[] args) {
-    
-        BufferedReader br = null;
-        FileReader fr = null;
-               
+    public static void main(String[] args) throws IOException {
+        String ini = new String(Files.readAllBytes(Paths.get(filename)));
         
-        try {
-            fr = new FileReader(filename);
-            br = new BufferedReader(fr);
-            
-            String s;
-            
-            while ((s = br.readLine()) != null) {                
-                System.out.println(s);
-            }
-        } catch (IOException e) {
-            e.getMessage();
-            // push
-            
-        } 
+        Files.lines(new File)
         
     }
     
