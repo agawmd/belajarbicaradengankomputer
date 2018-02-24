@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 3, 2018, 12:38:02 PM
+    Author     : aga
+*/
+
+.row > div {
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    font-size: 14px !important;
+}
+
+.bg-book {
+    background: url(/assets/images/books.jpg);
+    background-size: cover;
+}
+
+.navbar-default {
+    background-color: #333;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    text-shadow: 0px 0px 8px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.footer {
+    background: black;
+    color: #eee;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.btn {    
+    border-radius: 15px 0px 15px 0px;
+}
+
+.btn:hover {
+    background-color: #000;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.tr-head {
+    background: black !important;
+    color: white !important;
+    font-size: 16px;
+}
+
+
+
+.icon-action {
+    background: #333;
+    padding: 5px;
+    border-radius: 4px;
+    color: gray;
+}
+
+.icon-action:hover {
+    color: white;
+}

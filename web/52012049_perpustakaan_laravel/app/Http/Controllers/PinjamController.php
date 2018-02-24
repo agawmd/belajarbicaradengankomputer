@@ -17,6 +17,8 @@ class PinjamController extends Controller {
         return view('admin.buku.pinjam')
                         ->with('buku', $buku);
     }
+    
+    
 
     public function savePinjam(Request $r, $idBuku) {
         $buku = Buku::findOrFail($idBuku);
@@ -30,7 +32,7 @@ class PinjamController extends Controller {
             $status = 'success';
             $pesan = "Peminjaman buku dengan judul <strong>{$buku->judul}</strong> berhasil disimpan.";
         }
-        else {
+        else {-
             $status = 'danger';
             $pesan = 'Terjadi kesalahan saat menyimpan peminjaman, coba lagi';
         }
@@ -39,11 +41,41 @@ class PinjamController extends Controller {
                 ->with(compact('status','pesan'));
     }
 
-    public function kembali(Request $r, $idBuku) {
+    public function kembali(Request $r) {
         
+        $pinjam = Pinjam::whereNull('tgl_kembali')->get();
+        return view('admin.buku.kembali')
+                ->with('daftarPeminjaman', $pinjam);
     }
 
-    public function saveKembali(Request $r, $idBuku) {
+
+    public function kembaliDetail(Request $r, $idPinjam) {
+        
+        $pinjam = Pinjam::findOrFail($idPinjam);
+       
+        return $pinjam
+                ? view('admin.buku.kembaliDetail')->with('detailPeminjaman', $pinjam)
+                : redirect()->route('buku.kembali');
+    }
+
+    
+    
+    
+    public function saveKembali(Request $r, $idPinjam) {
+        $balik = Pinjam::findOrFail($idPinjam);
+        $balik->tgl_kembali     = $r->tgl_kembali;
+        
+        if ($balik->save()) {
+            $status = 'success';
+            $pesan = "Pengembalian buku oleh <strong>{$balik->nim}</strong> dengan judul <strong>{$balik->detailBuku->judul}</strong> berhasil disimpan.";            
+        } else {
+            $status = 'danger';
+            $pesan = 'Terjadi kesalahan saat menyimpan pengembalian, coba lagi';            
+        }
+        
+    return redirect()->route('buku.kembali')
+                ->with(compact('status', 'pesan'));
+            
         
     }
 

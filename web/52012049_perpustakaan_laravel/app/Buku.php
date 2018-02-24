@@ -4,7 +4,12 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Buku extends Model
-{
-    protected $table    = "buku";
+class Buku extends Model {
+
+    protected $table = "buku";
+
+    public function pinjam() {
+        return $this->hasMany('App\Pinjam', 'id', 'id_buku');
+    }
+
 }

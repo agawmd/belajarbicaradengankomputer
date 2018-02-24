@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Auth;
 
 // Model
+use App\User;
 use App\Buku;
 use App\Ilmiah;
 use App\Jurnal;
@@ -74,6 +75,7 @@ class HomeController extends Controller {
         return view('buku.pinjam')
                 ->with(compact('pinjamBuku'));
     }
-
+    
+    
     
 }

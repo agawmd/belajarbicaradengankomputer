@@ -12,8 +12,7 @@
 
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="copyright">
-                        <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
-
+                        <p class="text-muted">&copy; 2016 WaodeMakaniDaga. All rights reserved.</p>
                     </div>
                 </div>
 

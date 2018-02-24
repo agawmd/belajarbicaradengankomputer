@@ -21,6 +21,9 @@
 
         <!--Theme custom css -->
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        
+        <!--My custom css -->
+        <link rel="stylesheet" href="{{ asset('css/myStyles.css') }}">
 
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />

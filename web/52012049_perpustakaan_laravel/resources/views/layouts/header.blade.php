@@ -44,23 +44,43 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="{{ Request::route()->getName() != 'layouts.template' ?: 'active'}}">
-                    <a href="{{ route('home.index') }}">Beranda</a>
+                <li class="{{ Request::route()->getName() != '' ?: 'active'}}">
+                    <a href="{{ route('home.index') }}"><i class="fa fa-home"></i> Beranda</a>
                 </li>
                 <li class="{{ Request::route()->getName() != 'home.buku' ?: 'active'}}">
-                    <a href="{{ route('home.buku') }}">KOLEKSI BUKU</a>
+                    <a href="{{ route('home.buku') }}"><i class="fa fa-book"></i> KOLEKSI BUKU</a>
                 </li>
                 <li class="{{ Request::route()->getName() != 'home.aplikasi' ?: 'active'}}">
-                    <a href="{{ route('home.aplikasi') }}">TUGAS APLIKASI</a>
+                    <a href="{{ route('home.aplikasi') }}"><i class="fa fa-desktop"></i> TUGAS APLIKASI</a>
                 </li>
                 <li class="{{ Request::route()->getName() != 'home.ilmiah' ?: 'active'}}">
-                    <a href="{{ route('home.ilmiah') }}">KARYA ILMIAH</a>
+                    <a href="{{ route('home.ilmiah') }}"><i class="fa fa-flask"></i> KARYA ILMIAH</a>
                 </li>
                 <li class="{{ Request::route()->getName() != 'home.jurnal' ?: 'active'}}">
-                    <a href="{{ route('home.jurnal') }}">JOURNAL & PROCIDING</a>
+                    <a href="{{ route('home.jurnal') }}"><i class="fa fa-list"></i> JOURNAL & PROCIDING</a>
                 </li>
-                <li class="{{ Request::route()->getName() != 'home.index' ?: 'active'}}">
-                    <a href="{{ route('home.admin') }}">Admin</a></li>
+                @guest
+                <li><a href="{{ route('login') }}"><i class="fa fa-book"></i> Masuk</a></li>
+                <!--<li><a href="{{ route('register') }}">Register</a></li>-->
+                @else
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
+                        <i class="fa fa-user"></i> {{ Auth::user()->name }} <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ route('logout') }}"
+                               onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <i class="fa fa-sign-out"></i> Keluar
+                            </a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                @endguest
 
             </ul>
 

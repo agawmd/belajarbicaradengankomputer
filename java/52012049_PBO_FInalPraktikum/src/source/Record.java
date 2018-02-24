@@ -39,6 +39,11 @@ public class Record extends javax.swing.JFrame {
         jScrollPane1.setViewportView(taTampil);
 
         btnTampil.setText("TAMPILKAN");
+        btnTampil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTampilActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -80,6 +85,11 @@ public class Record extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTampilActionPerformed
+        OperasiFile o = new OperasiFile();
+        taTampil.setText(o.getData());
+    }//GEN-LAST:event_btnTampilActionPerformed
 
     /**
      * @param args the command line arguments
