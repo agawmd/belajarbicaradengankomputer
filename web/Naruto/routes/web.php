@@ -22,7 +22,14 @@ Route::get ('/choose',    'AccController@play'    )->name('home.pic');
 Route::get ('/yes',       'AccController@yes'    )->name('home.agree');
 Route::get ('/no',        'AccController@no'     )->name('home.disagree');
 
+//----------------------------------------------------------------------------------------------------------
 
-Route::post('/save-regis',   'AccController@save'   )->name('home.save');
+//Personal Website Routes
+//route (Header)
+Route::get   ('/beranda',   'HomeController@index'      )->name('personal.beranda.home');
+Route::get   ('/tentang',   'AboutController@index'     )->name('personal.tentang.about-info');
+Route::get   ('/keahlian',  'SkillController@index'     )->name('personal.keahlian.skill-info');
+Route::get   ('/project',   'PortfolioController@index' )->name('personal.project.portfolio-info');
+Route::get   ('/kontak',    'ContactController@index'   )->name('personal.kontak.contact-info');
 
-
+//route ()
