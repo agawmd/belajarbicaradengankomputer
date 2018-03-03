@@ -25,7 +25,7 @@ public class OperasiFile {
     
     double a, b ;
     
-    private static final String filename = "Z:/data.dat";
+    private static final String filename = "data.dat";
     
     private double getLuas(double p, double l) {
         this.a= p;
