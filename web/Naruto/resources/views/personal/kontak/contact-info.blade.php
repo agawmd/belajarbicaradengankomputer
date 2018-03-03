@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-3 col-md-12">
             <div class="title">
                 <div class="title-h3">
                     HOME ADDRESS

@@ -2,13 +2,15 @@
 
 @section('content')
 
-<img src="/img/sayang42.jpeg"> 
+
 <div class="container">
-    <div class="heo-container">
-    
+    <div class="hero-container"></div>
+    <div class="hero-bg">
         <div class="hero-text">
-            <h1>I am Aga</h1>
+            <h1>Hi, i'm Waode Makani Daga</h1>
+            <p>Damn it</p>
         </div>
-    </div>
+
+    </div>    
 </div>   
 @endsection

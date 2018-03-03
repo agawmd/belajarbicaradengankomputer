@@ -16,7 +16,7 @@
         <!-- Javascript -->
         <script src="{{ asset('js/app.js') }}"></script>
     </head>
-    <body>        
+    <body style="background: url(/img/luwuk.jpeg); background-size: cover;">        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

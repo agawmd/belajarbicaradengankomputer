@@ -424,8 +424,9 @@ form {
 img {
     margin: 0px auto;
     display: block;
-    width: 80%;
-    
+    width: 30%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);    
     
 }
 
@@ -441,7 +442,7 @@ img {
 
 .title {
     padding: 15px;
-    color: blueviolet;
+    color: cadetblue;
     
 }
 
@@ -451,10 +452,9 @@ img {
 }
 
 .title-h4 {
-    font-size: 1em;
-    text-align: justify;
-    padding-left: 15px;
-    color: darkorchid;
+    font-size: 90%;
+    text-align: initial;
+    color: white;
 }
 
 .img-slider {
@@ -469,7 +469,7 @@ img {
 
 .icon {
     border: 0;
-    display: flex;
+    display: inline-block;
 }
 
 .img-icon {
@@ -583,17 +583,30 @@ pic {
     text-align: center;
     color: black;
     bottom: 15px;
-    
-
+    max-width: 10%;
+    max-height: 10%;
+    background-size: cover;
 }
 
-.hero-text {
-    text-align: center;
-    color: blueviolet;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, -50%);
+div.hero-bg {
+    border: 1px solid #000;
+}
+
+
+
+div.hero-text {
+    margin: 25px;
+    background-color: transparent;
+    border: 0px solid #000;
+    opacity: 0.6;
+    
+}
+
+div.hero-text p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+    
 }
 
 /*Top Nav*/
