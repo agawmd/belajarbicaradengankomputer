@@ -578,17 +578,22 @@ pic {
 }
 
 /*Home Image*/
-.hero-image {
-    background-image: url("/img/no.jpg");
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: black;
+    bottom: 15px;
     
 
 }
 
 .hero-text {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
 }
 
 /*Top Nav*/
