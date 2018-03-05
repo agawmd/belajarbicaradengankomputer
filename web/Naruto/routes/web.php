@@ -32,4 +32,12 @@ Route::get   ('/keahlian',  'SkillController@index'     )->name('personal.keahli
 Route::get   ('/project',   'PortfolioController@index' )->name('personal.project.portfolio-info');
 Route::get   ('/kontak',    'ContactController@index'   )->name('personal.kontak.contact-info');
 
-//route ()
+
+//----------------------------------------------------------------------------------------------------------
+
+//Konoha Website
+Route::get   ('/first',  'PertamaController@index'      )->name('konoha.uzumaki.home');
+Route::get   ('/second', 'PertamaController@kampung'    )->name('konoha.uzumaki.village');
+Route::get   ('/third',  'PertamaController@organisasi' )->name('konoha.uzumaki.team');
+Route::get   ('/fourth', 'PertamaController@marga'      )->name('konoha.uzumaki.clan');
+Route::get   ('/fifth',  'PertamaController@jurus'      )->name('konoha.uzumaki.jutsu');

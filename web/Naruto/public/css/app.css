@@ -611,3 +611,11 @@ img {
     display: none;
     background-color: #f1f1f1;
 }
+
+/* Timer CountDown*/
+
+.time {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}

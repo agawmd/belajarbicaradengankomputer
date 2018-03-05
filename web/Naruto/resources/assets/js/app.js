@@ -104,3 +104,9 @@ var i;
                         }
                     });
                 }
+                
+/*JS Timer Count Down*/
+// Set the date we're counting down to
+var countDownDate = new Date("March 3, 2018 13:31:21").getTime();
+
+// Update
