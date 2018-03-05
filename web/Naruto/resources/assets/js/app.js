@@ -88,18 +88,19 @@ function loopit(dir){
                     });
                 }
                 
-/*JS Tabs*/
+/*JS Collapse*/
 
-        function openHome(evt, Home) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+                for (i=0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toogle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
                 }
-            tablinks = document.getElementsByClassName("tablinks");
-                for ( i = 0; i < tablinks.legth; i++) {
-                    tablink[i].className = tablinks[i].className.replace("active","");
-                }
-            document.getElementById(Home).style.display = "block";
-            evt.currentTarget.className += "active";
-        }

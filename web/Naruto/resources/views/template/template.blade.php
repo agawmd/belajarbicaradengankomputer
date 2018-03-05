@@ -14,9 +14,10 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
         
         <!-- Javascript -->
+        <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ asset('js/app.js') }}"></script>
     </head>
-    <body style="background: url(/img/luwuk.jpeg); background-size: cover;">        
+    <body style="background-image: url('/img/heaven.jpg'); background-size: cover; background-repeat: no-repeat;">        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -25,10 +26,13 @@
                     <a href="{{ route('personal.keahlian.skill-info')   }}">Skills</a>&nbsp;
                     <a href="{{ route('personal.project.portfolio-info')}}">Portfolio</a>&nbsp;
                     <a href="{{ route('personal.kontak.contact-info')   }}">Contact</a>&nbsp;
-                </div>
+                </div>              
             </div>
-        </div>        
+        </div>  
         
         @yield('content')
+        
+        <!--script for current page-->
+        @yield('script')
     </body>
 </html>
