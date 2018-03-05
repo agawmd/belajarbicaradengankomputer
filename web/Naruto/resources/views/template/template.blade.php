@@ -1,38 +1,28 @@
- <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<!doctype html>
+<html lang="en">
     <head>
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Naruto | @yield('title')</title>
 
-        <title>Personal Website</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
-        
-        <!-- Javascript -->
-        <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-        <script src="{{ asset('js/app.js') }}"></script>
+        @yield('style')
     </head>
-    <body style="background-image: url('/img/heaven.jpg'); background-size: cover; background-repeat: no-repeat;">        
+    <body>
+        <!--header-->
+        @include('template.header')
+        <!--end of Header-->
+
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <a href="{{ route('personal.beranda.home')          }}" class="active">Home</a>&nbsp;
-                    <a href="{{ route('personal.tentang.about-info')    }}">About</a>&nbsp;
-                    <a href="{{ route('personal.keahlian.skill-info')   }}">Skills</a>&nbsp;
-                    <a href="{{ route('personal.project.portfolio-info')}}">Portfolio</a>&nbsp;
-                    <a href="{{ route('personal.kontak.contact-info')   }}">Contact</a>&nbsp;
-                </div>              
-            </div>
-        </div>  
-        
-        @yield('content')
-        
-        <!--script for current page-->
+            @yield('content')
+        </div>
+
+        <script src="{{ asset('/js/jquery-3.2.1.slim.min.js') }}"></script>
+        <script src="{{ asset('/js/popper.min.js') }}"></script>
+        <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
         @yield('script')
     </body>
 </html>
