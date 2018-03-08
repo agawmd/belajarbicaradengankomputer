@@ -4,9 +4,35 @@
 */
 
 .photo {
-    width: 428px;
-    height: 413px;
-    
+    width: 290px;
+    height: 350px;
+    padding-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+
+}
+
+.box {
+    background-color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    color: aquamarine;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.text-box {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text-tx {
+    margin-right: 10px;
+}
+
+.tx {
+    margin-left: 5px;
 }
 
 .posisi {
