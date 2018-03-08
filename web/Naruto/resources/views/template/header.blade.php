@@ -13,14 +13,14 @@
                 <a class="nav-link" href="{{ route('home.profile') }}">Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link disabled" href="{{ route('home.resume') }}">Resume</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="{{ route('home.skill') }}">Skill</a>
+                    <a class="dropdown-item" href="{{ route('home.portfolio') }}">Portfolio</a>
+                    <a class="dropdown-item" href="{{ route('home.contact') }}">Contact</a>
                 </div>
             </li>
         </ul>

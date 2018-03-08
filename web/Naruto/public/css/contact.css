@@ -1,0 +1,31 @@
+/* 
+    Created on : Mar 8, 2018, 8:43:21 AM
+    Author     : aga
+*/
+
+body {
+    background-color: black;
+    
+}
+
+.pal {
+    color: gray;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.con {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;    
+}
+
+.pocon {
+    
+    padding-top: 40px;
+}
+.quote {
+    padding-top: 40px;
+}

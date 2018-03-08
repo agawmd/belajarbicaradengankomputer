@@ -1,16 +1,42 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Mar 6, 2018, 1:01:41 AM
     Author     : aga
 */
 
-body {
-    background-image   : url(../img/luwuk.jpeg) !important;
-    background-size    : cover;
-    background-position: bottom center;
-    background-repeat  : no-repeat;
+.photo {
+    width: 428px;
+    height: 413px;
+    
+}
+
+.posisi {
+    alignment-adjust: central;
+    font-family: monospace;
+}
+
+
+.text-lg {
+    color: blue;
+    background-color: pink;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.text-sm {
+    font-size: 17px;
+    background-color: #ccd0d2;
+    
+}
+
+.tabel {
+    color: red;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.tengah {
+    text-align: center;
 }

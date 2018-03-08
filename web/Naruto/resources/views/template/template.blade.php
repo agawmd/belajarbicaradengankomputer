@@ -8,7 +8,6 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-
         @yield('style')
     </head>
     <body>
@@ -19,10 +18,12 @@
         <div class="container">
             @yield('content')
         </div>
-
+       
+        
         <script src="{{ asset('/js/jquery-3.2.1.slim.min.js') }}"></script>
         <script src="{{ asset('/js/popper.min.js') }}"></script>
         <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
         @yield('script')
+        
     </body>
 </html>
