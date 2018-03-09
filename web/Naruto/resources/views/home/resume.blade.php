@@ -7,6 +7,133 @@
 @section('content')
 <div class="row">
     
+    <div class="col-md-4">
+        <div class="box-one">
+            <div>
+                <div class="font-big"><b>Waode</b></div>
+                <div class="font-middle"><b>Makani Daga</b></div>
+                <div class="font-major">Software Engineering</div>
+
+                <div class="box-one-in">Personal Info</div>
+                <div class="text-field">Phone</div>
+                <div class="text-field">+62813 4168 6169</div>
+                <div class="text-field">E-mail</div>
+                <div class="text-field"><a href="https://www.google.com/gmail/" target="_blank">dagawaodemakani@gmail.com</a></div>
+                <div class="text-field">WWW</div>
+                <div class="text-field"><a href="http://basriyasin.com/" target="_blank">basriyasin.com</a></div>
+                <div class="text-field">LinkedIn</div>
+                <div class="text-field"><a href="http://linkedin.com/" target="_blank">www.linkedin.com/in/waodemakanidaga/</a></div>
+
+                <div class="box-one-in">Hard Skills</div>                
+                <div class="text-field">Database Knowlegde</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Basic</div>
+                <div class="text-field">Coding</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 12%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Basic</div>
+                
+                <div class="box-one-in">Languages</div>
+                <div class="text-field">HTML</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Advance</div>
+
+                <div class="text-field">CSS</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Basic</div>
+                
+                <div class="text-field">PHP</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 22%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Basic</div>
+
+                <div class="text-field">Java</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 17%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Basic</div>
+
+                <div class="box-one-in">Soft Skills</div>                
+                <div class="text-field">Leadership</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Advance</div>
+                <div class="text-field">Collaboration</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 54%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Advance</div>
+                <div class="text-field">Critical Thinking</div>
+                <div class="progress-edit">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar" role="progressbar" style="width: 32%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="text-edit">Basic</div>
+                <div class="box-one-out"></div>
+
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="col-md-8">
+        <div class="box-two">
+            <div class="box-text">
+                <div class="text-page">
+                    Experienced UI designers when joining become hipster in one of the startup industry. Skilled in User
+                    Experience, User Interface Design, Database Administrator and Data Analysis. Interested in Object Oriented Programming
+                    (OOP) and Web Developer as a Software Engineer graduate from Stmik Kharisma Makassar.                    
+                </div>
+                <hr>
+                <div class="text-title">Experience</div>
+                <hr>
+                <div class="text-year">
+                    2014 - Present
+                    <div class="text-dep">AB Musicia</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">saya</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="col-md-12">
         <div class="title">
             Waode Makani Daga

@@ -4,8 +4,109 @@
 */
 
 body {
-    background-color: lightpink;
+    background-color: white;
 }
+
+.box-one {
+    background-color: navy;
+    margin-top: 20px;
+
+}
+
+.box-one-in {
+    margin-top: 19px;
+    background-color: #003366;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.font-big {
+    font-size: 40px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.font-middle {
+    font-size: 40px;
+    color: white;
+    padding-left: 15px;    
+}
+
+.font-major {
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+}
+
+.text-field {
+    padding-left: 15px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 16px;
+
+}
+
+.progress-edit {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.text-edit {
+    text-align: right;
+    font-size: 14px;
+    padding-right: 15px;
+    color: white;
+
+    
+}
+
+
+.box-one-out {
+    padding: 30px;
+}
+
+
+.box-two {
+    margin-top: 20px;
+    background-color: pink;
+    padding: 15px;
+}
+
+.box-text {
+    color: black;
+    padding-top: 25px;
+}
+
+.text-page {
+
+    font-size: 15px;
+}
+
+.text-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-year {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.text-dep {
+    font-weight: bold;
+}
+
+
+
+
+
+
 
 .box {
     margin: 40px;
