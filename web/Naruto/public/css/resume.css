@@ -3,20 +3,31 @@
     Author     : aga
 */
 
-
-
-
-.sp {
-    background-color: white;
+body {
+    background-color: lightpink;
 }
 
-.act{
-    padding-left: 20px;
+.box {
+    margin: 40px;
 }
 
+.title {
+    font-size: 50px;
+    padding-top: 20px;
+}
 
-.shade {
+.second-title {
+    font-size: 30px;
+    color: grey;
+}
+
+.third {
+    font-size: 19px;
+}
+
+.fourth {
     color: grey;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 }
+

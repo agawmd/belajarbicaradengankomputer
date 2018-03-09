@@ -8,14 +8,16 @@
 <div class="row">
 
     <div class="col-md-3">
-        <div class="pal">
+        <div class="third">
             Want to Talk
         </div>
-        <div class="con">
-            <u>+6281 3416 86169</u><br>
+        <div class="fourth">
+            <u>+62813 4168 6169</u> via Mobile Phone<br>
+            <u>+62878 4102 7159</u> via Mobile Legend<br>
+            <u>@aga_wmd</u> via Skype<br>
             <u>dagawaodemakani@gmail.com</u>
         </div>
-        <div class="pal">
+        <div class="third">
             Contact with Me
         </div>
         <div class="icon-bar">
@@ -26,9 +28,9 @@
     </div>
     
     <div class="col-md-4">
-        <div class="pocon">
+        <div class="bingkai">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="{{ asset('/img/sayang45.jpeg') }}" alt="{{ asset('/img/sayang45.jpeg') }}">
+              <img class="card-img-top" src="{{ asset('/img/sama3.jpeg') }}" alt="{{ asset('/img/sayang45.jpeg') }}">
               <div class="card-body">
                 <p class="card-text">
                     Mr and Mrs Basri Yasin

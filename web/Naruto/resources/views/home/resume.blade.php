@@ -7,83 +7,128 @@
 @section('content')
 <div class="row">
     
-    <div class="col-md-6">
-        <h2 style="padding-top: 50px;">Waode Makani Daga</h2>            
-        <h5 style="font-size: 20px;">UI Designer and Researcher</h5>
-        <h5 style="font-size: 20px; color: grey;">dagawaodemakani@gmail.com</h5>
+    <div class="col-md-12">
+        <div class="title">
+            Waode Makani Daga
+        </div>
+            
+        <div class="third">
+            UI Designer and Researcher
+            <div style="color: grey;">dagawaodemakani@gmail.com</div>
+            <div style="color: grey;">+62813 4168 6169</div>
+        </div>
+        
         <hr>
-        <h5 style="font-size: 26px; color: grey;">Summary</h5>
-        Experienced UI designers when joining become hipster in one of the startup industry. Skilled in User
-Experience, User Interface Design, Database Administrator and Data Analysis. Interested in Java Programming
-(OOP) and Web Developer as a Software Engineer graduate from Stmik Kharisma Makassar.
-
+        
+        <div class="second-title">
+            Summary
+        </div>
+        <div>
+            Experienced UI designers when joining become hipster in one of the startup industry. Skilled in User
+            Experience, User Interface Design, Database Administrator and Data Analysis. Interested in Java Programming
+            (OOP) and Web Developer as a Software Engineer graduate from Stmik Kharisma Makassar.
+        </div>
+        
         <hr>
-        <h5 style="font-size: 26px; color: grey;">Experience</h5>
-        <h5><b>Java Developer</b></h5>
-        <h5>October 2017 - Present</h5>
-        <div class="shade">
+        
+        <div class="second-title">
+            Experience
+        </div>
+        
+        <div class="third">
+            <b>Java Developer</b>
+            <div>October 2017 - Present</div>
+        </div>
+        <div class="fourth">
             Back End Developer
         </div>
-        <h5><b>Coordinator</b></h5>
-        <h5>October 2014 - Present</h5>
-        <div class="shade">
+
+        <div class="third">
+            <b>Coordinator</b>
+            <div>October 2014 - Present</div>
+        </div>
+        <div class="fourth">
             as Partner Development
         </div>
-        <h5><b>Database Administrator</b></h5>
-        <h5>July 2016 - September 2017</h5>
-        <div class="shade">
+
+        <div class="third">
+            <b>Database Administrator</b>
+            <div>July 2016 - September 2017</div>
+        </div>
+        <div class="fourth">
             Architecture System Director
         </div>
-        <h5><b>UI Developer</b></h5>
-        <h5>November 2015 - April 2016</h5>
-        <div class="shade">
+        
+        <div class="third">
+            <b>UI Developer</b>
+            <div>November 2015 - April 2016</div>
+        </div>
+        <div class="fourth">
             User Interface Director
         </div>
+
         <hr>
-        <h5 style="font-size: 26px; color: grey;">Education</h5>
-        <h5><b>TK KEMALA BHAYANGKARA</b></h5>
-        <h5>1999 - 2000</h5>
-        <div class="shade">
+
+        <div class="second-title">
+            Education
+        </div>
+        <div class="third">
+            TK KEMALA BHAYANGKARA
+            <div>1999 - 2000</div>
+        </div>
+        <div class="fourth">
             Playgroup
         </div>
 
-        <h5><b>SD INPRESS MACCINI BARU</b></h5>
-        <h5>2000 - 2006</h5>
-        <div class="shade">
+        <div class="third">
+            SD INPRESS MACCINI BARU
+            <div>2000 - 2006</div>
+        </div>
+        <div class="fourth">
             Primary School
         </div>
-
-        <h5><b>SMP SATRIA MAKASSAR</b></h5>
-        <h5>2006 - 2009</h5>
-        <div class="shade">
+        
+        <div class="third">
+            SMP SATRIA MAKASSAR
+            <div>2006 - 2009</div>
+        </div>
+        <div class="fourth">
             Junior High School
         </div>
-
-        <h5><b>SMA SATRIA MAKASSAR</b></h5>
-        <h5>2009 - 2012</h5>
-        <div class="shade">
+        
+        <div class="third">
+            SMA SATRIA MAKASSAR
+            <div>2009 - 2012</div>
+        </div>
+        <div class="fourth">
             High School
         </div>
-
-        <h5><b>STMIK KHARISMA MAKASSAR</b></h5>
-        <h5>2012 - Present</h5>
-        <div class="shade">
+        
+        <div class="third">
+            STMIK KHARISMA MAKASSAR
+            <div>2012 - Present</div>
+        </div>
+        <div class="fourth">
             Bachelor Degree of Computer Science
         </div>
-
-        <h5 style="font-size: 26px; color: grey;">Activities & Societies</h5>
-        <div class="act">
+        
+        <hr>
+        
+        <div class="second-title">
+            Activities & Societies
+        </div>
+        <div class="third" style="padding-left: 20px;">
             <p>
                 "TRI LOMBA ANAK-ANAK TERCINTA" LEMBAGA BINA PRESTASI ANAK INDONESIA 1999            
             </p>
             <p>
-                JAMBORE CABANG MAKASSAR 2013
+                JAMBORE CABANG MAKASSAR 2003
             </p>
             <p>
                 GELADIAN PEMIMPIN REGU (DIANPINRU) PENGGALANG KWARTIR RANTING TAMALATE 2005
             </p>
             <p>
-                "LOMBA MENYANYI TINGKAT SD Se-Kota Makassar" IWA PERBANAS MAKASSAR 2006
+                "Lomba Menyanyi Tingkat SD Se-Kota Makassar" IWA PERBANAS MAKASSAR 2006
             </p>
             <p>
                 PESANTREN KILAT SD INPRESS MACCINI BARU 2006
@@ -101,10 +146,10 @@ Experience, User Interface Design, Database Administrator and Data Analysis. Int
                 KLUB JANTUNG SEHAT REMAJA SULAWESI SELATAN 2010
             </p>
             <p>
-                "WISATA KHARISMA" STMIK KHARISMA MAKASSAR 2012
+                "Wisata Kharisma" STMIK KHARISMA MAKASSAR 2012
             </p>
             <p>
-                AL KHAWARIZMY STMIK KHARISMA MAKASSAR 2012
+                Al Khawarizmy STMIK KHARISMA MAKASSAR 2012
             </p>
             <p>
                 TOKOPEDIA GOES TO CAMPUS "The Rise of The Internet Generation Seminar" 2015
@@ -117,10 +162,8 @@ Experience, User Interface Design, Database Administrator and Data Analysis. Int
             </p>
             <p>
                 "Talkshow & Workshop Kewirausahaan" HIMPUNAN MAHASISWA MULTIMEDIA POLITEKNIK NEGERI MEDIA KREATIF PSDD MAKASSAR 2017
-            </p>
-
+            </p>           
         </div>
-    </div>
-    
+    </div>   
 </div>
 @endsection

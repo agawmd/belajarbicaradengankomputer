@@ -1,0 +1,23 @@
+/* 
+    Created on : Mar 8, 2018, 7:54:39 PM
+    Author     : aga
+*/
+
+body {
+    background-color: lightgrey;
+}
+
+.box {
+    margin: 30px;
+}
+
+.title {
+    font-size: 50px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-title {
+    margin-top: -4px;   
+}
