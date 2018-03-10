@@ -168,7 +168,6 @@
                     <div class="col-md-2">2012 - Present</div>                    
                     <div class="col-6 col-md-9">
                         <div class="text-dep">STMIK KHARISMA MAKASSAR, Software Engineering</div>
-                        <div class="text-inc">AB Musicia, Inc.</div>
                         <div class="texting">
                             <ul style="padding-left: 14px;">
                                 <li>

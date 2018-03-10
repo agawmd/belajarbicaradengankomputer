@@ -5,12 +5,13 @@
 
 body {
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .box-one {
     background-color: navy;
     margin-top: 20px;
-
+    height: 100%;
 }
 
 .box-one-in {
@@ -76,6 +77,7 @@ body {
     margin-top: 20px;
     background-color: pink;
     padding: 15px;
+    height: 100%;
 }
 
 .box-text {
@@ -136,7 +138,7 @@ body {
 
 
 
-
+/*--------------------------------------------*/
 
 
 
