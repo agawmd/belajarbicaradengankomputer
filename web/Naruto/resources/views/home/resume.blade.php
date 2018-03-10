@@ -190,10 +190,15 @@
                 <div class="text-title">Course</div>
                 <hr>
                 <div class="row">
+                    <div class="col-md-2"><div class="year">2007-6 - 2013-5</div></div>                    
+                    <div class="col-6 col-md-9">
+                        <div class="text-dep">INSTITUT KARATE-DO NASIONAL</div>
+                    </div>
                     <div class="col-md-2">2007-6 - 2013-5</div>                    
                     <div class="col-6 col-md-9">
                         <div class="text-dep">INSTITUT KARATE-DO NASIONAL</div>
                     </div>
+
                 </div>               
                 <hr>
                 <div class="text-title">Additional Activities</div>
@@ -213,6 +218,12 @@
                                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                 </li>
                             </ul>
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>               
