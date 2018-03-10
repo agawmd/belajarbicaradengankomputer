@@ -95,11 +95,8 @@
                     </div>
                 </div>
                 <div class="text-edit">Basic</div>
-                <div class="box-one-out"></div>
-
-                
+                <div class="box-one-out"></div>                
             </div>
-            
         </div>
     </div>
     
@@ -111,18 +108,125 @@
                     Experience, User Interface Design, Database Administrator and Data Analysis. Interested in Object Oriented Programming
                     (OOP) and Web Developer as a Software Engineer graduate from Stmik Kharisma Makassar.                    
                 </div>
+                
+                
                 <hr>
                 <div class="text-title">Experience</div>
                 <hr>
-                <div class="text-year">
-                    2014 - Present
-                    <div class="text-dep">AB Musicia</div>
+                <div class="row">
+                    <div class="col-md-2">2014 - Present</div>                    
+                    <div class="col-6 col-md-9">
+                        <div class="text-dep">Coordinator</div>
+                        <div class="text-inc">AB Musicia, Inc.</div>
+                        <div class="texting">
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.                                   
+                                </li>
+                            </ul>
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-2">2014 - Present</div>                    
+                    <div class="col-6 col-md-10">
+                        <div class="text-dep">Coordinator</div>
+                        <div class="text-inc">AB Musicia, Inc.</div>
+                        <div class="texting">
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.                                   
+                                </li>
+                            </ul>
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <hr>
+                <div class="text-title">Education</div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2">2012 - Present</div>                    
+                    <div class="col-6 col-md-9">
+                        <div class="text-dep">STMIK KHARISMA MAKASSAR, Software Engineering</div>
+                        <div class="text-inc">AB Musicia, Inc.</div>
+                        <div class="texting">
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.                                   
+                                </li>
+                            </ul>
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>               
+                <hr>
+                <div class="text-title">Course</div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2">2007-6 - 2013-5</div>                    
+                    <div class="col-6 col-md-9">
+                        <div class="text-dep">INSTITUT KARATE-DO NASIONAL</div>
+                    </div>
+                </div>               
+                <hr>
+                <div class="text-title">Additional Activities</div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2"></div>                    
+                    <div class="col-6 col-md-9">
+                        <div class="text-dep"></div>
+                        <div class="texting">
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </li>
+                            </ul>
+                            <ul style="padding-left: 14px;">
+                                <li>
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>               
                 
             </div>
         </div>
     </div>
-    <div class="col-md-4">saya</div>
+    
+    
+    
+    
+    
+
     
     
     

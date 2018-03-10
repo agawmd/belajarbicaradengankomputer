@@ -80,11 +80,11 @@ body {
 
 .box-text {
     color: black;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .text-page {
-
+    padding-top: 0px;
     font-size: 15px;
 }
 
@@ -100,7 +100,40 @@ body {
 
 .text-dep {
     font-weight: bold;
+    margin-left: 40px;
 }
+
+.text-inc {
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.texting {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+.li::before {
+  content: "• ";
+  color: red; /* or whatever color you prefer */
+}
+
+
+
+
+
+
 
 
 
