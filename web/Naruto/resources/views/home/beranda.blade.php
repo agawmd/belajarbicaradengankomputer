@@ -48,7 +48,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="info-part">
-                        disini
+                        <div class="label-link"><a href="#">INFO PROGRAM STUDI</a></div>
+                        <div class="tabel-text-link">
+                            <div class="text-link">
+                                <a href="#">Rekayasa Perangkat Lunak</a>
+                            </div>
+                            <div class="text-link">
+                                <a href="#">Sistem Informasi Manajemen</a>                            
+                            </div>                            
+                        </div>
                     </div>
                 </div>
             </div>

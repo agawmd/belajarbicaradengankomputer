@@ -10,8 +10,7 @@ body {
 
 
 .thumbnail {
-    max-width: 750px;
-    height: 85px;
+    width: 100%;
 }
 
 .logo {
@@ -21,7 +20,7 @@ body {
 .home-page {
     background-color: white;
     margin: 20px;
-    padding: 10px;
+    padding: 25px;
 }
 
 .slider {
@@ -29,5 +28,28 @@ body {
 }
 
 .info-part {
-    background-color: #133d55;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.label-link a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b1b7ba;
+}
+
+.tabel-text-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.text-link {
+    text-decoration: none;
+    
 }
