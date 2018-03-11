@@ -5,6 +5,7 @@
 
 body {
     background-image: url('/img/project/background.png');
+
 }
 
 
@@ -23,11 +24,9 @@ body {
 }
 
 .slider {
-    
+
 }
 
-.info-part {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
+.info-part, .story-part{
+    margin: 20px;
 }

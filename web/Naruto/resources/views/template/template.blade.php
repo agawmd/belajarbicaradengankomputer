@@ -14,9 +14,12 @@
         <!--header-->
         @include('template.header')
         <!--end of Header-->
+        
+        @include('template.slider')
 
         <div class="container">
             @yield('content')
+
         </div>
        
         
