@@ -3,6 +3,31 @@
     Author     : aga
 */
 
+body {
+    background-image: url('/img/project/background.png');
+    
+}
+
+
 .thumbnail {
-    width: 100px;
+    max-width: 750px;
+    height: 85px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.home-page {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.slider {
+    
+}
+
+.info-part {
+    background-color: #133d55;
 }
