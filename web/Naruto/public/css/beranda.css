@@ -5,7 +5,7 @@
 
 body {
     background-image: url('/img/project/background.png');
-
+    
 }
 
 
@@ -20,13 +20,21 @@ body {
 .home-page {
     background-color: white;
     margin: 20px;
-    padding: 15px;
-}
-
-.slider {
-
+    padding: 5px;
 }
 
 .info-part, .story-part{
     margin: 20px;
+}
+
+
+.label {
+    color: white;
+}
+
+
+.text-run {
+
+    padding: 15px;
+    color: blue;
 }

@@ -31,5 +31,5 @@ class HomeController extends Controller
     public function resume() {
         return view('home.resume');
     }    
-    
+
 }

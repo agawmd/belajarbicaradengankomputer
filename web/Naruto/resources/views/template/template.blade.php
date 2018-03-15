@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Naruto | @yield('title')</title>
+        <title>DNS Online STMIK Kharisma Makassar @yield('title')</title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -14,8 +14,6 @@
         <!--header-->
         @include('template.header')
         <!--end of Header-->
-        
-        @include('template.slider')
 
         <div class="container">
             @yield('content')
