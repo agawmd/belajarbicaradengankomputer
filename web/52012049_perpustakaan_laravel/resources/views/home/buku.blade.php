@@ -30,6 +30,7 @@
                         <th>Judul</th>
                         <th>Pengarang</th>
                         <th>Penerbit</th>
+                        <th>Jumlah Buku</th>
                         <th>Tahun</th>
                         @auth
                         <th>Aksi</th>
@@ -42,6 +43,7 @@
                             <td>{{ $buku->judul }}</td>
                             <td>{{ $buku->pengarang }}</td>
                             <td>{{ $buku->penerbit }}</td>
+                            <td>{{ $buku->jumlah }}</td>
                             <td>{{ $buku->tahun }}</td>
                             @auth
                             <td>

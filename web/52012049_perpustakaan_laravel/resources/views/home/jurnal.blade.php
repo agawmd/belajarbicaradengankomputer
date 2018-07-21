@@ -3,9 +3,11 @@
 @section('content')
 <div class="container">
     <div class="row">
+        @auth
         <div class="col-md-12 text-center" >
             <a class="btn btn-success" href="{{ route('jurnal.add') }}">Tambah Journal/Prociding</a>
         </div>
+        @endauth
 
         <table align="center">
             <thead>

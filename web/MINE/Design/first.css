@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2018, 12:45:32 AM
+    Author     : aga
+*/
+
+.bg {
+    background-color: whitesmoke;
+}
+
+.title-1 {
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: darkgreen;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.font-1{
+    font-family: monospace;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+}
+
+.font-2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 10pt;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box{
+    margin-left: 5%;
+    margin-right: 70%;
+    background-color: darkslategrey;
+}
+
+.tulisan{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}

@@ -4,37 +4,45 @@
 */
 
 body {
-    background-image: url('/img/project/background.png');
+    background-color: #50223C;
     
 }
 
+.foto {
+    margin: 20px;
+}
+
+.text-left {
+    font-family: fantasy;
+    font-size: xx-large;
+    color: #ffe484;
+}
 
 .thumbnail {
-    width: 100%;
-}
-
-.logo {
-    margin: 20px;
-}
-
-.home-page {
-    background-color: white;
-    margin: 20px;
-    padding: 5px;
-}
-
-.info-part, .story-part{
-    margin: 20px;
+    width: 50%;
+    float: right;
 }
 
 
-.label {
-    color: white;
+img {
+    opacity: 0.5;
 }
 
-
-.text-run {
-
-    padding: 15px;
-    color: blue;
+img:hover {
+    opacity: 1.0;
 }
+
+.tombol:hover {
+    color: yellow;
+}
+
+.tombol {
+    color: #50223C;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+.judul {
+    margin: 18%;
+}
+

@@ -3,8 +3,11 @@
     Author     : aga
 */
 
-.text-me {
-    background-color: green;
-    color: #c9e2b3;
-    font-size: 20px;
+display-1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
 }

@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')       
-
+@auth
 <div class="container">
     <div class="row margin-top-40">
         @if(session()->has('status'))
@@ -53,4 +53,5 @@
         </div>
     </div>
 </div>
+@endauth
 @endsection

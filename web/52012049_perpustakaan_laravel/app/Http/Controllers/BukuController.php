@@ -79,7 +79,7 @@ class BukuController extends Controller {
         $result = Buku::findOrFail($idBuku);
         
         if($result->delete()) {
-            Pinjam::where('id_buku', $idBuku)->delete();
+            Buku::where('id_buku', $idBuku)->delete();
             $status = 'success';
             $pesan = "Buku dengan judul <strong>{$r->judul}</strong> berhasil dihapus.";
         }

@@ -13,4 +13,8 @@ class Pinjam extends Model {
         return $this->belongsTo('App\Buku', 'id_buku', 'id');
     }
     
+    public function detailKembali() {
+        return $this->belongsTo('App\Buku', 'id_pinjam', 'id');
+    }
+    
 }
