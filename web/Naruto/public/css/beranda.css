@@ -2,20 +2,13 @@
     Created on : Mar 6, 2018, 1:01:41 AM
     Author     : aga
 */
-
 body {
     background-color: #50223C;
-    
 }
 
 .foto {
     margin: 20px;
-}
-
-.text-left {
-    font-family: fantasy;
-    font-size: xx-large;
-    color: #ffe484;
+    padding-top: 100px;
 }
 
 .thumbnail {
@@ -24,25 +17,79 @@ body {
 }
 
 
-img {
+/*img {
     opacity: 0.5;
 }
 
 img:hover {
     opacity: 1.0;
-}
+}*/
 
-.tombol:hover {
-    color: yellow;
-}
-
-.tombol {
-    color: #50223C;
-    background-color: yellow;
-    border: 1px solid yellow;
+.teks {
+    margin: 20px;
 }
 
 .judul {
-    margin: 18%;
+    color: white;
+    font-size: 15pt;
+    font-family: serif;
+    padding-left: 10%;
+    padding-top: 10%;
 }
 
+.nama {
+    color: yellow;
+    font-size: 25pt;
+    font-family: serif;
+    font-weight: bold;
+    padding-left: 80%;
+    opacity: 1.0;
+    padding-top: 15%;
+}
+
+.box2 {
+    background-color: pink; 
+    margin-top: auto;
+    margin-bottom: 60px;
+    margin-left: 50px;
+/*    opacity: 0.5;*/
+}
+
+.box1 {
+    background-color: pink; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+/*    opacity: 0.5;*/
+}
+
+.anima {
+    width: 53px;
+    height: 54px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+    margin-top: 125px;
+    margin-left: 200px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    15%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

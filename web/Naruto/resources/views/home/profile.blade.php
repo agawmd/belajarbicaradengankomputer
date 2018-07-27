@@ -7,6 +7,20 @@
 @section('content')
 <div class="row">
 
+    <div class="col-md-6">
+        <img class="photo" src="{{ asset('/img/3x4.JPG') }}" alt="{{ asset('/img/3x4.JPG') }}">
+    </div>
+    
+    <div class="col-md 6">
+        <div class="box">
+            BIODATA DIRI
+        </div>
+        <div class="text-box">
+            
+        </div>
+    </div>
+    
+    
     <div class="col-md-6" style="font-family: monospace;">
         <img class="photo" src="{{ asset('/img/basri.jpg') }}" alt="{{ asset('/img/basri.jpg') }}">
         <div class="box">

@@ -7,18 +7,19 @@
 @section('content')
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
 <div class="row">
-    <div class="col-md-12">
-        <div class="foto">
-            <img class="thumbnail" src="{{ asset('img/agani.png') }}" alt="{{ asset('img/agani.png') }}">        
+    <div class="col-md-4">
+        <div class="anima"></div>
+        <div class="nama">
+            AGA
         </div>
-    </div>
-    
-<div class="row">
-    <div class="col-md-12">
-        <button style="height: 100%; width: 100%;">I am</button>                        
+        disini
     </div>
 
+    <div class="col-md-8">
+        <div class="foto">
+            <img class="thumbnail" src="{{ asset('img/agani.png') }}" alt="{{ asset('img/agani.png') }}">        
+        </div>          
+    </div>
 </div>
-    
-</div>
+
 @endsection

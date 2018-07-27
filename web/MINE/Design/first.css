@@ -9,14 +9,16 @@ and open the template in the editor.
 */
 
 .bg {
-    background-color: whitesmoke;
+    background-color: rosybrown;
+
+    
 }
 
 .title-1 {
     margin-left: 60%;
     margin-right: 10%;
-    margin-top: 3%;
-    background-color: darkgreen;
+    margin-top: 1%;
+    background-color: darkslateblue;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -50,5 +52,34 @@ and open the template in the editor.
     text-align: left;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: whitesmoke;
+    font-size: 8pt;
+}
+
+.pic {
     
+    height: 350px;
+    width: 600px;
+}
+
+.top-header {
+    background-color: darkcyan;
+    
+}
+
+.in-header {
+    color: gold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.link-header {
+    text-align: right;
+}
+
+.text {
+    padding-right: 10px;
+    padding-left: 10px;
 }
