@@ -7,11 +7,18 @@
 @section('content')
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
 <div class="row">
-    <div class="animas"></div>
-    <div class="col-md-4">
-        <div class="halo">Hi I'm</div>
-        <div class="nama">WAODE MAKANI DAGA</div>
-        <div class="desk typewriter">A DAUGHTER</div>        
+    <div class="col-md-6">
+        <div class="judul">
+            <img class="foto" src="{{ asset('/img/gaya.JPG') }}">        
+            <div class="halo">Hi I'm</div>
+            <div class="nama">WAODE MAKANI DAGA</div>
+            <div class="desk tipo">A DAUGHTER <span>|</span></div>
+            <div class="animasi"></div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+
     </div>
 
     <!--    <div class="sesuatu"></div>-->

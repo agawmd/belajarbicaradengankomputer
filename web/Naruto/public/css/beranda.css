@@ -3,7 +3,8 @@
     Author     : aga
 */
 body {
-    background-color: whitesmoke;
+/*    background-color: whitesmoke;*/
+
 }
 /*test*/
 /*.sesuatu{
@@ -23,37 +24,94 @@ body {
 }*/
 
 
-
-.animas {
-    width: 53px;
-    height: 54px;
-    background-color: red;
-    position: relative;
-    -webkit-animation-name: examples; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-    animation-name: examples;
-    animation-duration: 5s;
-    margin-top: 150px;
-    margin-left: 200px;
-    opacity: 0.5;
-    animation-iteration-count: infinite;
-    border-radius: 50px;
+.foto {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+}
+.judul {
+  font-family: san serif;
+  margin-top: 6%;
+  position: absolute;
+  margin-bottom: 10%;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes examples {
-    0%   {background-color:red; right:0px; bottom:200px;}
-    15%  {background-color:yellow; right: 200px; bottom: 0px;}
-    50%  {background-color:blue; right: -650px; bottom: 200px;}
-    75%  {background-color:green; right: 0px; bottom: 200px;}
-    100% {background-color:red; right: 0px; bottom: 0px;}
+.halo {
+  font-size: 1.5em;
 }
 
-/* Standard syntax */
-@keyframes examples {
-    0%   {background-color:red; right:200px; bottom:0px;}
-    25%  {background-color:yellow; right:200px; bottom:200px;}
-    50%  {background-color:blue; right:-650px; bottom:200px;}
-    75%  {background-color:green; right:200px; bottom:200px;}
-    100% {background-color:red; right:200px; bottom:0px;}
+.nama {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.desk {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.animasi {
+  width: 135px;
+  height: 10px;
+  background-color: black;
+  border-radius: 2px;
+  -webkit-animation-name: kedip;
+  -webkit-animation-duration: 8s;
+  animation-name: kedip;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes kedip {
+  0%   {background-color: greenyellow;}
+  25%  {background-color: burlywood;}
+  50%  {background-color: peachpuff;}
+  75%  {background-color: pink;}
+  100% {background-color: greenyellow;}
+}
+
+@keyframes kedip {
+  0%   {background-color: greenyellow;}
+  25%  {background-color: burlywood;}
+  50%  {background-color: peachpuff;}
+  75%  {background-color: pink;}
+  100% {background-color: greenyellow;}
+  
+}
+
+
+.tipo {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 20em;
+  animation: type 4s steps(60, end);
+  animation-iteration-count: infinite;
+}
+
+.tipo:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
 }
