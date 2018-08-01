@@ -4,37 +4,88 @@
 */
 
 body {
-    background-color: lightsalmon;
-}
-
-.photo {
-    width: 220px;
-    height: 350px;
-    padding-top: 50px;
-    margin-right: 100px;
-    margin-bottom: 10px;
+    background-color: darkgrey;
 
 }
 
-.box {
-    background-color: grey;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
-    color: aquamarine;
+
+.one {
+  margin-top: 10%;
+  margin-right: 10%;
+ 
+}
+
+.ikon {
+  width: 1.5em;
+  margin-right: 5%;
+  border-bottom-style: double;
+  color: black;
+}
+
+.gam {
+  width: 1.9em;
+  margin-top: 10%;
+}
+
+.tulis {
+  font-family: san serif;
+  margin-top: 5%;
+}
+
+.judul {
+  font-weight: bold;
+}
+
+.isi {
+  opacity: 0.6;
+}
+
+.article {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+  
+   margin-bottom: 10%;
+}
+
+
+
+.tip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-right: 5%;
+}
+
+.tip .tiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
     text-align: center;
-    margin-right: 20px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
-.text-box {
-    padding: 10px;
-    font-size: 18px;
+.tip .tiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
 }
 
-.text-tx {
-    margin-right: 10px;
-}
-
-.tx {
-    margin-left: 5px;
+.tip:hover .tiptext {
+    visibility: visible;
+    opacity: 1;
 }

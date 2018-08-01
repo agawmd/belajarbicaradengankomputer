@@ -3,93 +3,57 @@
     Author     : aga
 */
 body {
-    background-color: #50223C;
+    background-color: whitesmoke;
 }
-
-.foto {
-    margin: 20px;
-    padding-top: 100px;
-}
-
-.thumbnail {
-    width: 50%;
-    float: right;
-}
-
-
-/*img {
-    opacity: 0.5;
-}
-
-img:hover {
-    opacity: 1.0;
+/*test*/
+/*.sesuatu{
+  
+  background:green;
+  opacity: 0.5;
+  display: block;
+  position: absolute;
+  left: 25%;
+  top: 100px;
+  display: block;  
+  width: 50%;
+  height: 50%;
+  border-radius: 50px 100px 150px 200px;
+  box-shadow: 2px 5px 5px #555;
+  border: 1px solid #080;
 }*/
 
-.teks {
-    margin: 20px;
-}
 
-.judul {
-    color: white;
-    font-size: 15pt;
-    font-family: serif;
-    padding-left: 10%;
-    padding-top: 10%;
-}
 
-.nama {
-    color: yellow;
-    font-size: 25pt;
-    font-family: serif;
-    font-weight: bold;
-    padding-left: 80%;
-    opacity: 1.0;
-    padding-top: 15%;
-}
-
-.box2 {
-    background-color: pink; 
-    margin-top: auto;
-    margin-bottom: 60px;
-    margin-left: 50px;
-/*    opacity: 0.5;*/
-}
-
-.box1 {
-    background-color: pink; 
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 50px;
-/*    opacity: 0.5;*/
-}
-
-.anima {
+.animas {
     width: 53px;
     height: 54px;
     background-color: red;
     position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 3s;
-    margin-top: 125px;
+    -webkit-animation-name: examples; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examples;
+    animation-duration: 5s;
+    margin-top: 150px;
     margin-left: 200px;
+    opacity: 0.5;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    15%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+@-webkit-keyframes examples {
+    0%   {background-color:red; right:0px; bottom:200px;}
+    15%  {background-color:yellow; right: 200px; bottom: 0px;}
+    50%  {background-color:blue; right: -650px; bottom: 200px;}
+    75%  {background-color:green; right: 0px; bottom: 200px;}
+    100% {background-color:red; right: 0px; bottom: 0px;}
 }
 
 /* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+@keyframes examples {
+    0%   {background-color:red; right:200px; bottom:0px;}
+    25%  {background-color:yellow; right:200px; bottom:200px;}
+    50%  {background-color:blue; right:-650px; bottom:200px;}
+    75%  {background-color:green; right:200px; bottom:200px;}
+    100% {background-color:red; right:200px; bottom:0px;}
 }

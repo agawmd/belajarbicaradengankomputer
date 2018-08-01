@@ -6,82 +6,63 @@
 
 @section('content')
 <div class="row">
-
-    <div class="col-md-6">
-        <img class="photo" src="{{ asset('/img/3x4.JPG') }}" alt="{{ asset('/img/3x4.JPG') }}">
+    <div class="col-md-4">
+        <div class="one">
+            <div class="card" style="width: 14rem;">
+              <img class="card-img-top" src="{{ asset('/img/3x4.JPG') }}" alt="{{ asset('/img/3x4.JPG') }}">
+              <div class="card-body">
+                <div class="card-text">
+                    <div class="icon-bar tip">
+                        <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><img class="ikon" src="{{ asset('/icon/link.png') }}" alt="{{ asset('/icon/link.png') }}">
+                            <span class="tiptext">Linked In</span>
+                        </a>                        
+                    </div>
+                    <div class="icon-bar tip">
+                        <a href="https://www.instagram.com/aga_wmd/" target="_blank"><img class="ikon" src="{{ asset('/icon/ints.png') }}" alt="{{ asset('/icon/ints.png') }}">
+                            <span class="tiptext">Instagram</span>
+                        </a>                        
+                    </div>
+                </div>
+              </div>
+            </div>                        
+        </div>
     </div>
-    
-    <div class="col-md 6">
-        <div class="box">
-            BIODATA DIRI
-        </div>
-        <div class="text-box">
-            
-        </div>
-    </div>
-    
-    
-    <div class="col-md-6" style="font-family: monospace;">
-        <img class="photo" src="{{ asset('/img/basri.jpg') }}" alt="{{ asset('/img/basri.jpg') }}">
-        <div class="box">
-            <h1>BIODATA DIRI</h1>
-        </div>
 
-        <div class="text-box">
-            <div class="text-tx">Nama Lengkap : Basri Yasin</div>
-            <div class="text-tx">Tempat/Tgl Lahir : Gorontalo, 08 Januari 1994 </div>
-            <div class="text-tx">Alamat : Jakarta ..</div>
-            <div class="text-tx">E-mail : basriyasin@gmail.com</div>
-            <div class="text-tx">Phone Number : +62857 **** ****</div>
+    <div class="col-md-8">
+        <div class="article">
+            <img class="gam" src="{{ asset('/icon/tag/orang.png') }}" alt="{{ asset('/icon/orang.png') }}">
+            <div class="tulis">
+                <div class="judul">Name :</div>
+                <div class="isi">Waode Makani Daga</div>                    
+            </div>
+            <img class="gam" src="{{ asset('/icon/tag/kalender.png') }}" alt="{{ asset('/icon/kalender.png') }}">
+            <div class="tulis">
+                <div class="judul">Date of Birth :</div>
+                <div class="isi">29 October 1993</div>                    
+            </div>
+            <img class="gam" src="{{ asset('/icon/tag/alamat.png') }}" alt="{{ asset('/icon/alamat.png') }}">
+            <div class="tulis">
+                <div class="judul">Address :</div>
+                <div class="isi">Sapiria, <i>South Sulawesi</i></div>                    
+            </div>        
+
+            <img class="gam" src="{{ asset('/icon/tag/hp.png') }}" alt="{{ asset('/icon/hp.png') }}">
+            <div class="tulis">
+                <div class="judul">Phone :</div>
+                <div class="isi">(+62)813-4168-6169</div>                    
+            </div>
+            <img class="gam" src="{{ asset('/icon/tag/email.png') }}" alt="{{ asset('/icon/email.png') }}">
+            <div class="tulis">
+                <div class="judul">E-mail :</div>
+                <div class="isi">dagawaodemakani@gmail.com</div>                    
+            </div>
+            <img class="gam" src="{{ asset('/icon/tag/negara.png') }}" alt="{{ asset('/icon/negara.png') }}">
+            <div class="tulis">
+                <div class="judul">Nationality :</div>
+                <div class="isi">Indonesia</div>                    
+            </div>        
         </div>        
     </div>
-    
-    
-    <div class="col-md-6" style="font-family: monospace;">
-        <img class="photo" src="{{ asset('/img/aga.jpg') }}" alt="{{ asset('/img/aga.jpg') }}">
-        <div class="box">
-            <h1>BIODATA DIRI</h1>
-        </div>
-
-        <div class="text-box">
-            <div class="text-tx">Nama Lengkap : Waode Makani Daga</div>
-            <div class="text-tx">Tempat/Tgl Lahir : Gowa, 29 Oktober 1993 </div>
-            <div class="text-tx">Alamat : Sapiria</div>
-            <div class="text-tx">E-mail : dagawaodemakani@gmail.com</div>
-            <div class="text-tx">Phone Number : +62813 **** ****</div>
-        </div>        
-    </div>
-    
-    <div class="col-md-6" style="font-family: monospace;">
-        <img class="photo" src="{{ asset('/img/nana.jpg') }}" alt="{{ asset('/img/nana.jpg') }}">
-        <div class="box">
-            <h1>BIODATA DIRI</h1>
-        </div>
-
-        <div class="text-box">
-            <div class="text-tx">Nama Lengkap : Masdiana Arifin</div>
-            <div class="text-tx">Tempat/Tgl Lahir : Polewali Mandar, ... </div>
-            <div class="text-tx">Alamat : BTN Minasa Sari Blok ..</div>
-            <div class="text-tx">E-mail : geumnhana@gmail.com</div>
-            <div class="text-tx">Phone Number : +62852 **** ****</div>
-        </div>        
-    </div>
-    
-    
-    <div class="col-md-6" style="font-family: monospace;">
-        <img class="photo" src="{{ asset('/icon/user.png') }}" alt="{{ asset('/icon/user.png') }}">
-        <div class="box">
-            <h1>BIODATA DIRI</h1>
-        </div>
-
-        <div class="text-box">
-            <div class="text-tx">Nama Lengkap : Waode Makani Daga</div>
-            <div class="text-tx">Tempat/Tgl Lahir : Gowa, 29 Oktober 1993 </div>
-            <div class="text-tx">Alamat : Sapiria</div>
-            <div class="text-tx">E-mail : dagawaodemakani@gmail.com</div>
-            <div class="text-tx">Phone Number : +62813 **** ****</div>
-        </div>        
-    </div>  
 </div>
 
 @endsection
