@@ -24,48 +24,69 @@ body {
 
 #textback
 {
-          color:beige;
-      font-size:120px;
+          color:aliceblue;
+      font-size:100px;
      font-style: italic;
-    margin-left: 95%;
+
+}
+.judul {
+      font-size: 2.7em;
+     margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.judul {
-    margin-top: 5%;
-     font-size: 2.7em;
-   font-family: san serif;
- margin-bottom: 7%;
-   font-weight: bold;
+.utama {
+  -webkit-columns: 2 50px;
+     -moz-columns: 2 50px;
+          columns: 2 50px;
+     margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 .ikon {
-          width: 3em;
-  border-radius: 5px;
-}
-
-.desc {
-  font-family: san serif;
-  
-}
-
-.tgl {
-  font-family: san serif;
-  margin-left: -15%;
+          width: 5em;
+  border-radius: 5%;
 }
 
 .nama {
-  color: yellowgreen;
+        color: blue;
+  font-weight: bold;
 }
 
 .lama {
-  color: gray;
+      color: grey;
+  font-size: 11pt;
 }
 
 .prof {
-      font-size: 1.5em;
-  margin-bottom: 3%;
+    font-size: 1.5em;
+  font-weight: bold;
 }
 
 .isi {
-    margin-left: 3%;
+     margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+table {
+  border-collapse: collapse;
+           border: 1px solid #dddddd;
+            width: 20%;
+}
+
+th {
+     padding: 10%;
+  text-align: center;
+}
+
+td {
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.skill {
+    margin-bottom: 2%;
 }

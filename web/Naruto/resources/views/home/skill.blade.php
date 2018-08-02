@@ -7,8 +7,29 @@
 
 <div class="row">
     <div class="col-md-12">
-        <div class="title">
-            Progress My Skill
+        <div id="back">
+            <div id="textback">Skills</div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="judul">
+            Skills
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="title">My Amateur Progress</div>
+        <div class="desc">"Skill could not measured by the time but by the solved problem" - Basri Yasin.</div>
+
+        <div class="row">
+            <div class="col-sm-1 col-sm-1">
+                <div class="stick"></div>               
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="quote">
+                    Failure is also fun, living with the belief that trials are able to forge and shape my personality. Right, I failed. But I can still rise again. Repeatedly, continuously. Every try always feels heavy but that's where I think the meaning of true strength.
+                </div>                            
+            </div>
         </div>
     </div>
     

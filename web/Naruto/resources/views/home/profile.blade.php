@@ -18,13 +18,13 @@
               <div class="card-body">
                 <div class="card-text">
                     <div class="icon-bar tip">
-                        <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><img class="ikon" src="{{ asset('/icon/link.png') }}" alt="{{ asset('/icon/link.png') }}">
-                            <span class="tiptext">Linked In</span>
+                        <a href="https://www.linkedin.com/in/agawmd/" target="_blank" title="Linked In"><img class="ikon" src="{{ asset('/icon/link.png') }}" alt="{{ asset('/icon/link.png') }}">
+                            
                         </a>                        
                     </div>
                     <div class="icon-bar tip">
-                        <a href="https://www.instagram.com/aga_wmd/" target="_blank"><img class="ikon" src="{{ asset('/icon/ints.png') }}" alt="{{ asset('/icon/ints.png') }}">
-                            <span class="tiptext">Instagram</span>
+                        <a href="https://www.instagram.com/aga_wmd/" target="_blank" title="Instagram"><img class="ikon" src="{{ asset('/icon/ints.png') }}" alt="{{ asset('/icon/ints.png') }}">
+                            
                         </a>                        
                     </div>
                 </div>
@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-8">     
         <div class="article">
             <img class="gam" src="{{ asset('/icon/tag/orang.png') }}" alt="{{ asset('/icon/orang.png') }}">
             <div class="tulis">
