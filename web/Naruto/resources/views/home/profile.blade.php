@@ -6,6 +6,11 @@
 
 @section('content')
 <div class="row">
+    <div class="col-md-12">
+        <div id="back">
+            <div id="textback">About Me</div>
+        </div>
+    </div>    
     <div class="col-md-4">
         <div class="one">
             <div class="card" style="width: 14rem;">

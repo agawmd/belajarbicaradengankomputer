@@ -4,169 +4,68 @@
 */
 
 body {
-    background-color: white;
-    margin-bottom: 20px;
-}
-
-.box-one {
-    background-color: navy;
-    margin-top: 20px;
-    height: 100%;
 
 }
 
-.box-one-in {
-    margin-top: 19px;
-    background-color: #003366;
-    padding: 15px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;    
+#back{
+      position:absolute;
+       z-index:0;
+    background:white;
+       display:block;
+    min-height:50%; 
+     min-width:50%;
+         color:yellow;
 }
 
-.font-big {
-    font-size: 40px;
-    color: white;
-    padding-left: 15px;
-    padding-top: 20px;
+#content{
+    position:absolute;
+     z-index:1;
 }
 
-.font-middle {
-    font-size: 40px;
-    color: white;
-    padding-left: 15px;    
+#textback
+{
+          color:beige;
+      font-size:120px;
+     font-style: italic;
+    margin-left: 95%;
 }
 
-.font-major {
-    font-size: 20px;
-    color: white;
-    padding-left: 15px;
+.judul {
+    margin-top: 5%;
+     font-size: 2.7em;
+   font-family: san serif;
+ margin-bottom: 7%;
+   font-weight: bold;
 }
 
-.text-field {
-    padding-left: 15px;
-    color: white;
-    padding-bottom: 5px;
-    padding-top: 10px;
-    font-size: 16px;
-
+.ikon {
+          width: 3em;
+  border-radius: 5px;
 }
 
-.progress-edit {
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 5px;
+.desc {
+  font-family: san serif;
+  
 }
 
-.text-edit {
-    text-align: right;
-    font-size: 14px;
-    padding-right: 15px;
-    color: white;
-
-    
+.tgl {
+  font-family: san serif;
+  margin-left: -15%;
 }
 
-
-.box-one-out {
-    padding: 30px;
+.nama {
+  color: yellowgreen;
 }
 
-
-.box-two {
-    margin-top: 20px;
-    background-color: #adadad;
-    padding: 15px;
-    height: 100%;
+.lama {
+  color: gray;
 }
 
-.box-text {
-    color: black;
-    padding-top: 15px;
+.prof {
+      font-size: 1.5em;
+  margin-bottom: 3%;
 }
 
-.text-page {
-    padding-top: 0px;
-    font-size: 15px;
+.isi {
+    margin-left: 3%;
 }
-
-.text-title {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.text-year {
-    padding-right: 10px;
-    margin-right: 10px;
-}
-
-.text-dep {
-    font-weight: bold;
-    margin-left: 40px;
-}
-
-.text-inc {
-    font-style: italic;
-    margin-left: 40px;
-}
-
-.texting {
-    margin-left: 40px;
-    margin-bottom: 20px;
-    width: fit-content;
-}
-
-.ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.li {
-  padding-left: 1em; 
-  text-indent: -.7em;
-}
-
-.li::before {
-  content: "• ";
-  color: red; /* or whatever color you prefer */
-}
-
-.year {
-    padding-bottom: 20px;
-}
-
-
-
-
-
-/*--------------------------------------------*/
-
-
-
-
-.box {
-    margin: 40px;
-}
-
-.title {
-    font-size: 50px;
-    padding-top: 20px;
-}
-
-.second-title {
-    font-size: 30px;
-    color: grey;
-}
-
-.third {
-    font-size: 19px;
-}
-
-.fourth {
-    color: grey;
-    padding-left: 20px;
-    padding-bottom: 20px;    
-}
-
