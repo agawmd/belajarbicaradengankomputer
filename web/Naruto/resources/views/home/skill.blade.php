@@ -18,10 +18,10 @@
     </div>
     
     <div class="col-md-6">
-        <div class="title">My Amateur Progress</div>
+        <div class="tickle">My Amateur Progress</div>
         <div class="desc">"Skill could not measured by the time but by the solved problem" - Basri Yasin.</div>
 
-        <div class="row">
+        <div class="row lost">
             <div class="col-sm-1 col-sm-1">
                 <div class="stick"></div>               
             </div>
@@ -32,73 +32,65 @@
             </div>
         </div>
     </div>
-    
-    
     <div class="col-md-6">
-        <div class="box">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-            </div>                
+        <div class="row">
+            <div class="col-sm-4 col-sm-1">
+                <div class="lang">HTML & CSS</div>
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="lost">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%">
+                        <span class="title">70%</span>
+                      </div>
+                    </div>             
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <div class="col-md-6">
-        <div class="box">
-            <div class="second-title">
-                Java Programming
-            </div>                    
+        <div class="row">
+            <div class="col-sm-4 col-sm-1">
+                <div class="lang">Visual Basic & .NET</div>
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="lost">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="max-width: 65%">
+                        <span class="title">65%</span>
+                      </div>
+                    </div>             
+                </div>
+            </div>
         </div>
-    </div>
-    
-
-    <div class="col-md-6">
-        <div class="box">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 32%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">32%</div>
-            </div>                
+        <div class="row">
+            <div class="col-sm-4 col-sm-1">
+                <div class="lang">PHP & Laravel</div>
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="lost">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 50%">
+                        <span class="title">50%</span>
+                      </div>
+                    </div>             
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <div class="col-md-6">
-        <div class="box">
-            <div class="second-title">
-                PHP
-            </div>                    
+        <div class="row">
+            <div class="col-sm-4 col-sm-1">
+                <div class="lang">Java</div>
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="lost">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%">
+                        <span class="title">40%</span>
+                      </div>
+                    </div>             
+                </div>
+            </div>
         </div>
-    </div>
-
-    
-    <div class="col-md-6">
-        <div class="box">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 43%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">43%</div>
-            </div>                
-        </div>
-    </div>
-    
-    <div class="col-md-6">
-        <div class="box">
-            <div class="second-title">
-                HTML
-            </div>                    
-        </div>
-    </div>
-    
-    <div class="col-md-6">
-        <div class="box">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 37%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">37%</div>
-            </div>                
-        </div>
-    </div>
-    
-    <div class="col-md-6">
-        <div class="box">
-            <div class="second-title">
-                CSS
-            </div>                    
-        </div>
-    </div>   
+        
+    </div> 
 </div>
 
 @endsection
