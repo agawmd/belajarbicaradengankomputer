@@ -23,12 +23,12 @@ body {
 
 .gam {
        width: 1.9em;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .tulis {
   font-family: san serif;
-   margin-top: 5%;
+   margin-top: 0%;
 }
 
 .judul {
@@ -38,6 +38,28 @@ body {
 .isi {
   opacity: 0.6;
 }
+
+.batas-bes {
+    margin-top: 7%;
+}
+
+.batas-kec {
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .article {
   -webkit-columns: 2 200px;
