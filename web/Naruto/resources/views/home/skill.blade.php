@@ -86,10 +86,38 @@
                         <span class="title">40%</span>
                       </div>
                     </div>             
-                </div>
+                </div>               
             </div>
         </div>
-        
+        <div class="row">
+            <div class="col-sm-4 col-sm-1">
+                
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="row lost">
+            <div class="col-sm-4 col-sm-1">
+                
+            </div>
+            <div class="col-sm-8 col-sm-2">
+                <div class="row">
+                    <div class="col-sm-2 col-sm-2">
+                        <div class="spes-kir">Novice</div>
+                    </div>
+                    <div class="col-sm-3 col-sm-1">
+                        <div class="spes-kan">Advance</div>
+                    </div>
+                    <div class="col-sm-4 col-sm-1">
+                        <div class="spes-kan">Competent</div>
+                    </div>
+                    <div class="col-sm-3 col-sm-2">
+                        <div class="spes-kan">Expert</div>
+                    </div>
+                </div>                 
+            </div>
+        </div>       
     </div> 
 </div>
 

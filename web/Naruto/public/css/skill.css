@@ -112,3 +112,25 @@ body {
     opacity: 1;
   }
 }
+
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.spes-kan {
+  font-size: 0.9em;
+  text-align: right;
+}
+
+.spes-kir {
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.spes-teng {
+  font-size: 0.9em;
+  text-align: center;    
+}
