@@ -40,7 +40,7 @@ body {
      -moz-columns: 2 50px;
           columns: 2 50px;
      margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .ikon {
@@ -89,4 +89,15 @@ tr:nth-child(even) {
 
 .skill {
     margin-bottom: 2%;
+}
+
+
+.kepala {
+      font-size: 1.7em;
+     margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.kedua {
+    margin-bottom: 15%;
 }

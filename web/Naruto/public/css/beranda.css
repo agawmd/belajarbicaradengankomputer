@@ -3,8 +3,8 @@
     Author     : aga
 */
 body {
-    max-width: 100%;
-    height: auto;
+           max-width: 100%;
+              height: auto;
     background-color:  black;
 }
 /*test*/
@@ -26,16 +26,16 @@ body {
 
 
 .foto {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 5%;
+      max-width: 100%;
+         height: auto;
+     margin-top: 15%;
+  margin-bottom: 10%;
 }
 .judul {
-  font-family: san serif;
-  margin-top: 6%;
-  position: absolute;
+    font-family: san serif;
+     margin-top: 15%;
   margin-bottom: 10%;
-  color: greenyellow;
+          color: greenyellow;
 }
 
 .halo {
@@ -43,26 +43,26 @@ body {
 }
 
 .nama {
-  font-size: 2.5em;
+    font-size: 2.5em;
   font-weight: bold;
 }
 
 .desk {
-  font-size: 1.2em;
+    font-size: 1.2em;
   font-weight: bold;
   font-family: monospace;
 }
 
 .animasi {
-  width: 135px;
-  height: 10px;
-  background-color: black;
-  border-radius: 2px;
-  -webkit-animation-name: kedip;
+                       width: 135px;
+                      height: 3px;
+            background-color: black;
+               border-radius: 2px;
+      -webkit-animation-name: kedip;
   -webkit-animation-duration: 8s;
-  animation-name: kedip;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
+              animation-name: kedip;
+          animation-duration: 8s;
+   animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes kedip {
@@ -84,10 +84,10 @@ body {
 
 
 .tipo {
-  white-space: nowrap;
-  overflow: hidden;
-  width: 20em;
-  animation: type 4s steps(60, end);
+                white-space: nowrap;
+                   overflow: hidden;
+                      width: 20em;
+                  animation: type 4s steps(60, end);
   animation-iteration-count: infinite;
 }
 
@@ -117,3 +117,4 @@ body {
 ::selection{
   background: black;
 }
+
