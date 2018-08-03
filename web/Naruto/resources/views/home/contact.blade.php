@@ -7,58 +7,52 @@
 @section('content')
 <div class="row">
 
-    <div class="col-md-3">
-        <div class="third">
-            Want to Talk
-        </div>
-        <div class="fourth">
-            <u>+62813 4168 6169</u> via Mobile Phone<br>
-            <u>+62878 4102 7159</u> via Mobile Legend<br>
-            <u>@aga_wmd</u> via Skype<br>
-            <u>dagawaodemakani@gmail.com</u>
-        </div>
-        <div class="third">
-            Contact with Me
-        </div>
-        <div class="icon-bar">
-            <img src="{{ asset('/icon/evernote.png') }}" alt="{{ asset('/icon/evernote.png') }}">
-            <img src="{{ asset('/icon/blog.png') }}" alt="{{ asset('/icon/blog.png') }}">
-            <img src="{{ asset('/icon/linkedin.png') }}" alt="{{ asset('/icon/linkedin.png') }}">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="box">
+                    <div class="sapa">Say Hi It's Free !</div>
+                    <div class="row batas">
+                        <div class="col-sm-3 col-sm-1">
+                            <img class="gam" src="{{ asset('/icon/tag/negara.png') }}" alt="{{ asset('/icon/negara.png') }}">
+                        </div>
+                        <div class="col-sm-6 col-sm-4">
+                            <div class="loc">Sapiria, Sulawesi Selatan, Indonesia.</div>
+                        </div>
+                    </div>
+                    <div class="row batas">
+                        <div class="col-sm-3 col-sm-1">
+                            <img class="gam" src="{{ asset('/icon/tag/email.png') }}" alt="{{ asset('/icon/negara.png') }}">
+                        </div>
+                        <div class="col-sm-3 col-sm-1">
+                            <div class="loc">dagawaodemakani@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="row batas">
+                        <div class="col-sm-3 col-sm-1">
+                            <img class="gam" src="{{ asset('/icon/tag/hp.png') }}" alt="{{ asset('/icon/hp.png') }}">
+                        </div>
+                        <div class="col-sm-3 col-sm-1">
+                            <div class="loc">(+62)813-4168-6169</div>
+                        </div>
+                    </div>
+                    <div class="pain">I'm also on Social Network</div>
+                    <div class="lurus">
+                        <div class="icon-bar tip">
+                            <a href="https://www.linkedin.com/in/agawmd/" target="_blank" title="Linked In"><img class="ikon" src="{{ asset('/icon/link.png') }}" alt="{{ asset('/icon/link.png') }}"></a>                        
+                        </div>
+                        <div class="icon-bar tip">
+                            <a href="https://www.instagram.com/aga_wmd/" target="_blank" title="Instagram"><img class="ikon" src="{{ asset('/icon/ints.png') }}" alt="{{ asset('/icon/ints.png') }}"></a>                        
+                        </div>                         
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
-    <div class="col-md-4">
-        <div class="bingkai">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="{{ asset('/img/sama3.jpeg') }}" alt="{{ asset('/img/sayang45.jpeg') }}">
-              <div class="card-body">
-                <p class="card-text">
-                    Mr and Mrs Basri Yasin
-                </p>
-              </div>
-            </div>                        
-        </div>
+    <div class="col-md-6">
+        <img class="foto" src="{{ asset('/img/indonesia.jpg') }}" alt="{{ asset('/img/indonesia.jpg') }}">
     </div>
-    
-    <div class="col-md-5">
-        <div class="quote">
-            <p>
-                <i>
-                    I'm sorry I constantly want to talk to you.
-                    I'm sorry when you take long to reply, I get sad.
-                    I'm sorry if I say things that might piss you off.
-                    I'm sorry if I come off as annoying.
-                    I'm sorry if you don't wanna talk to me as much as I wanna talk to you.
-                    I'm sorry if I think about you too much and too often.
-                    I'm sorry if I say things that I don't really mean it.
-                    I'm sorry if I tell you about my pointless drama when you don't really care.
-                    I'm sorry if I come off as being clingy, but <u>it's just me missing you.</u>
-
-                </i>
-            </p>        
-        </div>
-    </div>
-        
 </div>
 
 @endsection
