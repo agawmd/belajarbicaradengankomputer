@@ -47,30 +47,6 @@ body {
     margin-bottom: 10%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.article {
-  -webkit-columns: 2 200px;
-     -moz-columns: 2 200px;
-          columns: 2 200px;
-  
-   margin-bottom: 10%;
-}
-
-
-
 .tip {
          position: relative;
           display: inline-block;
