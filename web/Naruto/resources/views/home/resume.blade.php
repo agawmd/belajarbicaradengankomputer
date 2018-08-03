@@ -8,8 +8,7 @@
 <div class="row">
     <div class="col-md-12">
         <div id="back">
-            <div id="textback">Experience</div>
-            <div id="textback">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; & Education</div>
+            <div id="textback">Experience & Education</div>
         </div>
     </div>
     <div class="col-md-12">
@@ -68,7 +67,7 @@
         <div class="kepala">Formal</div>        
     </div>
     
-    <div class="col-md-4">
+    <div class="col-md-4 batas">
         <div class="utama">
             <img class="ikon" src="{{ asset('/logo/stmik.gif') }}">            
             <div class="nama">STMIK Kharisma Makassar</div>
@@ -76,7 +75,7 @@
         </div>
     </div>
     
-    <div class="col-md-8">
+    <div class="col-md-8  batas">
         <div class="kedua">
             <div class="prof">Software Engineering</div>
             <div class="isi">
