@@ -4,31 +4,17 @@
 */
 
 body {
-    width: 100%;
-    height: auto;
-}
 
-.frame {
-    margin-top: 3%;
-        display: block;
-    margin-left: auto;
-   margin-right: auto;    
-}
-
-.photo {
-          width: 100%;
-         height: auto;
 }
 
 .title-text {
-     margin-top: 2%;
-  margin-bottom: 1%;
-     text-align: right;
+     margin-top: 5%;
+  margin-bottom: 5%;
     font-family: san serif;
 }
 
 .first-text {
-    font-size: 1.5em;
+    font-size: 1.6em;
         color: #FF6347;
   font-weight: bold;
 }
@@ -40,22 +26,24 @@ body {
 
 .third-text {
   font-family: mono;
-   text-align: right;
         color: grey;
 }
 
-.link {
-          float: right;
-        display: inline-block;
+.linked {
+ text-align: right;
+    display: inline-block;
+font-family: monospace;
+      color: grey;
 }
 
-.icon {
-                    margin-left: 2%; 
-                      max-width: 10%;
+.iconic {
+
+                          width: 10%;
                          height: auto;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
                          cursor: pointer;
+                         padding: 2%;
                          
 }
 
@@ -68,12 +56,11 @@ body {
 }
 
 .download-area {
-   margin-top: 4%;
-   text-align: right;
+   text-align: left;
 }
 
 .button-download {
-                        padding: 3%;
+                        padding: 2%;
                background-color: transparent;
                          border: 1px solid #FF6347;
                     font-weight: bold;
@@ -89,140 +76,31 @@ body {
 }
 
 .line {
-  margin-top: 3%;
-  margin-bottom: 4%;
+           width: 100%;
+          height: 1px;
+background-color: #FF6347;
+      margin-top: 5%;
 }
 
-.desc {
-  font-size: 0.9em;
-  color: grey;
+
+.line-1 {
+           width: 100%;
+          height: 1px;
+background-color: #FF6347;
+      margin-top: 5%;
 }
-.bold {
+
+.email, .phone, .web, .location {
+  margin-top: 15%;
+       color: grey;
+}
+
+.sub-title {
   font-weight: bold;
+        color: #FF6347;
 }
 
-.right {
-    text-align: right;
+.web, .location {
+  text-align: right;
 }
 
-
-/* 
-    Created on : Mar 6, 2018, 1:01:41 AM
-    Author     : aga
-*/
-/*body {
-           max-width: 100%;
-              height: auto;
-    background-color:  black;
-}
-test
-.sesuatu{
-  
-  background:green;
-  opacity: 0.5;
-  display: block;
-  position: absolute;
-  left: 25%;
-  top: 100px;
-  display: block;  
-  width: 50%;
-  height: 50%;
-  border-radius: 50px 100px 150px 200px;
-  box-shadow: 2px 5px 5px #555;
-  border: 1px solid #080;
-}
-
-
-.foto {
-      max-width: 100%;
-         height: auto;
-     margin-top: 15%;
-  margin-bottom: 10%;
-}
-.judul {
-    font-family: san serif;
-     margin-top: 15%;
-  margin-bottom: 10%;
-          color: greenyellow;
-}
-
-.halo {
-  font-size: 1.5em;
-}
-
-.nama {
-    font-size: 2.5em;
-  font-weight: bold;
-}
-
-.desk {
-    font-size: 1.2em;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.animasi {
-                       width: 135px;
-                      height: 3px;
-            background-color: black;
-               border-radius: 2px;
-      -webkit-animation-name: kedip;
-  -webkit-animation-duration: 8s;
-              animation-name: kedip;
-          animation-duration: 8s;
-   animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes kedip {
-  0%   {background-color: green;}
-  25%  {background-color: aqua;}
-  50%  {background-color: blue;}
-  75%  {background-color: yellow;}
-  100% {background-color: green;}
-}
-
-@keyframes kedip {
-  0%   {background-color: green;}
-  25%  {background-color: aqua;}
-  50%  {background-color: blue;}
-  75%  {background-color: yellow;}
-  100% {background-color: green;}
-  
-}
-
-
-.tipo {
-                white-space: nowrap;
-                   overflow: hidden;
-                      width: 20em;
-                  animation: type 4s steps(60, end);
-  animation-iteration-count: infinite;
-}
-
-.tipo:nth-child(2){
-  animation: type2 8s steps(60, end);
-}
-
-
-.span{
-  animation: blink 1s infinite;
-}
-
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
-} 
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
-::selection{
-  background: black;
-}
-*/

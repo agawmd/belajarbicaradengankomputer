@@ -1,13 +1,11 @@
 @extends('template.template')
 
 @section('style')
-<link rel="stylesheet" href="{{ asset('css/beranda.css') }}">
+<link rel="stylesheet" href="{{ asset('css/.css') }}">
 @endsection
 
 @section('content')
 <div class="footer">
-    <p>
-        Disini 
-    </p>
+    
 </div>
 @endsection
