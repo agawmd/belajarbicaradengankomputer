@@ -19,7 +19,9 @@
             <div class="col-sm-6">
                 <div class="download-area">
                     <div class="third-text"></div>
-                    <button class="button-download">Download My CV<img class="iconic" src="{{ asset('/icon/tag/download.png') }}" alt="{{ asset('/icon/download.png') }}"></button>
+                    <a href="{{ asset('/files/CV_Waode_Makani_Daga.pdf') }}" download="">
+                        <button class="button-download" title="Download My CV">Download My CV<img class="iconic" src="{{ asset('/icon/tag/download.png') }}" alt="{{ asset('/icon/download.png') }}"></button>                        
+                    </a>
                 </div>
             </div>
             <div class="col-sm-6">
