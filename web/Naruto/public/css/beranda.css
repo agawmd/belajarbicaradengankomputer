@@ -1,14 +1,121 @@
 /* 
+    Created on : Aug 4, 2018, 1:01:41 AM
+    Author     : aga
+*/
+
+body {
+
+}
+
+.frame {
+    margin-top: 3%;
+        display: block;
+    margin-left: auto;
+   margin-right: auto;    
+}
+
+.photo {
+          width: 100%;
+         height: auto;
+}
+
+.title-text {
+     margin-top: 2%;
+  margin-bottom: 1%;
+     text-align: right;
+    font-family: san serif;
+}
+
+.first-text {
+    font-size: 1.5em;
+        color: #FF6347;
+  font-weight: bold;
+}
+
+.second-text {
+    font-size: 2em;
+  font-weight: bold;
+}
+
+.third-text {
+  font-family: mono;
+   text-align: right;
+        color: grey;
+}
+
+.link {
+          float: right;
+        display: inline-block;
+}
+
+.icon {
+                    margin-left: 2%; 
+                      max-width: 10%;
+                         height: auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+                         cursor: pointer;
+                         
+}
+
+.icon-by {
+      opacity: 0.5;
+}
+
+.icon-by:hover {
+      opacity: 1.0;
+}
+
+.download-area {
+   margin-top: 4%;
+   text-align: right;
+}
+
+.button-download {
+                        padding: 3%;
+               background-color: transparent;
+                         border: 1px solid #FF6347;
+                    font-weight: bold;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+}
+
+
+.button-download:hover {
+  background-color: #FF6347;
+             color: white;
+
+}
+
+.line {
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.desc {
+  font-size: 0.9em;
+  color: grey;
+}
+.bold {
+  font-weight: bold;
+}
+
+.right {
+    text-align: right;
+}
+
+
+/* 
     Created on : Mar 6, 2018, 1:01:41 AM
     Author     : aga
 */
-body {
+/*body {
            max-width: 100%;
               height: auto;
     background-color:  black;
 }
-/*test*/
-/*.sesuatu{
+test
+.sesuatu{
   
   background:green;
   opacity: 0.5;
@@ -22,7 +129,7 @@ body {
   border-radius: 50px 100px 150px 200px;
   box-shadow: 2px 5px 5px #555;
   border: 1px solid #080;
-}*/
+}
 
 
 .foto {
@@ -66,19 +173,19 @@ body {
 }
 
 @-webkit-keyframes kedip {
-  0%   {background-color: greenyellow;}
-  25%  {background-color: burlywood;}
-  50%  {background-color: peachpuff;}
-  75%  {background-color: pink;}
-  100% {background-color: greenyellow;}
+  0%   {background-color: green;}
+  25%  {background-color: aqua;}
+  50%  {background-color: blue;}
+  75%  {background-color: yellow;}
+  100% {background-color: green;}
 }
 
 @keyframes kedip {
-  0%   {background-color: greenyellow;}
-  25%  {background-color: burlywood;}
-  50%  {background-color: peachpuff;}
-  75%  {background-color: pink;}
-  100% {background-color: greenyellow;}
+  0%   {background-color: green;}
+  25%  {background-color: aqua;}
+  50%  {background-color: blue;}
+  75%  {background-color: yellow;}
+  100% {background-color: green;}
   
 }
 
@@ -117,4 +224,4 @@ body {
 ::selection{
   background: black;
 }
-
+*/

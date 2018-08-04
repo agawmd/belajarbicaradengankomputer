@@ -15,7 +15,7 @@
         <div class="judul">Experience</div>        
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 batas-akhir">
         <div class="utama">
             <img class="ikon" src="{{ asset('/logo/tssc.jpg') }}">            
             <div class="nama">Taman Surya Sport Club (Freelance)</div>
@@ -62,12 +62,12 @@
         </div>
     </div>
     
-    <div class="col-md-12">
+    <div class="col-md-12 batas-awal">
         <div class="judul">Education</div>
         <div class="kepala">Formal</div>        
     </div>
     
-    <div class="col-md-4 batas">
+    <div class="col-md-4 batas-akhir">
         <div class="utama">
             <img class="ikon" src="{{ asset('/logo/stmik.gif') }}">            
             <div class="nama">STMIK Kharisma Makassar</div>
@@ -75,7 +75,7 @@
         </div>
     </div>
     
-    <div class="col-md-8  batas">
+    <div class="col-md-8 batas-akhir">
         <div class="kedua">
             <div class="prof">Software Engineering</div>
             <div class="isi">
@@ -85,7 +85,7 @@
             </div>            
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 batas-akhir">
         <div class="utama">
             <img class="ikon" src="{{ asset('/logo/twh.png') }}">            
             <div class="nama">SMA Satria Makassar</div>
@@ -93,7 +93,7 @@
         </div>
     </div>
     
-    <div class="col-md-8">
+    <div class="col-md-8 batas-akhir">
         <div class="kedua">
             <div class="prof">Science Major</div>
             <div class="isi">
@@ -104,7 +104,7 @@
         </div>
     </div>
     
-    <div class="col-md-4">
+    <div class="col-md-4 batas-akhir">
         <div class="utama">
             <img class="ikon" src="{{ asset('/logo/twh.png') }}">            
             <div class="nama">SMP Satria Makassar</div>
@@ -112,7 +112,7 @@
         </div>
     </div>
     
-    <div class="col-md-8">
+    <div class="col-md-8 batas-akhir">
         <div class="kedua">
             <div class="prof">B Class</div>
             <div class="isi">

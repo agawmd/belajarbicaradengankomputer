@@ -81,7 +81,7 @@ body {
 }
 
 .progress {
-  height: 1.7em;
+         height: 1.7em;
   border-radius: 0px;
 }
 
@@ -115,22 +115,22 @@ body {
 
 
 .line {
-  height: 1px;
-  width: 100%;
+            height: 1px;
+             width: 100%;
   background-color: black;
 }
 
 .spes-kan {
-  font-size: 0.9em;
+   font-size: 0.9em;
   text-align: right;
 }
 
 .spes-kir {
-  font-size: 0.9em;
+   font-size: 0.9em;
   text-align: left;
 }
 
 .spes-teng {
-  font-size: 0.9em;
+   font-size: 0.9em;
   text-align: center;    
 }

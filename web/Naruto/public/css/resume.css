@@ -40,7 +40,6 @@ body {
      -moz-columns: 2 50px;
           columns: 2 50px;
      margin-right: 10%;
-    margin-bottom: 10%;
 }
 
 .ikon {
@@ -65,7 +64,9 @@ body {
 
 .isi {
      margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+          color: grey;
+      font-size: 0.9em;
 }
 
 table {
@@ -103,9 +104,14 @@ tr:nth-child(even) {
 }
 
 .frame {
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
-.batas {
+.batas-akhir {
     margin-bottom: 10%;
+}
+
+.batas-awal {
+       margin-top: 5%;
+    margin-bottom: 5%;
 }
