@@ -128,7 +128,7 @@
                         <div class="non-edu">
                             <div class="non-line"></div>
                             <div class="non-title">INSTITUT KARATE-DO NASIONAL</div>
-                            <div class="non-year">2008 -2014</div>
+                            <div class="non-year">2008 - 2014</div>
                         </div>                        
                     </div>
                 </div>
