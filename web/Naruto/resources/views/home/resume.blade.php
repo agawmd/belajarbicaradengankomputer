@@ -43,7 +43,7 @@
     
     <div class="col-md-12 line-middle"></div>
     <div class="col-md-4">
-        <div class="box-tag">EDUCATION</div>    
+        <div class="box-tag">EDUCATION::FORMAL</div>    
     </div>
     <div class="col-md-8">
         <div class="line-top"></div>
@@ -71,14 +71,117 @@
             <div class="desc-title">Software Engineering (Bachelor's Degree)</div>
             <div class="desc">
                 I studied Informatics study program with specialization in Software Engineering. With a long period of college, approximately 6 years are calculated this year. From the beginning I chose to enter the programming class because it was inspired by the 3 Idiots movie of that era, a reason that was crazy enough to enter and get to know a new world that I had never experienced at all.
-                When I was in school, I was a science student with the lowest Chemistry grade at the beginning of the first year of school, but with determination not to be punished and humiliated in front of other students I studied seriously until I took tutoring courses only for Chemistry. In the end, I have proven that I can and exceed other students in terms of theory and practice in Chemistry, but unfortunately I spent my college with waste of time and do nothing.
-                But I will change that mindset, which I said was not able to, then I will change it to be sure. The former never coding then I will try again and again for coding, all I start from myself.
+                The beginning to know the programming language was quite doubtful because classmates at that time were almost completely Chinese clans, a little afraid of racial differences and high self-esteem made me feel isolated as a native. But I met with one of the lecturers (maybe I could mention him as a god lecturer) because of his intelligence, it was said he was known as the best graduate from this campus. He is named Jhonsong Hoya, we often call him Bajita. How to teach is really friendly for me, as an introverted person he always asks me to sit on the front seat. The first two semesters in which the class was always there, my grades were always A because I could understand what he had taught me.
             </div>
         </div>
     </div>    
 
     <div class="col-md-12 line-middle"></div>
+
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="work-box-1">
+                    <div class="work-icon"><img class="icon" src="{{ asset('/logo/twh.png') }}" alt="{{ asset('/logo/twh.png') }}"></div>
+                </div>            
+            </div>
+            <div class="col-sm-6">
+                <div class="work-box-2">
+                    <div class="work-name">SMA SATRIA MAKASSAR</div>
+                    <div class="work-date">2009 - 2012</div>
+                    <div class="work-place">South Sulawesi</div>
+                </div>            
+            </div>            
+        </div>
+    </div>
     
+    <div class="col-md-8">
+        <div class="desc-box">
+            <div class="desc-title">Science Class</div>
+            <div class="desc">
+                South Sulawesi Youth Heart Health Gymnastic Activities, Karateka at the Indonesian National Karate-do Institute, GadjahMada Makassar Tutoring students, OSIS Chairperson, some are activities that I went through during high school. The lesson I like the most is Chemistry.                
+                I was a science student with the lowest Chemistry grade at the beginning of the first year of school, but with determination not to be punished and humiliated in front of other students I studied seriously until I took tutoring courses only for Chemistry. In the end, I have proven that I can and exceed other students in terms of theory and practice in Chemistry, but unfortunately I spent my college with waste of time and do nothing.
+            </div>
+        </div>
+    </div>     
+
+    <div class="col-md-12 line-middle"></div>    
+    <div class="col-md-4">
+        <div class="box-tag">EDUCATION::NON-FORMAL</div>    
+    </div>
+    <div class="col-md-8">
+        <div class="line-top"></div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="non-name">Certification Activities</div>
+    </div>
+    
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="non-icon"><img class="icon" src="{{ asset('/logo/inkanas.png') }}" alt="{{ asset('/logo/inkanas.png') }}"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="non-edu">
+                            <div class="non-line"></div>
+                            <div class="non-title">INSTITUT KARATE-DO NASIONAL</div>
+                            <div class="non-year">2008 -2014</div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="non-icon"><img class="icon" src="{{ asset('/logo/stmik.gif') }}" alt="{{ asset('/logo/stmik.gif') }}"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="non-edu">
+                            <div class="non-line"></div>
+                            <div class="non-title">PUSAT PENDIDIKAN KOMPUTER KHARISMA</div>
+                            <div class="non-year">2012</div>
+                        </div>                        
+                    </div>
+                </div>               
+            </div>            
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="non-icon"><img class="icon" src="{{ asset('/logo/kjr.jpg') }}" alt="{{ asset('/logo/kjr.jpg') }}"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="non-edu">
+                            <div class="non-line"></div>
+                            <div class="non-title">KLUB JANTUNG REMAJA SULAWESI SELATAN</div>
+                            <div class="non-year">2010</div>
+                        </div>                        
+                    </div>
+                </div>               
+            </div>
+            
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="non-icon"><img class="icon" src="{{ asset('/logo/veefa.gif') }}" alt="{{ asset('/logo/veefa.gif') }}"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="non-edu">
+                            <div class="non-line"></div>
+                            <div class="non-title">VEEFA INTERNATIONAL INSTITUTE</div>
+                            <div class="non-year">2010</div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <div class="col-md-12 line-middle"></div>    
+
     
 </div>  
 @endsection
