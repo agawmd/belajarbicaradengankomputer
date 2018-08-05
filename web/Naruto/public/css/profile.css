@@ -16,13 +16,13 @@ background-color: #FF6347;
 }
 
 .box-tag {
-  border: 1px solid #FF6347 ;
-  text-align: center;
-  padding: 3%;
-  margin-top: 5%;
+       border: 1px solid #FF6347 ;
+   text-align: center;
+      padding: 3%;
+   margin-top: 5%;
   font-family: sans-serif;
   font-weight: bold;
-  color: #FF6347;
+        color: #FF6347;
 }
 
 .photo-frame {
@@ -30,7 +30,7 @@ background-color: #FF6347;
 }
 
 .photo {
-  width: 100%;
+   width: 100%;
   height: auto;
 }
 
@@ -43,7 +43,7 @@ background-color: #FF6347;
 }
 
 .name, .phone, .mail, .address, .dob, .nation, .intro-box, .about-box{
-  margin-top: 5%;
+     margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -52,7 +52,7 @@ background-color: #FF6347;
 }
 
 .title, .intro {
-  color: #FF6347;
+        color: #FF6347;
   font-weight: bold;
 }
 
@@ -63,116 +63,3 @@ background-color: #FF6347;
 .intro {
   text-align: center;
 }
-
-
-
-
-/*
-
-.one {
-    margin-top: 10%;
-  margin-right: 10%;
- 
-}
-
-.ikon {
-                width: 1.5em;
-         margin-right: 5%;
-  border-bottom-style: double;
-                color: black;
-}
-
-.gam {
-       width: 1.9em;
-  margin-top: 0%;
-}
-
-.tulis {
-  font-family: san serif;
-   margin-top: 0%;
-}
-
-.judul {
-  font-weight: bold;
-}
-
-.isi {
-  opacity: 0.6;
-}
-
-.batas-bes {
-    margin-top: 7%;
-}
-
-.batas-kec {
-    margin-bottom: 10%;
-}
-
-.tip {
-         position: relative;
-          display: inline-block;
-    border-bottom: 1px dotted black;
-     margin-right: 5%;
-}
-
-.tip .tiptext {
-          visibility: hidden;
-               width: 120px;
-    background-color: #555;
-               color: #fff;
-          text-align: center;
-       border-radius: 6px;
-             padding: 5px 0;
-            position: absolute;
-             z-index: 1;
-              bottom: 125%;
-                left: 50%;
-         margin-left: -60px;
-             opacity: 0;
-          transition: opacity 0.3s;
-} 
-
-.tip .tiptext::after {
-         content: "";
-        position: absolute;
-             top: 100%;
-            left: 50%;
-     margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-.tip:hover .tiptext {
-    visibility: visible;
-       opacity: 1;
-}
-
-
-
-#back{
-      position:absolute;
-       z-index:0;
-    background:white;
-       display:block;
-    min-height:50%; 
-     min-width:50%;
-         color:yellow;
-}
-
-#content{
-    position:absolute;
-     z-index:1;
-}
-
-#textback
-{
-          color:aliceblue;
-      font-size:100px;
-     font-style: italic;
-     margin-top: 67%;
-}
-
-.pain {
-    text-align: center;
-}*/
