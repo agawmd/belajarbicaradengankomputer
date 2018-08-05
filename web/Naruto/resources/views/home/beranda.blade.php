@@ -7,7 +7,7 @@
 @section('content')
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
 
-<div class="row">
+<div class="row slide">
     <div class="col-md-12">
         <div class="line-1"></div> 
         <div class="title-text">

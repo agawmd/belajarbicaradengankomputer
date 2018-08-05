@@ -6,7 +6,44 @@
 body {
 
 }
+.email, .phone, .web, .location {
+  margin-top: 10%;
+       color: grey;
+}
 
+.sub-title {
+  font-weight: bold;
+        color: #FF6347;
+}
+
+.email, .location {
+  text-align: left;
+}
+
+.phone, .web {
+    text-align: right;
+}
+
+
+.line {
+           width: 100%;
+          height: 1px;
+background-color: #FF6347;
+      margin-top: 2%;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.maps {
+    margin-top: 3%;
+}
+
+
+/*
 .foto {
     margin-top: 30%;
          width: 100%;
@@ -70,4 +107,4 @@ body {
 .lurus {
     margin-top: 10%;
     text-align: center;
-}
+}*/

@@ -6,7 +6,52 @@
 
 @section('content')
 <div class="row">
+    <div class="col-md-12">
+        <div class="maps">
+            <div><img class="photo" src="{{ asset('/img/indonesia.jpg') }}" alt="{{ asset('/img/indonesia.jpg') }}"></div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="line"></div>    
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="phone">
+                    <div class="sub-title">Phone</div>
+                    <div>(+62)813-4168-6169</div>                    
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="email">
+                    <div class="sub-title">Email</div>
+                    <div>dagawaodemakani@gmail.com</div>                    
+                </div>
+            </div>            
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="web">
+                    <div class="sub-title">Web</div>
+                    <div>aga.basriyasin.com</div>                    
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="location">
+                    <div class="sub-title">Location</div>
+                    <div>Indonesia</div>                    
+                </div>
+            </div>            
+        </div>        
+    </div>    
+    
+</div>
 
+@endsection
+<!--
     <div class="col-md-6">
         <div class="row">
             <div class="col-sm-8">
@@ -52,7 +97,4 @@
     
     <div class="col-md-6">
         <img class="foto" src="{{ asset('/img/indonesia.jpg') }}" alt="{{ asset('/img/indonesia.jpg') }}">
-    </div>
-</div>
-
-@endsection
+    </div>-->

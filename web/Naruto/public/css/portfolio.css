@@ -1,49 +1,56 @@
 /* 
-    Created on : Mar 6, 2018, 6:59:48 PM
+    Created on : Aug 6, 2018, 6:59:48 PM
     Author     : aga
 */
 
-
-#back{
-      position:absolute;
-       z-index:0;
-    background:white;
-       display:block;
-    min-height:50%; 
-     min-width:50%;
-         color:yellow;
+body {
+    
 }
 
-#content{
-    position:absolute;
-     z-index:1;
+.box-tag {
+       border: 1px solid #FF6347 ;
+   text-align: center;
+      padding: 3%;
+   margin-top: 5%;
+  font-family: sans-serif;
+  font-weight: bold;
+        color: #FF6347;
+}
+.album {
+    margin-top: 10%;
+      position: relative;
+         width: 100%;
 }
 
-#textback
-{
-          color:aliceblue;
-      font-size:100px;
-     font-style: italic;
+.photo {
+  display: block;
+    width: 100%;
+   height: auto;
+  
+}
+
+.overlay {
+    position: absolute;
+         top: 0;
+      bottom: 0;
+        left: 0;
+       right: 0;
+      height: 100%;
+       width: 100%;
+     opacity: 0;
+  transition: .3s ease;
 
 }
 
-.judul {
-      font-size: 2.7em;
-     margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.foto {
-     width: 100%;
-    height: auto;
+.album:hover .overlay {
+  opacity: 0.5;
 }
 
 .title {
-      font-size: 1em;
-    font-weight: bold;
+  font-weight: bold;
+        color: #FF6347;
 }
 
-.desc {
-    font-size: 0.8em;
-        color: grey;
+.sub {
+  font-size: 0.9em;
 }

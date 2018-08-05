@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="row">
+<div class="row slide">
     <div class="col-md-4">
         <div class="line-top"></div>
     </div>

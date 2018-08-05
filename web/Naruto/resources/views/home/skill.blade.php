@@ -1,124 +1,164 @@
 @extends('template.template')
-@section('content')
+
 
 @section('style')
 <link rel="stylesheet" href="{{ asset('css/skill.css') }}">
 @endsection
 
-<div class="row">
-    <div class="col-md-12">
-        <div id="back">
-            <div id="textback">Skills</div>
-        </div>
+@section('content')
+
+<div class="row slide">
+    <div class="col-md-8">
+        <div class="line-top"></div>
+    </div>    
+    <div class="col-md-4">
+        <div class="box-tag">SKILLS</div>    
     </div>
-    <div class="col-md-12">
-        <div class="judul">
-            Skills
+    
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-sm-12"><div class="line-one">CODE PROGRESS</div></div>
+
+            <div class="col-sm-4">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 60%;"><span class="title">60%</span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="main">HTML & CSS</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="sub">Advance</div>
+                    </div>                    
+                </div>                
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 43%;"><span class="title">43%</span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="main">VB.NET</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="sub">Beginner</div>
+                    </div>                    
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 30%;"><span class="title">30%</span></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="main">PHP & Laravel</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="sub">Beginner</div>
+                    </div>                    
+                </div>
+            </div>
+            
         </div>
     </div>
     
-    <div class="col-md-6">
-        <div class="tickle">My Amateur Progress</div>
-        <div class="desc">"Skill could not measured by the time but by the solved problem" - Basri Yasin.</div>
+    
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-sm-12"><div class="line-two">LANGUAGE</div></div>            
+            
+            <div class="col-sm-4">
+                <div class="second">Indonesian</div>
+            </div>
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 80%;"><span class="title">80%</span></div>
+                </div>
+            </div>
 
-        <div class="row lost">
-            <div class="col-sm-1 col-sm-1">
-                <div class="stick"></div>               
+            <div class="col-sm-4">
+                <div class="second">English</div>
             </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="quote">
-                    Failure is also fun, living with the belief that trials are able to forge and shape my personality. Right, I failed. But I can still rise again. Repeatedly, continuously. Every try always feels heavy but that's where I think the meaning of true strength.
-                </div>                            
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 70%;"><span class="title">70%</span></div>
+                </div>
             </div>
+
+            <div class="col-sm-4">
+                <div class="second">Local</div>
+            </div>
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 50%;"><span class="title">50%</span></div>
+                </div>
+            </div>
+           
         </div>
     </div>
-    <div class="col-md-6">
+    
+    <div class="col-md-8"></div>
+    
+    <div class="col-md-4">
         <div class="row">
-            <div class="col-sm-4 col-sm-1">
-                <div class="lang">HTML & CSS</div>
+            <div class="col-sm-12"><div class="line-two">KNOWLEDGE</div></div>            
+            
+            <div class="col-sm-4">
+                <div class="second">Write Fiction</div>
             </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="lost">
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%">
-                        <span class="title">70%</span>
-                      </div>
-                    </div>             
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 70%;"><span class="title">70%</span></div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-1">
-                <div class="lang">Visual Basic & .NET</div>
-            </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="lost">
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="max-width: 65%">
-                        <span class="title">65%</span>
-                      </div>
-                    </div>             
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-1">
-                <div class="lang">PHP & Laravel</div>
-            </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="lost">
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 50%">
-                        <span class="title">50%</span>
-                      </div>
-                    </div>             
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-1">
-                <div class="lang">Java</div>
-            </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="lost">
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%">
-                        <span class="title">40%</span>
-                      </div>
-                    </div>             
-                </div>               
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-1">
-                
-            </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="line"></div>
-            </div>
-        </div>
-        <div class="row lost">
-            <div class="col-sm-4 col-sm-1">
-                
-            </div>
-            <div class="col-sm-8 col-sm-2">
-                <div class="row">
-                    <div class="col-sm-2 col-sm-2">
-                        <div class="spes-kir">Novice</div>
-                    </div>
-                    <div class="col-sm-3 col-sm-1">
-                        <div class="spes-kan">Advance</div>
-                    </div>
-                    <div class="col-sm-4 col-sm-1">
-                        <div class="spes-kan">Competent</div>
-                    </div>
-                    <div class="col-sm-3 col-sm-2">
-                        <div class="spes-kan">Expert</div>
-                    </div>
-                </div>                 
-            </div>
-        </div>       
-    </div> 
-</div>
 
+            <div class="col-sm-4">
+                <div class="second">Sketch</div>
+            </div>
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 70%;"><span class="title">70%</span></div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="second">GIMP 2.0</div>
+            </div>
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 65%;"><span class="title">65%</span></div>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="second">Photography</div>
+            </div>
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 60%;"><span class="title">60%</span></div>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="second">Design Thinking</div>
+            </div>
+            <div class="col-sm-8">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 50%;"><span class="title">50%</span></div>
+                </div>
+            </div>            
+            
+        </div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="side"></div>
+    </div>
+    
+</div>
 @endsection
