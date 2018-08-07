@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/',  'HomeController@beranda')->name('home.beranda');
+Route::get('/',  'HomeController@beranda' )->name('home.beranda');
