@@ -11,4 +11,9 @@
 |
 */
 
-Route::get('/',  'HomeController@beranda' )->name('home.beranda');
+Route::get('/',            'HomeController@beranda'    )->name('home.beranda');
+Route::get('/profil',      'HomeController@profil'     )->name('home.profil');
+Route::get('/pengalaman',  'HomeController@pengalaman' )->name('home.pengalaman');
+Route::get('/keahlian',    'HomeController@keahlian'   )->name('home.keahlian');
+Route::get('/penghargaan', 'HomeController@penghargaan')->name('home.penghargaan');
+Route::get('/kontak',      'HomeController@kontak'     )->name('home.kontak');
