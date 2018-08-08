@@ -6,9 +6,80 @@
 
 @section('content')
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
-<div class="sk-rotating-plane"></div>
+
 <div class="row">
+<!--    <div class="col-md-12">
+        <div class="line-up"></div>
+    </div>
     <div class="col-md-12">
+        <div class="line-up-inside"></div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="image-box">
+                    <img class="image" src="{{ asset('/img/me.png') }}" alt="{{ asset('/img/me.png') }}">
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="text-box">
+                    <div class="text-say">HELLO I AM</div>
+                    <div class="text-name">WAODE MAKANI DAGA</div>
+                    <div class="text-passion">Beginner Web Pemrogramming</div>                    
+                </div>
+            </div>
+            <div class="col-sm-4"></div>            
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="icon-box">
+                    <img class="icon-linked-in" src="{{ asset('/icon/linkedin.png') }}" alt="{{ asset('/icon/linkedin.png') }}">
+                    <img class="icon-ig" src="{{ asset('/icon/instagram.png') }}" alt="{{ asset('/icon/instagram.png') }}">                    
+                </div>
+            </div>
+            <div class="col-sm-4"></div>            
+        </div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="download-box">
+                    <div class="download-area">
+                        <a href="{{ asset('/files/CV_Waode_Makani_Daga.pdf') }}" download="">
+                            <button class="download-button" title="Download Curriculum Vitae">Download My CV <img src="{{ asset('/icon/tag/download.png') }}" alt="{{ asset('/icon/tag/download.png') }}"></button>
+                        </a>
+                    </div>                   
+                </div>
+            </div>
+            <div class="col-sm-4"></div>            
+        </div>
+    </div>    
+    
+    <div class="col-md-12">
+        <div class="line-bottom-inside"></div>
+    </div>
+    <div class="col-md-12">
+        <div class="line-bottom"></div>
+    </div>    -->
+</div>
+
+@endsection
+
+<!--    <div class="col-md-12">
         <div class="line-1"></div> 
         <div class="title-text">
             <div class="first-text">HELLO I AM</div>
@@ -67,8 +138,4 @@
                 </div>
             </div>            
         </div>        
-    </div>   
-</div>
-
-@endsection
-  
+    </div>-->
