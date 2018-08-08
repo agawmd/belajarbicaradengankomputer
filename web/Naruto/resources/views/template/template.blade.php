@@ -17,7 +17,7 @@
         @include('template.header')
         <!--end of Header-->
 
-        <div class="container">
+        <div class="container-fluid">
             @yield('content')
         </div>
 
