@@ -8,6 +8,11 @@
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
 
 <div class="row">
+
+</div>
+
+@endsection
+
 <!--    <div class="col-md-12">
         <div class="line-up"></div>
     </div>
@@ -75,9 +80,8 @@
     <div class="col-md-12">
         <div class="line-bottom"></div>
     </div>    -->
-</div>
 
-@endsection
+
 
 <!--    <div class="col-md-12">
         <div class="line-1"></div> 

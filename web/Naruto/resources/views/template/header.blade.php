@@ -27,6 +27,18 @@
             </li>
         </ul>
     </div>
+    
+    <div class="icon-bar">
+        <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><img title="Linked In" class="icon" src="{{ asset('/icon/linkedin.png') }}" alt="{{ asset('/icon/linkedin.png') }}"></a>
+        <a href="https://www.instagram.com/aga_wmd/" target="_blank"><img title="Instagram" class="icon" src="{{ asset('/icon/instagram.png') }}" alt="{{ asset('/icon/instagram.png') }}"></a>        
+        <a href="https://secure.skype.com/portal/overview" target="_blank"><img title="Skype" class="icon" src="{{ asset('/icon/skype.png') }}" alt="{{ asset('/icon/skype.png') }}"></a>        
+    </div>
+    
+    <div class="text-bottom">
+        <div class="copy">&copy; AGA.BASRIYASIN.COM</div>
+        <div class="all">ALL RIGHTS RESERVED</div>
+    </div>
+    
 </nav>
 
 

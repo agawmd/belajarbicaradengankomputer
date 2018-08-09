@@ -6,6 +6,12 @@
 
 @section('content')
 <div class="row slide">
+    
+
+    
+</div>  
+@endsection
+<!--
     <div class="col-md-4">
         <div class="box-tag">EXPERIENCE</div>    
     </div>
@@ -180,8 +186,5 @@
         </div>
     </div>
 
-    <div class="col-md-12 line-middle"></div>    
-
+    <div class="col-md-12 line-middle"></div>-->
     
-</div>  
-@endsection

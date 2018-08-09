@@ -6,7 +6,13 @@
 
 @section('content')
 <div class="row">
-    <div class="col-md-12">
+
+    
+</div>
+
+@endsection
+
+<!--    <div class="col-md-12">
         <div class="maps">
             <div><img class="photo" src="{{ asset('/img/indonesia.jpg') }}" alt="{{ asset('/img/indonesia.jpg') }}"></div>
         </div>
@@ -46,11 +52,11 @@
                 </div>
             </div>            
         </div>        
-    </div>    
-    
-</div>
+    </div>    -->
 
-@endsection
+
+
+
 <!--
     <div class="col-md-6">
         <div class="row">

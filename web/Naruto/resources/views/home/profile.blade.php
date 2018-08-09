@@ -5,8 +5,13 @@
 @endsection
 
 @section('content')
-<div class="row slide">
-    <div class="col-md-4">
+<div class="row">
+
+</div>
+
+@endsection
+
+<!--    <div class="col-md-4">
         <div class="line-top"></div>
     </div>
     <div class="col-md-4">
@@ -65,7 +70,4 @@
                 </div>
             </div>
         </div>
-    </div>    
-</div>
-
-@endsection
+    </div>    -->

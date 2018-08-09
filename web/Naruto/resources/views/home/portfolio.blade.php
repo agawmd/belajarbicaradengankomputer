@@ -8,7 +8,12 @@
 
 
 <div class="row">
-    <div class="col-md-12">
+
+</div>
+
+@endsection
+
+<!--    <div class="col-md-12">
         <div class="box-tag">PORTFOLIO</div>          
     </div>
     <div class="col-md-3"></div>
@@ -23,7 +28,4 @@
         </div>
     </div>    
     
-    <div class="col-md-3"></div>
-</div>
-
-@endsection
+    <div class="col-md-3"></div>-->
