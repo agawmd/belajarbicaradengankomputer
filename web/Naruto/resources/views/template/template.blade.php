@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         @yield('style')
     </head>
-    <body class="page-top">
+    <body>
         <!--header-->
         @include('template.header')
         <!--end of Header-->

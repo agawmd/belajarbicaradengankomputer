@@ -8,7 +8,54 @@
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
 
 <div class="row">
-
+    
+    <div class="col-md-4">
+        <div class="sideBar">
+            <div class="name-box">
+                <div class="name">Waode Makani Daga</div>
+                <div class="title">Beginner Web</div>
+            </div>
+            <div class="image-box">
+                <div class="image-frame">
+                    <img>image
+                </div>
+            </div>
+            <div class="identity-box">
+                <div class="tag"> Nama : <div>Waode Makani Daga</div></div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="tag">
+                            Name :
+                        </div>
+                        <div class="tag">
+                            Birthday :
+                        </div>
+                        <div class="tag">
+                            Job :
+                        </div>
+                        <div class="tag">
+                            Email :
+                        </div>
+                        <div class="tag">
+                            Skype :
+                        </div>                        
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="view">
+                            Waode Makani Daga
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="name-box">
+            <div class="first-name">waode</div>
+            <div class="middle-name">makani daga</div>            
+        </div>
+    </div>
 </div>
 
 @endsection
