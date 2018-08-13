@@ -1,5 +1,5 @@
 /* 
-    Created on : Mar 7, 2018, 6:24:02 PM
+    Created on : Aug 12, 2018, 6:24:02 PM
     Author     : aga
 */
 
@@ -7,6 +7,81 @@ body {
 
 }
 
+
+.line-break-up {
+      margin: 4rem auto 4rem auto !important;
+}
+
+.line-break-down {
+      margin: 3rem auto 3rem auto !important;
+}
+
+.header-box {
+  margin: 2rem auto !important;
+}
+
+.underline {
+  width: 15%;
+  height: 5px;
+  background-color: red;
+}
+
+.header-title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.header-icon {
+  margin: 1rem auto !important;
+  opacity: 0.5;
+}
+
+.icon {
+  width: 15%;
+  height: auto;
+}
+
+.info-box, #flip {
+  margin: 2rem auto !important;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 1rem !important;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.info-box:hover {
+  background-color: beige;
+}
+
+.info-work {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.info-date {
+  font-size: 10pt;
+  color: grey;
+}
+
+.info-place {
+  font-size: 10pt;
+  margin: 1rem auto !important;  
+}
+
+.info-icon {
+  margin-right: 1rem !important;
+  width: 18px;
+  height: auto;
+}
+
+.info-title {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+
+/*
 .line-top {
            width: 100%;
           height: 1px;
@@ -98,4 +173,4 @@ font-weight: bold;
 }
 
 
-
+*/

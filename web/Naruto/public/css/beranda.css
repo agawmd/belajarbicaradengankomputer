@@ -4,110 +4,72 @@
 */
 
 body {
-
+    background-image: url('/img/background.JPG');
+   background-repeat: no-repeat;
+     background-size: cover;
 }
 
-
-
-
-
-/*<!-- Backup -->*/
-
-/*
-.title-text {
-     margin-top: 5%;
-  margin-bottom: 5%;
-    font-family: san serif;
+.line-break-up {
+      margin: 3rem auto 3rem auto !important;
 }
 
-.first-text {
-    font-size: 1.6em;
-        color: #FF6347;
+.line-break-down {
+      margin: 3rem auto 3rem auto !important;
+}
+
+.image-frame {
+    padding: 3rem !important;
+}
+
+.image {
+          width: 100%;
+         height: auto;
+  border-radius: 100%;
+}
+
+.text-box {
+  padding: 3rem;
+}
+
+.first-name {
+    font-size: 3em;
   font-weight: bold;
+        color: red;
 }
 
-.second-text {
-    font-size: 2em;
+.middle-name {
+    font-size: 4em;
   font-weight: bold;
+        color: white;
 }
 
-.third-text {
+.title-name {
   font-family: mono;
-        color: grey;
-}
-
-.linked {
- text-align: right;
-    display: inline-block;
-font-family: monospace;
-      color: grey;
-}
-
-.iconic {
-
-                          width: 10%;
-                         height: auto;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-                         cursor: pointer;
-                         padding: 2%;
-                         
-}
-
-.icon-by {
-      opacity: 0.5;
-}
-
-.icon-by:hover {
-      opacity: 1.0;
+    font-size: 1.2em;
+  font-weight: bold;
 }
 
 .download-area {
-   text-align: left;
+  text-align: center;
 }
 
-.button-download {
-                        padding: 2%;
-               background-color: transparent;
-                         border: 1px solid #FF6347;
-                    font-weight: bold;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+.download-button {
+                      padding: 1rem !important;
+                  font-weight: bold;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+             background-color: white;
+                        color: red;
+                       border: transparent;
+                border-radius: 1%;
 }
 
-
-.button-download:hover {
-  background-color: #FF6347;
-             color: white;
-
+.download-button:hover {
+  background-color: red ;
+             color: black;
 }
 
-.line {
-           width: 100%;
-          height: 1px;
-background-color: #FF6347;
-      margin-top: 5%;
+.icon {
+  max-width: 9%;
+     height: auto;
 }
-
-
-.line-1 {
-           width: 100%;
-          height: 1px;
-background-color: #FF6347;
-      margin-top: 5%;
-}
-
-.email, .phone, .web, .location {
-  margin-top: 15%;
-       color: grey;
-}
-
-.sub-title {
-  font-weight: bold;
-        color: #FF6347;
-}
-
-.web, .location {
-  text-align: right;
-}
-*/

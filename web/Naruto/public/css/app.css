@@ -1,0 +1,31 @@
+
+.nav-link {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
+.active .nav-link:hover {
+  background-color: grey;
+
+}
+
+.navbar-dark .navbar-brand {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.navbar-dark .navbar-brand:hover {
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+.dropdown-item {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;  
+}
+
+.dropdown-item:hover {
+  background-color: grey;
+  font-weight: bold;
+}

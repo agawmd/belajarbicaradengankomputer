@@ -7,6 +7,36 @@
 @section('content')
 
 <div class="row">
+    
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="header-box">
+            <div class="header-title">EXPERIENCE</div>
+            <div class="underline"></div>
+            <div class="header-icon">
+                <img class="icon" src="{{ asset('/icon/tag/kerja.png') }}" alt="{{ asset('/icon/tag/kerja.png') }}">
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-8">
+        <div class="info-box" id="flip">
+            <div class="info-work">TAMAN SURYA SPORT CLUB</div>
+            <div class="info-date">Jun 2016 - Jul 2016</div>
+            <div class="info-place"><img class="info-icon" src="{{ asset('/icon/tag/negara.png') }}" alt="{{ asset('/icon/tag/negara.png') }}">West Jakarta</div>
+            <div class="info-title">UI Designer</div>
+        </div>
+        <div id="panel">
+            
+        </div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>    
 
 </div>
 
