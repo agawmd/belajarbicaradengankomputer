@@ -2,37 +2,216 @@
 
 @section('style')
 <link rel="stylesheet" href="{{ asset('/css/resume.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/animate.css') }}">
 @endsection
 
 @section('content')
 
 <div class="row">
-    
+        
     <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-2">
         <div class="header-box">
             <div class="header-title">EXPERIENCE</div>
             <div class="underline"></div>
             <div class="header-icon">
-                <img class="icon" src="{{ asset('/icon/tag/kerja.png') }}" alt="{{ asset('/icon/tag/kerja.png') }}">
+                <img class="icon" src="{{ asset('/icon/tag/work.png') }}" alt="{{ asset('/icon/tag/work.png') }}">
             </div>
         </div>
     </div>
     
-    <div class="col-md-8">
-        <div class="info-box" id="flip">
-            <div class="info-work">TAMAN SURYA SPORT CLUB</div>
-            <div class="info-date">Jun 2016 - Jul 2016</div>
-            <div class="info-place"><img class="info-icon" src="{{ asset('/icon/tag/negara.png') }}" alt="{{ asset('/icon/tag/negara.png') }}">West Jakarta</div>
-            <div class="info-title">UI Designer</div>
-        </div>
-        <div id="panel">
-            
+    <div class="col-md-10">
+        <div class="info-box" id="experience-section">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="info-image">
+                        <img class="image" src="{{ asset('/logo/tssc-logo.jpg') }}" alt="{{ asset('/logo/tssc-logo.jpg') }}">                    
+                    </div>                
+                </div>
+                <div class="col-sm-10">
+                    <div class="info-work">TAMAN SURYA SPORT CLUB</div>
+                    <div class="info-date">Jun 2016 - Jul 2016</div>
+                    <div class="info-place"><img class="info-icon" src="{{ asset('/icon/tag/region.png') }}" alt="{{ asset('/icon/tag/region.png') }}">West Jakarta</div>
+                    <div class="info-title">UI Designer</div>                
+                </div>                
+            </div>
+        </div> 
+            <div class="animated" id="experience-description">
+                The result of my first freelance work was to design the user interface and provide feedback, so that users can interact easily in using it.
+                As I said before, I have worked as a freelance UI Designer at one of the sports clubs in West Jakarta. As a back-end programmer, it is certainly not easy, it can be said that this is the first time I know the design and implement it manually. I redesigned the workflow of the entire database that was given because at that time I was really very ordinary with the discussion, so I needed to find out what I was doing and how to solve it.
+                After that, I started with the basic technique in Photoshop CS4. Initially I would have thought this work would be short but with layers piled up to hundreds, I just realized that what I had done so far had become a large system. Which when run through PowerPoint Slideshow when it is connected via a link to the next image, is the same as when starting to run the system to end a workflow in the database.                
+            </div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
+     
+    <div class="col-md-2">
+        <div class="header-box">
+            <div class="header-title">EDUCATION</div>
+            <div class="underline"></div>
+            <div class="header-icon">
+                <img class="icon" src="{{ asset('/icon/tag/graduation.png') }}" alt="{{ asset('/icon/tag/graduation.png') }}">
+            </div>
+        </div>        
+    </div>
+    
+    <div class="col-md-10">
+        <div class="education-box fadeInRight">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="education-image">
+                        <img class="image" src="{{ asset('/logo/kharisma-logo.gif') }}" alt="{{ asset('/logo/kharisma-logo.gif') }}">                    
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="education-text" id="campus-section">
+                        <div class="education-date">2019 (expected)</div>
+                        <div class="education-title">BEng. in Computer Science</div>
+                        <div class="education-place">STMIK KHARISMA MAKASSAR</div>
+                    </div>                
+                </div>
+            </div>            
         </div>
     </div>
+
+    <div class="col-md-2"></div>
+    
+    <div class="col-md-10">
+        <div class="education-box fadeInRight">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="education-image">
+                        <img class="image" src="{{ asset('/logo/yapen-satria-logo.png') }}" alt="{{ asset('/logo/yapen-satria-logo.png') }}">                    
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="education-text" id="highschool-section">
+                        <div class="education-date">2012</div>
+                        <div class="education-title">High School Graduates</div>
+                        <div class="education-place">SMA SATRIA MAKASSAR</div>
+                    </div>                
+                </div>
+            </div>            
+        </div>
+    </div>    
+    
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
+         
+    <div class="col-md-2">
+        <div class="header-box">
+            <div class="header-title">CERTIFICATE</div>
+            <div class="underline"></div>
+            <div class="header-icon">
+                <img class="icon" src="{{ asset('/icon/tag/certificate.png') }}" alt="{{ asset('/icon/tag/certificate.png') }}">
+            </div>
+        </div>        
+    </div>
+    
+    <div class="col-md-5">
+        <div class="certificate-box">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="certificate-image">
+                        <img class="image" src="{{ asset('/logo/inkanas-logo.png') }}" alt="{{ asset('/logo/inkanas-logo.png') }}">                        
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="certificate-text">
+                        <div class="certificate-builder">INSTITUT KARATE-DO NASIONAL SULAWESI SELATAN</div>
+                        <div class="certificate-title">Karateka</div>
+                        <div class="certificate-date">2008 - 2014</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-5">
+        <div class="certificate-box">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="certificate-image">
+                        <img class="image" src="{{ asset('/logo/KNPI-logo.png') }}" alt="{{ asset('/logo/KNPI-logo.png') }}">                        
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="certificate-text">
+                        <div class="certificate-builder">KOMISI NASIONAL PEMUDA INDONESIA PROVINSI SULAWESI SELATAN</div>
+                        <div class="certificate-title">Peer Education</div>
+                        <div class="certificate-date">2009</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+    <div class="col-md-2"></div>
+
+    <div class="col-md-5">
+        <div class="certificate-box">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="certificate-image">
+                        <img class="image" src="{{ asset('/logo/YJS-logo.png') }}" alt="{{ asset('/logo/YJS-logo.png') }}">                        
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="certificate-text">
+                        <div class="certificate-builder">YAYASAN JANTUNG INDONESIA CABANG UTAMA SULAWESI SELATAN</div>
+                        <div class="certificate-title">Gymnastics Training</div>
+                        <div class="certificate-date">2010</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-5">
+        <div class="certificate-box">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="certificate-image">
+                        <img class="image" src="{{ asset('/logo/veefa-logo.gif') }}" alt="{{ asset('/logo/veefa-logo.gif') }}">                        
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="certificate-text">
+                        <div class="certificate-builder">VEEFA INTERNATIONAL INSTITUTE</div>
+                        <div class="certificate-title">English Courses</div>
+                        <div class="certificate-date">2010 - 2011</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+    <div class="col-md-2"></div>
+
+    <div class="col-md-5">
+        <div class="certificate-box">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="certificate-image">
+                        <img class="image" src="{{ asset('/logo/kharisma-logo.gif') }}" alt="{{ asset('/logo/kharisma-logo.gif') }}">                        
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="certificate-text">
+                        <div class="certificate-builder">PUSAT PENDIDIKAN KOMPUTER KHARISMA</div>
+                        <div class="certificate-title">Computer Courses</div>
+                        <div class="certificate-date">2012</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
     
     <div class="col-md-12">
         <div class="line-break-down"></div>

@@ -15,3 +15,21 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
+/**
+ * Experience toogle description
+ */
+$('#experience-section')
+        .click(function(e){
+            // description = $(this).next('#experience-description');
+            description = $(this).next();
+            if(description.hasClass('fadeOutDown')) {
+                description.removeClass('fadeOutDown');
+                description.addClass('fadeInDown');
+            }
+            else {                
+                description.addClass('fadeOutDown');
+                description.removeClass('fadeInDown');
+            }
+        });
+
+//pake transition-duration mungkin biar  selow

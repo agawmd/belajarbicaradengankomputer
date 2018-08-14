@@ -7,84 +7,99 @@ body {
 
 }
 
-
 .line-break-up {
-      margin: 2rem auto 2rem auto !important;
+    margin: 2rem auto 2rem auto !important;
 }
 
 .line-break-down {
-      margin: 2rem auto 2rem auto !important;
+    margin: 2rem auto 2rem auto !important;
 }
 
-.intro-box {
-  margin: 2rem auto !important;
+.header-box, .intro-box, .image-box {
+    margin: 2rem auto !important;
 }
 
 .underline {
-             width: 50%;
-            height: 5px;
-  background-color: red;
+            width: 50px;
+           height: 5px;
+ background-color: #3498DB;
+}
+
+.header-title {
+        font-size: 15pt;
+      font-weight: bold;
+            color: #5f616e;
+}
+
+.header-icon {
+    margin: 1rem auto !important;
+   opacity: 0.5;
 }
 
 .icon {
-   width: 50%;
-  height: auto;
+     width: 50px;
+    height: auto;
 }
 
-.intro-icon {
-   margin: 1rem auto !important;
-  opacity: 0.5;
-}
-
-
-.intro-title {
-  font-weight: bold;
-}
+/*Intro Box & Data Box*/
 
 .intro-text {
-    font-size: 9pt;
-        color: grey;
-   text-align: justify;
-  font-family: mono;
+                font-size: 10pt;
+                    color: grey;
+              font-family: mono;
+               box-shadow: 5px 5px aquamarine;
+                  padding: 1rem !important;
+-webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+            border-radius: 5px;
 }
 
-.image-frame {
-          margin: 2rem auto !important;
-          border: 5px solid black;
-   border-radius: 1%;
-         padding: rem !important;
-background-color: grey;
+.intro-text:hover {
+  background-color: #f0f8ff;
+           opacity: 0.5;
+}
+
+.data-box {
+    margin: 2rem auto !important;
+}
+
+.data {
+         margin: 2rem auto !important;
+      font-size: 10pt;
+    font-weight: bold;
+}
+
+.icon-data {
+           width: 20px;
+          height: auto;
+    margin-right: 1rem !important;
+}
+
+/*Image Box*/
+.image-box {
+    background-color: #f0f8ff;
+          box-shadow: 5px 5px aquamarine;
+       border-radius: 5px;
 }
 
 .image {
-   width: 100%;
-  height: auto;
+     width: 100%;
+    height: auto;
 }
 
-.icon-bar {
+.icon-link-box {
   text-align: center;
 }
 
-.icon-post {
-   width: 10%;
-  height: auto;
-  margin: 1rem !important;
+.icon-link {
+                          width: 30px;
+                         height: auto;
+                         margin: 1rem !important;
+                         filter: grayscale;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
 }
 
-.profile-box {
-       margin: 2rem auto!important;
-  font-family: mono
-}
-
-.tag {
-        width: 13%;
-       height: auto;
-  margin-left: 1rem
-}
-
-.profile {
-      margin: 2rem auto !important;
-   font-size: 11pt;
-       color: grey;
-  text-align: right;
+.icon-link:hover {
+    opacity: 0.5;
 }
