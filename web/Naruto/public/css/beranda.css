@@ -4,9 +4,9 @@
 */
 
 body {
-    background-image: url('/img/background.JPG');
-   background-repeat: no-repeat;
-     background-size: cover;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .line-break-up {
@@ -17,6 +17,94 @@ body {
       margin: 3rem auto 3rem auto !important;
 }
 
+/*Title Box*/
+
+.text-box {
+  text-align: center;
+  font-family: 'Saira Extra Condensed';
+}
+
+.text-myname {
+  font-size: 60pt;
+  color: black;
+}
+
+.text-title {
+  font-size: 18pt;
+  margin: 1rem auto !important;
+}
+
+.line-box {
+  margin: 1rem auto !important;
+}
+
+.underline {
+  height: 1px;
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 1px;
+}
+
+/*Link Box*/
+
+.follow-box {
+  margin: 1rem auto !important;
+  text-align: center;
+}
+
+.follow-text {
+  font-size: 10pt;
+}
+
+.link-icon {
+  display: inline-block;
+  border-radius: 50px;
+  margin: 1rem !important;
+}
+
+.icon {
+  width: 25px;
+  height: auto;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+/*Download VC*/
+
+.download-box {
+  margin: 2rem auto !important;
+  text-align: center;
+}
+
+.download-button {
+  color: black;
+  font-weight: bold; 
+  padding: 1rem !important;
+  border: 1px solid aquamarine;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: transparent;
+  border-radius: 5px;
+  
+}
+
+.download-button:hover {
+  box-shadow: 2px 2px aquamarine;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  opacity: 0.5;
+}
+
+.download-icon {
+  width: 20px;
+  height: auto;
+}
+
+
+/*
 .image-frame {
     padding: 3rem !important;
 }
@@ -72,4 +160,4 @@ body {
 .icon {
   max-width: 9%;
      height: auto;
-}
+}*/
