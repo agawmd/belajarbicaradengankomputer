@@ -60,9 +60,9 @@
         <div class="image-box">
             <img class="image" src="{{ asset('/img/profile.png') }}" alt="{{ asset('/img/profile.png') }}">
             <div class="icon-link-box">
-                <a href="#" target="_blank" title="Linked In"><img class="icon-link" src="{{ asset('/icon/linkedin.png') }}" alt="{{ asset('/icon/linkedin.png') }}"></a>
-                <a href="#" target="_blank" title="Instagram"><img class="icon-link" src="{{ asset('/icon/instagram.png') }}" alt="{{ asset('/icon/intagram.png') }}"></a>
-                <a href="#" target="_blank" title="Skype"><img class="icon-link" src="{{ asset('/icon/skype.png') }}" alt="{{ asset('/icon/skype.png') }}"></a>                
+                <a href="https://www.linkedin.com/in/agawmd/" target="_blank" title="Linked In"><img class="icon-link" src="{{ asset('/icon/linkedin.png') }}" alt="{{ asset('/icon/linkedin.png') }}"></a>
+                <a href="https://www.instagram.com/aga_wmd/" target="_blank" title="Instagram"><img class="icon-link" src="{{ asset('/icon/instagram.png') }}" alt="{{ asset('/icon/intagram.png') }}"></a>
+                <a href="https://www.hackerrank.com/aga_wmd?hr_r=1" target="_blank" title="Hacker Rank"><img class="icon-link" src="{{ asset('/icon/hacker-rank.png') }}" alt="{{ asset('/icon/hacker-rank.png') }}"></a>                
             </div>
         </div>
     </div>

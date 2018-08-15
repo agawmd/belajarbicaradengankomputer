@@ -65,13 +65,13 @@
             <div class="follow-text"><i>Like to read ? I am here.</i></div>
             <div class="follow-link">
                 <div class="link-icon">
-                    <a href="#" target="_blank" title="Medium"><img class="icon" src="{{ asset('/icon/medium.png') }}" alt="{{ asset('/icon/medium.png') }}"></a>
+                    <a href="https://medium.com/@aga_wmd" target="_blank" title="Medium"><img class="icon" src="{{ asset('/icon/medium.png') }}" alt="{{ asset('/icon/medium.png') }}"></a>
                 </div>
                 <div class="link-icon">
-                    <a href="#" target="_blank" title="Blogger"><img class="icon" src="{{ asset('/icon/blogger.png') }}" alt="{{ asset('/icon/blogger.png') }}"></a>
+                    <a href="https://wmdsite.blogspot.com/" target="_blank" title="Blogger"><img class="icon" src="{{ asset('/icon/blogger.png') }}" alt="{{ asset('/icon/blogger.png') }}"></a>
                 </div>
                 <div class="link-icon">
-                    <a href="#" target="_blank" title="Wordpress"><img class="icon" src="{{ asset('/icon/wordpress.png') }}" alt="{{ asset('/icon/wordpress.png') }}"></a>
+                    <a href="https://agawmd.wordpress.com/" target="_blank" title="Wordpress"><img class="icon" src="{{ asset('/icon/wordpress.png') }}" alt="{{ asset('/icon/wordpress.png') }}"></a>
                 </div>                
             </div>
         </div>
