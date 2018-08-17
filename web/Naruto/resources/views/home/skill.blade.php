@@ -8,8 +8,50 @@
 @section('content')
 
 <div class="row">
-
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
     
+    <div class="col-md-2">
+        <div class="header-box">
+            <div class="header-title">SKILL</div>
+            <div class="underline"></div>
+            <div class="header-icon">
+                <img class="icon" src="{{ asset('/icon/tag/skill.png') }}" alt="{{ asset('/icon/tag/skill.png') }}">
+            </div>
+        </div>        
+    </div>    
+    
+    
+    <div class="center">
+        <h1>Software Skill</h1>
+        <div class="skill-box">
+            <p>Html</p>
+            <p>90%</p>
+            <div class="skill">
+                <div class="skill-level" style="width: 90%"></div>
+            </div>
+        </div>
+        <div class="skill-box">
+            <p>Css</p>
+            <p>80%</p>
+            <div class="skill">
+                <div class="skill-level" style="width: 80%"></div>
+            </div>
+        </div>
+        <div class="skill-box">
+            <p>PHP</p>
+            <p>75%</p>
+            <div class="skill">
+                <div class="skill-level" style="width: 75%"></div>
+            </div>
+        </div>        
+    </div>
+    
+    
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>  
 </div>
 @endsection
 

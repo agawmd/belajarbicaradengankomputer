@@ -8,6 +8,9 @@
 }
 
 body {
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -80,7 +83,7 @@ body {
 .info-work {
     font-size: 13pt;
   font-weight: bold;
-        color: #3498DB;
+        color: #1F3A93;
 }
 
 .info-date, .info-place {
@@ -148,7 +151,7 @@ body {
 }
 
 .education-place {
-      color: #19B5FE;
+      color: #1F3A93;
   font-size: 11pt;
 }
 
@@ -175,7 +178,7 @@ body {
 }
 
 .certificate-builder {
-      color: #19B5FE;
+      color: #1F3A93;
   font-size: 11pt;
 }
 

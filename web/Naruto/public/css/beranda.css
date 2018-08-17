@@ -20,36 +20,36 @@ body {
 /*Title Box*/
 
 .text-box {
-  text-align: center;
+   text-align: center;
   font-family: 'Saira Extra Condensed';
 }
 
 .text-myname {
   font-size: 60pt;
-  color: black;
+      color: black;
 }
 
 .text-title {
   font-size: 18pt;
-  margin: 1rem auto !important;
+     margin: 1rem auto !important;
 }
 
 .line-box {
   margin: 1rem auto !important;
 }
 
-.underline {
-  height: 1px;
-  background: #f12711;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ .underline {
+         height: 1px;
+     background: #f12711;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 1px;
 }
 
 /*Link Box*/
 
 .follow-box {
-  margin: 1rem auto !important;
+      margin: 1rem auto !important;
   text-align: center;
 }
 
@@ -58,13 +58,13 @@ body {
 }
 
 .link-icon {
-  display: inline-block;
+        display: inline-block;
   border-radius: 50px;
-  margin: 1rem !important;
+         margin: 1rem !important;
 }
 
 .icon {
-  width: 25px;
+   width: 25px;
   height: auto;
 }
 
@@ -75,89 +75,29 @@ body {
 /*Download VC*/
 
 .download-box {
-  margin: 2rem auto !important;
+      margin: 2rem auto !important;
   text-align: center;
 }
 
 .download-button {
-  color: black;
-  font-weight: bold; 
-  padding: 1rem !important;
-  border: 1px solid aquamarine;
+                        color: black;
+                  font-weight: bold; 
+                      padding: 1rem !important;
+                       border: 1px solid aquamarine;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  background-color: transparent;
-  border-radius: 5px;
-  
+          transition-duration: 0.5s;
+             background-color: transparent;
+                border-radius: 5px;
 }
 
 .download-button:hover {
-  box-shadow: 2px 2px aquamarine;
-  border-radius: 5px;
+        box-shadow: 2px 2px aquamarine;
+     border-radius: 5px;
   background-color: #f0f8ff;
-  opacity: 0.5;
+           opacity: 0.5;
 }
 
 .download-icon {
-  width: 20px;
+   width: 20px;
   height: auto;
 }
-
-
-/*
-.image-frame {
-    padding: 3rem !important;
-}
-
-.image {
-          width: 100%;
-         height: auto;
-  border-radius: 100%;
-}
-
-.text-box {
-  padding: 3rem;
-}
-
-.first-name {
-    font-size: 3em;
-  font-weight: bold;
-        color: red;
-}
-
-.middle-name {
-    font-size: 4em;
-  font-weight: bold;
-        color: white;
-}
-
-.title-name {
-  font-family: mono;
-    font-size: 1.2em;
-  font-weight: bold;
-}
-
-.download-area {
-  text-align: center;
-}
-
-.download-button {
-                      padding: 1rem !important;
-                  font-weight: bold;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-             background-color: white;
-                        color: red;
-                       border: transparent;
-                border-radius: 1%;
-}
-
-.download-button:hover {
-  background-color: red ;
-             color: black;
-}
-
-.icon {
-  max-width: 9%;
-     height: auto;
-}*/
