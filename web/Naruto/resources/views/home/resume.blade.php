@@ -14,7 +14,7 @@
     </div>
 
     <div class="col-md-2">
-        <div class="header-box">
+        <div class="header-box bounceIn">
             <div class="header-title">EXPERIENCE</div>
             <div class="underline"></div>
             <div class="header-icon">
@@ -51,7 +51,7 @@
     </div>
      
     <div class="col-md-2">
-        <div class="header-box">
+        <div class="header-box bounceIn">
             <div class="header-title">EDUCATION</div>
             <div class="underline"></div>
             <div class="header-icon">
@@ -105,7 +105,7 @@
     </div>
          
     <div class="col-md-2">
-        <div class="header-box">
+        <div class="header-box bounceIn">
             <div class="header-title">CERTIFICATE</div>
             <div class="underline"></div>
             <div class="header-icon">

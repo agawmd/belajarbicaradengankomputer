@@ -2,6 +2,7 @@
 
 @section('style')
 <link rel="stylesheet" href="{{ asset('css/profile.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/animate.css') }}">
 @endsection
 
 @section('content')
@@ -12,7 +13,7 @@
     </div>
     
     <div class="col-md-2">
-        <div class="header-box">
+        <div class="header-box bounceIn">
             <div class="header-title">ABOUT ME</div>
             <div class="underline"></div>
             <div class="header-icon">

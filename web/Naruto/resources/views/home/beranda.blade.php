@@ -2,6 +2,7 @@
 
 @section('style')
 <link rel="stylesheet" href="{{ asset('css/beranda.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/animate.css') }}">
 @endsection
 
 @section('content')
@@ -49,7 +50,7 @@
     <div class="col-md-4"></div>
     
     <div class="col-md-4">
-        <div class="download-box">
+        <div class="download-box bounceIn">
             <a href="{{ asset('/files/CV_Waode_Makani_Daga.pdf') }}" download="">
                 <button class="download-button" title="Download Curriculum Vitae">DOWNLOAD MY CV <img class="download-icon" src="{{ asset('/icon/tag/download.png') }}" alt="{{ asset('/icon/tag/download.png') }}"></button>
             </a>

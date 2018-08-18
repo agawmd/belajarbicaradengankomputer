@@ -14,7 +14,7 @@
     </div>  
     
     <div class="col-md-2">
-        <div class="header-box">
+        <div class="header-box bounceIn">
             <div class="header-title">SKILL</div>
             <div class="underline"></div>
             <div class="header-icon">
@@ -22,9 +22,15 @@
             </div>
         </div>        
     </div>    
-    
+
+        
     <div class="col-md-6">
-        <div class="center">
+        <div class="intro-box">
+            <div class="intro-text">
+                I learned in a couple years about programming languages within the scope of the lecture and an understanding of the concepts and writing the code is still in my development stage.            
+            </div>
+        </div>
+        <div class="center bounceIn">
             <h2>Software Skill</h2>
             <div class="skill-box">
                 <p>Html</p>
@@ -46,17 +52,37 @@
                 <div class="skill">
                     <div class="skill-level" style="width: 75%"></div>
                 </div>
-            </div>        
-        </div>        
+            </div>
+            <div class="skill-line-box">
+                <div class="skill-line"></div>
+            </div>
+            <div class="skill-ability-box">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="ability-left">Beginner</div>                        
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="ability-left">Elementary</div>                        
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="ability-right">Advance</div>                        
+                    </div>
+                    <div class="col-sm-3">                
+                        <div class="ability-right">Expert</div>
+                    </div>
+                </div>
+            </div>
+        </div>   
     </div>
+
     
     <div class="col-md-4">
-        <div class="language-box zoomIn">
+        <div class="language-box bounceIn">
             <h4>Language Skill</h4>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="language">English Experience</div>
-                    <div class="language">Bahasa Experience</div>
+                    <div class="language">Indonesia Experience</div>
                     <div class="language">Local Language</div>
                 </div>
                 <div class="col-sm-6">
@@ -84,9 +110,22 @@
                 </div>
             </div>
         </div>
+        
+        <div class="intro-box">
+            <div class="intro-text">
+                I found the experience in English when attending English speaking courses during school.
+                While Indonesian has become a common language, and I understand enough for the local language but it is still difficult and fluent.
+            </div>
+        </div>        
+        
     </div>
+
+    <div class="col-md-8"></div>
     
-    
+    <div class="col-md-4">
+        
+    </div>    
+
     <div class="col-md-12">
         <div class="line-break-down"></div>
     </div>  
