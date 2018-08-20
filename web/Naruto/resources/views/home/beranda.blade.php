@@ -23,7 +23,7 @@
     
     <div class="col-md-12">
         <div class="text-box">
-            <div class="text-myname">W A O D E M A K A N I D A G A</div>
+            <div class="text-myname">Waode Makani Daga</div>
         </div>
     </div>
     

@@ -23,51 +23,51 @@ body {
     top: 50%;
     left: 50%;*/
 /*    transform: translate(-50%, -50%);*/
-    margin: 1rem auto !important;
-    padding: 20px;
-    background: transparent;
-    box-sizing: border-box;
-    border: 1px solid #4CA1AF;
-    box-shadow: 10px 2px #4CA1AF;
+           margin: 1rem auto !important;
+          padding: 20px;
+       background: transparent;
+       box-sizing: border-box;
+           border: 1px solid #4CA1AF;
+       box-shadow: 10px 2px #4CA1AF;
     border-radius: 5px;
 }
 
 h2 {
-    margin: 0;
-    padding: 0;
-    color: #6fb1bd;
+            margin: 0;
+           padding: 0;
+             color: #6fb1bd;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
-    font-weight: bold;
+        text-align: center;
+       font-weight: bold;
 }
 
 .skill-box {
     box-sizing: border-box;
-    width: 100%;
-    margin: 20px 0;
+         width: 100%;
+        margin: 20px 0;
 }
 
 .skill-box p {
-    color: #222334;
+             color: #222334;
     text-transform: uppercase;
-    margin: 0 0 10px;
-    padding: 0;
-    font-weight: bold;
+            margin: 0 0 10px;
+           padding: 0;
+       font-weight: bold;
     letter-spacing: 1px;
 }
 
 .skill-box p:nth-child(2) {
-    float: right;
+       float: right;
     position: relative;
-    top: -25px;
+         top: -25px;
 }
 
 .skill {
-    background: #262626;
-    padding: 4px;
-    box-sizing: border-box;
-    border: 1px solid #0fffb7;
+       background: #262626;
+          padding: 4px;
+       box-sizing: border-box;
+           border: 1px solid #0fffb7;
     border-radius: 2px;
 }
 
@@ -124,37 +124,37 @@ h2 {
 }
 
 .language-box {
-  margin: 2rem auto !important;
-  box-sizing: border-box;
-  border: 1px solid #4CA1AF;
-  border-radius: 5px;
-  box-shadow: 10px 2px #4CA1AF;
-  padding: 1rem !important;
-  position: relative;
-  background: transparent;
+           margin: 2rem auto !important;
+       box-sizing: border-box;
+           border: 1px solid #4CA1AF;
+    border-radius: 5px;
+       box-shadow: 10px 2px #4CA1AF;
+          padding: 1rem !important;
+         position: relative;
+       background: transparent;
 }
 
 .language {
-  color: #222334;
-  text-shadow: 2px 2px aquamarine;
+           color: #222334;
+     text-shadow: 2px 2px aquamarine;
   padding-bottom: 1rem !important;
-  font-size: 11pt;
+       font-size: 11pt;
 }
 
 h4 {
   text-transform: uppercase;
-  font-weight: bold;
-  color:  	#6fb1bd;
-  text-align: center;
-  padding: 1rem !important;
+     font-weight: bold;
+           color: #6fb1bd;
+      text-align: center;
+         padding: 1rem !important;
   letter-spacing: 2px;
 }
 
 .star-box {
-  text-align: right;
+                   text-align: right;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  padding-bottom: 1rem !important;
+          transition-duration: 0.5s;
+               padding-bottom: 1rem !important;
 }
 
 .star-box:hover {
@@ -168,8 +168,8 @@ h4 {
 }
 
 .skill-line {
-  width: 100%;
-  height: 1px;
+             width: 100%;
+            height: 1px;
   background-color: blue;
 }
 
@@ -179,7 +179,7 @@ h4 {
 
 .ability-left, .ability-right {
   font-size: 9pt;
-    color: darkblue;
+      color: darkblue;
 }
 
 .ability-right {
@@ -188,8 +188,8 @@ h4 {
 
 .intro-text {
   font-family: mono;
-  font-size: 10pt;
-  color: #1565C0;
+    font-size: 10pt;
+        color: #1565C0;
 }
 
 

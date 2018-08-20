@@ -73,6 +73,7 @@
                         <div class="education-date">2019 (expected)</div>
                         <div class="education-title">BEng. in Computer Science</div>
                         <div class="education-place">STMIK KHARISMA MAKASSAR</div>
+                        <div class="info-place"><img class="info-icon" src="{{ asset('/icon/tag/region.png') }}" alt="{{ asset('/icon/tag/region.png') }}"><i>South Sulawesi</i></div>
                     </div>                
                 </div>
             </div>            
@@ -94,6 +95,7 @@
                         <div class="education-date">2012</div>
                         <div class="education-title">High School Graduates</div>
                         <div class="education-place">SMA SATRIA MAKASSAR</div>
+                        <div class="info-place"><img class="info-icon" src="{{ asset('/icon/tag/region.png') }}" alt="{{ asset('/icon/tag/region.png') }}"><i>South Sulawesi</i></div>
                     </div>                
                 </div>
             </div>            

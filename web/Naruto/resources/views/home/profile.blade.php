@@ -1,7 +1,7 @@
 @extends('template.template')
 
 @section('style')
-<link rel="stylesheet" href="{{ asset('css/profile.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/profile.css') }}">
 <link rel="stylesheet" href="{{ asset('/css/animate.css') }}">
 @endsection
 
@@ -58,7 +58,7 @@
     </div>
     
     <div class="col-md-4">
-        <div class="image-box">
+        <div class="image-box  bounceIn">
             <img class="image" src="{{ asset('/img/profile.png') }}" alt="{{ asset('/img/profile.png') }}">
             <div class="icon-link-box">
                 <a href="https://www.linkedin.com/in/agawmd/" target="_blank" title="Linked In"><img class="icon-link" src="{{ asset('/icon/linkedin.png') }}" alt="{{ asset('/icon/linkedin.png') }}"></a>

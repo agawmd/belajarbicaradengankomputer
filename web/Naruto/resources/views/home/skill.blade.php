@@ -112,19 +112,13 @@
         </div>
         
         <div class="intro-box">
-            <div class="intro-text">
+            <div class="intro-text fadeIn">
                 I found the experience in English when attending English speaking courses during school.
                 While Indonesian has become a common language, and I understand enough for the local language but it is still difficult and fluent.
             </div>
         </div>        
         
     </div>
-
-    <div class="col-md-8"></div>
-    
-    <div class="col-md-4">
-        
-    </div>    
 
     <div class="col-md-12">
         <div class="line-break-down"></div>

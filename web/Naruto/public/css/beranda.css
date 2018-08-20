@@ -27,6 +27,8 @@ body {
 .text-myname {
   font-size: 60pt;
       color: black;
+      letter-spacing: 13px;
+      text-transform: uppercase;
 }
 
 .text-title {
