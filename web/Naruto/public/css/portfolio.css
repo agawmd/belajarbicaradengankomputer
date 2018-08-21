@@ -49,22 +49,22 @@ body {
 /*Project Box*/
 
 .project-box {
-  margin: 2rem auto !important;
+                       margin: 2rem auto !important;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .project-box:hover {
-  opacity: 0.5;
-  color: blue;
+           opacity: 0.5;
+             color: blue;
   background-color: aquamarine;
-  box-shadow: 10px 2px aqua;
-  border-radius: 2px;
+        box-shadow: 10px 2px aqua;
+     border-radius: 2px;
 }
 
 .project-image {
-  width: 100%;
-  height: auto;
+    width: 100%;
+   height: auto;
   padding: 1rem !important;
 }
 
@@ -84,8 +84,8 @@ p {
 /*Button */
 
 .pass-line {
-  width: 100%;
-  height: 1px;
+             width: 100%;
+            height: 1px;
   background-color: darkblue;
 }
 
@@ -94,11 +94,11 @@ p {
 }
 
 .project-title {
-  border: 1px solid darkblue;
-  text-align: center;
-  font-size: 10pt;
+         border: 1px solid darkblue;
+     text-align: center;
+      font-size: 10pt;
   border-radius: 3px;
-  font-weight: bold
+    font-weight: bold
 }
 
 

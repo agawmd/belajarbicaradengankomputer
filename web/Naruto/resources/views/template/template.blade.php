@@ -34,7 +34,7 @@
         <script src="{{ asset('/js/jquery-3.2.1.slim.min.js') }}"></script>        
         <script src="{{ asset('/js/popper.min.js') }}"></script>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        
+
         <!--Main JS-->
         <script src="{{ asset('/js/app.js') }}"></script>
         
