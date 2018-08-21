@@ -30,7 +30,7 @@
                         <img class="contact-icon" src="{{ asset('/icon/tag/placeholder.png') }}" alt="{{ asset('/icon/tag/placeholder.png') }}">
                     </div>
                     <div class="col-sm-11">                        
-                        Sapiria, Barombong District, Gowa - South Sulawesi 90225
+                        Sapiria, Barombong District, Gowa Regency<br>South Sulawesi 90225
                     </div>
                 </div>
             </div>             
@@ -57,8 +57,8 @@
             <div class="social-box">
                 <div class="social-text">I am also in social network</div>
                 <div class="social-icon">
-                    <img class="social-icon-image" src="{{ asset('/icon/mono/instagram.png') }}" alt="{{ asset('/icon/mono/instagram.png') }}">
-                    <img class="social-icon-image" src="{{ asset('/icon/mono/skype.png') }}" alt="{{ asset('/icon/mono/skype.png') }}">                    
+                    <a href="https://www.instagram.com/aga_wmd/" target="_blank" title="on Instagram"><img class="social-icon-image" src="{{ asset('/icon/mono/instagram.png') }}" alt="{{ asset('/icon/mono/instagram.png') }}"></a>
+                    <a href="skype:waodemakanidaga?chat" target="_blank" title="on Skype"><img class="social-icon-image" src="{{ asset('/icon/mono/skype.png') }}" alt="{{ asset('/icon/mono/skype.png') }}"></a>     
                 </div>
             </div>
         </div>
@@ -70,11 +70,11 @@
                 <h5>Everything Begins with a Hello</h5>
                 <p>Get in Touch and Let's Start Something Great Together</p>
             </div>            
-            <form>
+            <form class="form-message">
                 <input type="text" placeholder="Your Name" name="fname"/><br>
                 <br><input type="text" placeholder="Email" name="femail"/><br>
                 <br><textarea placeholder="Message" name="fmessage"></textarea><br>
-                <br><input type="submit" alt="Submit" value="Say Hello"/>
+                <br><input type="submit" alt="Submit" value="Say Hello!"/>
             </form>
         </div>
     </div>
@@ -84,8 +84,8 @@
     </div>
 </div>
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>        
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>        
 
 @endsection
 
