@@ -7,12 +7,40 @@
 
 @section('content')
 <!--<img class="thumbnail" src="{{ asset('img/project/background.jpg') }}" alt="{{ asset('img/project/background.jpg') }}">-->
-<div class="space stars1"></div>
-<div class="space stars2"></div>
-<div class="space stars3"></div>
 
+<div class="row stars1 stars2 stars3">
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="title-text">
+            <h5 class="fadeIn">Hello I am</h5>
+            <h1>Waode Makani Daga</h1>
+            <div class="line-1 anim-typewriter">
+                <h5>Beginner Web Developer</h5>
+            </div>
+            <div class="button-title">
+                <a href="{{ asset('/files/CV_Waode_Makani_Daga.pdf') }}" download="">
+                    <button class="button-style">Download CV</button>
+                </a>
+            </div>            
+        </div>        
+    </div>
+<!--    <div class="col-md-2">
+        <div class="icon-title">
+            <a class="icon"><img src="{{ asset('/icon/mini/linkedin.png') }}" alt="{{ asset('/icon/mini/linkedin.png') }}"><a/>
+            <a class="icon"><img src="{{ asset('/icon/mini/pinterest.png') }}" alt="{{ asset('/icon/mini/pinterest.png') }}"></a>
+            <a class="icon"><img src="{{ asset('/icon/mini/skype.png') }}" alt="{{ asset('/icon/mini/skype.png') }}"></a>                
+        </div>        -->
+    </div>
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>    
+</div>
 
 @endsection
+
 <!--<div class="row">
     <div class="col-md-12">
         <div class="line-break-up"></div>

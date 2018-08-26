@@ -11,7 +11,22 @@
     <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
+
+    <div class="col-md-4">
+        <div class="image-box">
+            <img class="image" src="{{ asset('/img/profile.png') }}" alt="{{ asset('/img/profile.png') }}">
+        </div>
+    </div>
     
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>
+    
+</div>
+
+@endsection
+
+<!--    
     <div class="col-md-2">
         <div class="header-box bounceIn">
             <div class="header-title">ABOUT ME</div>
@@ -66,12 +81,4 @@
                 <a href="https://www.hackerrank.com/aga_wmd?hr_r=1" target="_blank" title="Hacker Rank"><img class="icon-link" src="{{ asset('/icon/hacker-rank.png') }}" alt="{{ asset('/icon/hacker-rank.png') }}"></a>                
             </div>
         </div>
-    </div>
-    
-    <div class="col-md-12">
-        <div class="line-break-down"></div>
-    </div>
-    
-</div>
-
-@endsection
+    </div>-->

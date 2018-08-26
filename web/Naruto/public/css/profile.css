@@ -15,6 +15,10 @@ body {
     margin: 2rem auto 2rem auto !important;
 }
 
+
+
+
+/*
 .header-box, .intro-box, .image-box {
     margin: 2rem auto !important;
 }
@@ -41,7 +45,7 @@ body {
     height: auto;
 }
 
-/*Intro Box & Data Box*/
+Intro Box & Data Box
 
 .intro-text {
                 font-size: 10pt;
@@ -75,7 +79,7 @@ body {
     margin-right: 1rem !important;
 }
 
-/*Image Box*/
+Image Box
 .image-box {
     background-color: #f0f8ff;
           box-shadow: 5px 5px aquamarine;
@@ -102,4 +106,4 @@ body {
 
 .icon-link:hover {
     opacity: 0.5;
-}
+}*/
