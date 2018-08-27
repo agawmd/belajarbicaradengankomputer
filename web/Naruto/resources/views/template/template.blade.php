@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-        
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Dosis|Fjalla+One|Gloria+Hallelujah|Indie+Flower|Josefin+Sans|Jua|Lobster|Pacifico|Quicksand|Shadows+Into+Light" rel="stylesheet">
         <!-- Main CSS -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">        
         @yield('style')

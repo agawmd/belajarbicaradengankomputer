@@ -29,9 +29,7 @@
     </div>
 <!--    <div class="col-md-2">
         <div class="icon-title">
-            <a class="icon"><img src="{{ asset('/icon/mini/linkedin.png') }}" alt="{{ asset('/icon/mini/linkedin.png') }}"><a/>
-            <a class="icon"><img src="{{ asset('/icon/mini/pinterest.png') }}" alt="{{ asset('/icon/mini/pinterest.png') }}"></a>
-            <a class="icon"><img src="{{ asset('/icon/mini/skype.png') }}" alt="{{ asset('/icon/mini/skype.png') }}"></a>                
+                
         </div>        -->
     </div>
     <div class="col-md-12">
