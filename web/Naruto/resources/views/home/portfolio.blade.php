@@ -9,7 +9,12 @@
 
 
 <div class="row">
-    <div class="col-md-12">
+
+</div>
+
+@endsection
+
+<!--    <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
     
@@ -75,7 +80,4 @@
     
     <div class="col-md-12">
         <div class="line-break-down"></div>
-    </div>    
-</div>
-
-@endsection
+    </div>    -->

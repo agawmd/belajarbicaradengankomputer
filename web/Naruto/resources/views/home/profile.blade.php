@@ -23,24 +23,24 @@
             <div class="intro-data">
                 <h1>I am ..</h1>
                 <div class="data">
-                    <img class="icon-data" src="{{ asset('/icon/tag/user.png') }}" alt="{{ asset('/icon/tag/user.png') }}">Waode Makani Daga
+                    <i class="icon-data fas fa-user"></i>Waode Makani Daga
                 </div>
                 <div class="data">
-                    <img class="icon-data" src="{{ asset('/icon/tag/calender.png') }}" alt="{{ asset('/icon/tag/calender.png') }}">October 29th 1993
+                    <i class="icon-data fas fa-calendar-alt"></i>October 29th 1993
                 </div>                                          
                 <div class="data">
-                    <img class="icon-data" src="{{ asset('/icon/tag/address.png') }}" alt="{{ asset('/icon/tag/address.png') }}">Sapiria, Barombong Distric - Gowa Regency 
+                    <i class="icon-data fas fa-map-signs"></i>Sapiria, Barombong Distric - Gowa Regency 
                 </div> 
                 <div class="data">
-                    <img class="icon-data" src="{{ asset('/icon/tag/region.png') }}" alt="{{ asset('/icon/tag/region.png') }}">South Sulawesi -  Indonesia
+                    <i class="icon-data fas fa-map-marker-alt"></i>South Sulawesi -  Indonesia
                 </div>                                          
             </div>
 
             <div class="intro-social">
                 <h5>Find me on</h5>
-                <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><img class="icon" src="{{ asset('/icon/mini/linkedin.png') }}" alt="{{ asset('/icon/mini/linkedin.png') }}"><a/>
-                <a href="https://www.instagram.com/aga_wmd/" target="_blank"><img class="icon" src="{{ asset('/icon/mini/instagram.png') }}" alt="{{ asset('/icon/mini/instagram.png') }}"></a>
-                <a href="https://www.pinterest.co.uk/aga_wmd/" target="_blank"><img class="icon" src="{{ asset('/icon/mini/pinterest.png') }}" alt="{{ asset('/icon/mini/pinterest.png') }}"></a>                
+                <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><i class="icon fab fa-linkedin-in"></i><a/>
+                <a href="https://www.instagram.com/aga_wmd/" target="_blank"><i class="icon fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.co.uk/aga_wmd/" target="_blank"><i class=" icon fab fa-pinterest-p"></i></a>                
             </div>
 
         </div>        

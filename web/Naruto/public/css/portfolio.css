@@ -16,6 +16,12 @@ body {
     margin: 2rem auto 2rem auto !important;
 }
 
+
+
+
+/*-------------------------------------------*/
+
+/*
 .header-box, .intro-box, .image-box {
     margin: 2rem auto !important;
 }
@@ -43,7 +49,7 @@ body {
 }
 
 
-/*Project Box*/
+Project Box
 
 .project-box {
                        margin: 2rem auto !important;
@@ -78,7 +84,7 @@ p {
   text-align: justify;
 }
 
-/*Button */
+Button 
 
 .pass-line {
              width: 100%;
@@ -102,7 +108,7 @@ p {
 
 
 
-/*
+
 .box-tag {
        border: 1px solid #FF6347 ;
    text-align: center;

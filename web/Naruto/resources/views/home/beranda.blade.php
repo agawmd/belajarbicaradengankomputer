@@ -22,7 +22,7 @@
             </div>
             <div class="button-title">
                 <a href="{{ asset('/files/CV_Waode_Makani_Daga.pdf') }}" download="">
-                    <button class="button-style">Download CV</button>
+                    <button class="button-style">Download CV <i class="fas fa-file-download"></i></button>
                 </a>
             </div>            
         </div>        

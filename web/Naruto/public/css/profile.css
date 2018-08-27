@@ -52,8 +52,8 @@ body {
 }
 
 .icon-data {
-  width: 20px;
   margin: 8px !important;
+  color: #6D6027;
 }
 
 .data {
@@ -105,6 +105,14 @@ h5 {
 }
 
 .icon {
-  display: inline-block;
   margin: 5px !important;
+  border: transparent;
+  border-radius: 100%;
+  padding: 10px !important;
+  background-color: #D3CBB8;
+  color: black;
+}
+
+.icon:hover {
+  color: #6D6027;
 }

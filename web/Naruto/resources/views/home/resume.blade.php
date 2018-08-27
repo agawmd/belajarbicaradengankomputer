@@ -8,10 +8,89 @@
 @section('content')
 
 <div class="row">
-        
     <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
+
+    <div class="col-md-4">
+        <div class="activity-box">            
+            <i class="act-icon fas fa-graduation-cap"></i>
+            <h3>Education</h3>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/kharisma-logo.gif') }}" alt="{{ asset('/logo/kharisma-logo.gif') }}">STMIK Kharisma Makassar
+                <div class="act-sub">
+                    <div class="subtitle">Bachelor of Computer Science</div>
+                    <div class="sub-year">2019 (Expected)</div>
+                    <i class="act-map fas fa-map-marker"></i>South Sulawesi
+                </div>                
+            </div>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/yapen-satria-logo.png') }}" alt="{{ asset('/logo/yapen-satria-logo.png') }}">SMA Satria Makassar
+                <div class="act-sub">
+                    <div class="subtitle">High School Graduation</div>
+                    <div class="sub-year">2012</div>
+                    <i class="act-map fas fa-map-marker"></i>South Sulawesi
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="activity-box">
+            <i class="act-icon fas fa-award"></i>
+            <h3>Activities</h3>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/inkanas-logo.png') }}" alt="{{ asset('/logo/inkanas-logo.png') }}">Institut Karate-Do Nasional
+                <div class="act-sub">
+                    <div class="subtitle">Karateka</div>
+                    <div class="sub-year">2008 - 2014</div>
+                    <i class="act-map fas fa-map-marker"></i>South Sulawesi
+                </div>                
+            </div>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/kharisma-logo.gif') }}" alt="{{ asset('/logo/kharisma-logo.gif') }}">Pusat Pendidikan Komputer KHARISMA
+                <div class="act-sub">
+                    <div class="subtitle">Computer Course</div>
+                    <div class="sub-year">2012</div>
+                    <i class="act-map fas fa-map-marker"></i>South Sulawesi
+                </div>                
+            </div>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/veefa-logo.gif') }}" alt="{{ asset('/logo/veefa-logo.gif') }}">Veefa International Institute
+                <div class="act-sub">
+                    <div class="subtitle">English Course</div>
+                    <div class="sub-year">2010 - 2011</div>
+                    <i class="act-map fas fa-map-marker"></i>South Sulawesi
+                </div>                
+            </div>            
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="activity-box">
+            <i class="act-icon fas fa-briefcase"></i>
+            <h3>Experience</h3>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/tssc-logo.jpg') }}" alt="{{ asset('/logo/tssc-logo.jpg') }}">Taman Surya Sport Club
+                <div class="act-sub">
+                    <div class="subtitle">UI Designer (Freelance)</div>
+                    <div class="sub-year">Jun 2016 - Jul 2016</div>
+                    <i class="act-map fas fa-map-marker"></i>West Jakarta
+                </div>                
+            </div>            
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>    
+</div>
+
+@endsection
+
+
+<!--        
+
 
     <div class="col-md-2">
         <div class="header-box bounceIn">
@@ -215,13 +294,24 @@
         </div>
     </div>    
     
-    <div class="col-md-12">
-        <div class="line-break-down"></div>
-    </div>    
+    -->
 
-</div>
 
-@endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
     <div class="col-md-4">
         <div class="box-tag">EXPERIENCE</div>    
