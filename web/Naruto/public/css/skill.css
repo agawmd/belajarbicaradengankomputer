@@ -44,7 +44,7 @@ h4 {
 }
 
 .skill-title {
-  margin-top: 2rem !important;
+  margin-top: 1rem !important;
   color: #6D6027;  
 }
 
@@ -68,7 +68,7 @@ h5 {
   100% { width:100%; }  
 }
 
-.html, .vb, .php {
+.html, .vb, .php, .java {
   height: 10px;
 }
 
@@ -105,7 +105,49 @@ h5 {
   100% { width:50%; }  
 }
 
+.java {
+  width: 40%;
+  background-color: #3FC380; 
+  animation: java 7s ease-out;
+}
 
+@keyframes java {
+  0% { width:0px; }
+  100% { width:40%; }  
+}
+
+h2 {
+  font-family: 'Concert One', cursive;
+  color: #6D6027;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px !important;
+}
+
+.subtitle {
+  margin: 10px auto !important;
+  width: 100%;
+  height: 1px;
+  background-color: #6D6027;
+}
+
+.point-text-four, .point-text-one, .point-text-three, .point-text-two {
+  font-size: 10pt;
+  color: #6D6027;
+  font-weight: bold;
+}
+
+.point-text-four {
+  text-align: right;
+}
+
+.point-text-three {
+  text-align: center;
+}
+
+.point-text-two {
+  text-align: c;
+}
 
 
 

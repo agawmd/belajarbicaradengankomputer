@@ -29,12 +29,23 @@
                     </div>                    
                 </div>
             </div>
+            <div class="skill-box">
+                <h2>Language Skill</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="language-box">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>       
     </div>
     
     <div class="col-md-6">
         <div class="package-box">
             <div class="skill-box">
+                <h2>Programming Skill</h2>
                 <div class="skill-title">
                     <h5>Html & Css</h5>
                     <div class="skill-line">
@@ -55,7 +66,29 @@
                         50%
                         <div class="php"></div>
                     </div>
-                </div>                
+                </div>
+                <div class="skill-title">
+                    <h5>Java</h5>
+                    <div class="skill-line">
+                        40%
+                        <div class="java"></div>
+                    </div>
+                </div>
+                <div class="subtitle"></div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="point-text-one">Newbie</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="point-text-two">Beginner</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="point-text-three">Advance</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="point-text-four">Master</div>
+                    </div>                    
+                </div>
             </div>
         </div> 
     </div>    
