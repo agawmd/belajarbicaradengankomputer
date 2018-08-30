@@ -34,12 +34,13 @@ h3 {
 
 .activity-box {
   margin: 1rem auto !important;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .activity-title {
     margin: 1rem auto !important;
-    font-size: 13pt;
+
+    font-weight: bold;
 }
 
 .act-logo {
@@ -52,11 +53,14 @@ h3 {
   margin-left: 35px !important;
   font-size: 11pt;
   color: grey;
+  font-weight: normal;
 }
 
 .act-map {
   margin-right: 10px !important;
 }
+
+
 
 
 /*------------------------------------------*/

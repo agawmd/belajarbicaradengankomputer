@@ -11,6 +11,66 @@
 <div class="row">
     <div class="col-md-12">
         <div class="line-break-up"></div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="package-box">
+            <h4>“Developing skills continuously is the same as changing your mindset in seconds. We metamorphose at all times.” - Waode Makani Daga</h4>
+            <div class="row">
+                <div class="col-sm-1">                    
+                    <div class="quote-line"></div>                
+                </div>
+                <div class="col-sm-11">
+                    <div class="quote-text">
+                        .. it might feel boring but in that way
+                        I learned some techniques that were applied in developing the program code,
+                        not just writing it down but understanding the system workflow in programming
+                        will actually add to our quality as a programmer.
+                    </div>                    
+                </div>
+            </div>
+        </div>       
+    </div>
+    
+    <div class="col-md-6">
+        <div class="package-box">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <h5>Html & Css</h5>
+                    <div class="skill-line">
+                        80%
+                        <div class="html"></div>
+                    </div>
+                </div>
+                <div class="skill-title">
+                    <h5>Visual Basic</h5>
+                    <div class="skill-line">
+                        75%
+                        <div class="vb"></div>
+                    </div>
+                </div>
+                <div class="skill-title">
+                    <h5>Php & Laravel</h5>
+                    <div class="skill-line">
+                        50%
+                        <div class="php"></div>
+                    </div>
+                </div>                
+            </div>
+        </div> 
+    </div>    
+    
+    
+    
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>    
+</div>
+@endsection
+
+
+<!--    <div class="col-md-12">
+        <div class="line-break-up"></div>
     </div>  
     
     <div class="col-md-2">
@@ -122,9 +182,19 @@
 
     <div class="col-md-12">
         <div class="line-break-down"></div>
-    </div>  
-</div>
-@endsection
+    </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--    <div class="col-md-8">
         <div class="line-top"></div>

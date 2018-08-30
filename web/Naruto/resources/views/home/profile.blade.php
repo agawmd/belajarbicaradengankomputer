@@ -40,7 +40,7 @@
                 <h5>Find me on</h5>
                 <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><i class="icon fab fa-linkedin-in"></i><a/>
                 <a href="https://www.instagram.com/aga_wmd/" target="_blank"><i class="icon fab fa-instagram"></i></a>
-                <a href="https://www.pinterest.co.uk/aga_wmd/" target="_blank"><i class=" icon fab fa-pinterest-p"></i></a>                
+                <a href="https://www.pinterest.co.uk/aga_wmd/" target="_blank"><i class="icon fab fa-pinterest"></i></a>                
             </div>
 
         </div>        

@@ -51,6 +51,7 @@ h1 {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .button-style:hover {

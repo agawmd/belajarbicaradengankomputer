@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Dosis|Fjalla+One|Gloria+Hallelujah|Indie+Flower|Josefin+Sans|Jua|Lobster|Pacifico|Quicksand|Shadows+Into+Light" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">        
+        <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Acme|Amatic+SC|Anton|Archivo+Narrow|Baloo+Tammudu|Bree+Serif|Cabin|Cinzel|Comfortaa|Concert+One|Cookie|Courgette|Cuprum|Dancing+Script|Encode+Sans+Condensed|Exo|Exo+2|Fjalla+One|Francois+One|Gloria+Hallelujah|Great+Vibes|Indie+Flower|Josefin+Sans|Jua|Kanit|Kaushan+Script|Lato|Lobster|Maven+Pro|Montserrat|Muli|Open+Sans+Condensed:300|Orbitron|Oswald|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|Pacifico|Patua+One|Permanent+Marker|Playfair+Display|Poiret+One|Poller+One|Questrial|Quicksand|Rajdhani|Raleway|Righteous|Roboto+Condensed|Satisfy|Sawarabi+Mincho|Shadows+Into+Light|Source+Sans+Pro|Teko|Titillium+Web|Ubuntu+Condensed|Uncial+Antiqua|Yanone+Kaffeesatz" rel="stylesheet">  
+        
         <!-- Main CSS -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">        
         @yield('style')

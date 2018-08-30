@@ -42,8 +42,9 @@ body {
 .intro-text {
   text-align: center;
   font-size: 11pt;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   margin: 1rem auto !important;  
+  letter-spacing: 1px;
 }
 
 .intro-data {
@@ -58,13 +59,15 @@ body {
 
 .data {
   font-size: 10pt;
-  font-family: 'Jua', sans-serif; 
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 1px;
 }
 
 h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Jua', sans-serif;
+  color: #6D6027;
 }
 
 .intro-button {
@@ -77,11 +80,12 @@ h1 {
   font-family: 'Saira Extra Condensed';
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 2px solid black;
-  box-shadow: 5px 5px black;
+  border: 2px solid #6D6027;
+  box-shadow: 5px 5px #6D6027;
   -webkit-transition-duration: 0.7s;
   background: transparent;
-  color: black;
+  color: #6D6027;
+  cursor: pointer;
 }
 
 .button-style:hover {
