@@ -31,10 +31,15 @@
             </div>
             <div class="skill-box">
                 <h2>Language Skill</h2>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="language-box">
-                            
+                <div class="language-box">                    
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="progress-bar1" data-percent="80" data-duration="1000" data-color="#dadfe1, #3FC380"></div>
+                            <div class="language-text">Bahasa Language</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="progress-bar1" data-percent="70" data-duration="1000" data-color="#dadfe1, #3FC380"></div>                            
+                            <div class="language-text">English Language</div>
                         </div>
                     </div>
                 </div>
@@ -76,16 +81,13 @@
                 </div>
                 <div class="subtitle"></div>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="point-text-one">Newbie</div>
                     </div>
-                    <div class="col-sm-3">
-                        <div class="point-text-two">Beginner</div>
-                    </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="point-text-three">Advance</div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="point-text-four">Master</div>
                     </div>                    
                 </div>
@@ -99,6 +101,15 @@
         <div class="line-break-down"></div>
     </div>    
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="{{ asset('js/jQuery-plugin-progressbar.js') }}"></script>
+<script>
+    $(".progress-bar1").loading(); 
+</script>
+
+
+
 @endsection
 
 
