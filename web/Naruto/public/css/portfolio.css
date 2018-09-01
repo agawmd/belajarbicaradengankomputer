@@ -16,6 +16,91 @@ body {
     margin: 2rem auto 2rem auto !important;
 }
 
+.package-box {
+  margin: 2rem auto !important;
+}
+
+h2, h4, h5 {
+  font-family: 'Dosis', sans-serif;
+  color: #6D6027;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  color: grey;
+}
+
+.portfolio-box {
+  padding: 10px !important;
+  background: #ecf0f1;
+}
+
+.image-box {
+  margin-bottom: 15px !important;
+}
+
+.images {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-box:hover {
+  opacity: 1;
+  -webkit-transition-duration: 0.5s;
+}
+
+.port-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease-out;
+  background: #d2d7d3;
+}
+
+.port-overlay:hover {
+  opacity: 0.9;
+}
+
+.read-button {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-style {
+  padding: 1em 2em;
+  border: none;
+  color: #fff;
+  background: #6D6027;
+  font-family: 'Saira Extra Condensed';
+  letter-spacing: 2px;
+  font-size: 13pt;
+  text-transform: uppercase;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  color: #6D6027;
+  background: #fff;
+  -webkit-transition-duration: 0.3s;
+}
+
+
+
 
 
 

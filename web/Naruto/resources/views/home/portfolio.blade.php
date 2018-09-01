@@ -9,7 +9,30 @@
 
 
 <div class="row">
-
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
+    <div class="col-md-12">        
+        <h2>My Portfolio</h2> 
+    </div>
+    <div class="col-md-6">
+        <div class="package-box">
+            <div class="portfolio-box">
+                <div class="image-box"><img class="images" src="{{ asset('img/project-management-system.png') }}" alt="{{ asset('img/project-management-system.png') }}"></div>
+                <h4>Skypion Project - Event Organizer</h4>
+                <h5>Management Information System Application</h5>
+                <div class="port-overlay">
+                    <a class="read-button" >
+                        <button class="button-style">Read more <i class="fas fa-angle-double-right"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </div>
+    
+    <div class="col-md-12">
+        <div class="line-break-up"></div>
+    </div>
 </div>
 
 @endsection

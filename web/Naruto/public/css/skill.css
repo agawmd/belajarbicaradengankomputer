@@ -19,16 +19,17 @@ body {
   margin: 2rem auto !important;
 }
 
-h4 {
+.quote {
   font-family: 'Dancing Script', cursive;
   letter-spacing: 1px;
   text-align: justify;
-  margin-bottom: 20px !important;
-  color: #6D6027;
+  margin-top: 30px !important;
+  color: black;
+  text-align: justify;
 }
 
 .quote-text {
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;    
   letter-spacing: 1px;
   color: grey;
 }
@@ -50,7 +51,7 @@ h4 {
 
 h5 {
   text-transform: uppercase;
-  font-family: 'Concert One', cursive;
+  font-family: 'Dosis', sans-serif;
 }
 
 .skill-line {  
@@ -117,11 +118,12 @@ h5 {
 }
 
 h2 {
-  font-family: 'Concert One', cursive;
+  font-family: 'Dosis', sans-serif;
   color: #6D6027;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 20px !important;
+  margin-top: 0px !important;
+  font-weight: bold;
 }
 
 .subtitle {
@@ -132,6 +134,7 @@ h2 {
 }
 
 .point-text-four, .point-text-one, .point-text-three, .point-text-two {
+    font-family: 'Dosis', sans-serif;
   font-size: 10pt;
   color: #6D6027;
   font-weight: bold;
@@ -150,8 +153,7 @@ h2 {
 }
 
 .language-box {
-  margin: 20px auto !important;
-  font-family: 'Concert One', cursive;
+  font-family: 'Dosis', sans-serif;
 }
 
 .language-text {
@@ -160,7 +162,9 @@ h2 {
   color: #6D6027;
 }
 
-
+.language-part {
+  margin: 30px auto !important;
+}
 
 
   .progress-bar1 {
@@ -179,7 +183,7 @@ h2 {
 }
  
 .progress-bar1 div span {
-  font-family: 'Concert One', cursive;
+  font-family: 'Dosis', sans-serif;
   color: #6D6027;
   position: absolute;
   font-size: 15pt;

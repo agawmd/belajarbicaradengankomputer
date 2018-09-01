@@ -15,35 +15,38 @@
     
     <div class="col-md-6">
         <div class="package-box">
-            <h4>“Developing skills continuously is the same as changing your mindset in seconds. We metamorphose at all times.” - Waode Makani Daga</h4>
+            <div class="skill-box">
+                <div class="language-box">
+                    <h2>Language Skill</h2>
+                    <div class="language-part">                        
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar1" data-percent="80" data-duration="1000" data-color="#dadfe1, #3FC380"></div>
+                                <div class="language-text">Bahasa Language</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="progress-bar1" data-percent="70" data-duration="1000" data-color="#dadfe1, #3FC380"></div>                            
+                                <div class="language-text">English Language</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-1">                    
                     <div class="quote-line"></div>                
                 </div>
                 <div class="col-sm-11">
                     <div class="quote-text">
-                        .. it might feel boring but in that way
-                        I learned some techniques that were applied in developing the program code,
-                        not just writing it down but understanding the system workflow in programming
+                        .. not just writing it down but understanding the system workflow in programming
                         will actually add to our quality as a programmer.
                     </div>                    
                 </div>
-            </div>
-            <div class="skill-box">
-                <h2>Language Skill</h2>
-                <div class="language-box">                    
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="progress-bar1" data-percent="80" data-duration="1000" data-color="#dadfe1, #3FC380"></div>
-                            <div class="language-text">Bahasa Language</div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="progress-bar1" data-percent="70" data-duration="1000" data-color="#dadfe1, #3FC380"></div>                            
-                            <div class="language-text">English Language</div>
-                        </div>
-                    </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <div class="quote">“Developing skills continuously is the same as changing your mindset in seconds. We metamorphose at all times.” - Waode Makani Daga</div>                    
                 </div>
-            </div>
+            </div>            
         </div>       
     </div>
     

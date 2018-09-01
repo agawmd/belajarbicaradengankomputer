@@ -11,7 +11,22 @@
     <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
-
+    
+    <div class="col-md-4">
+        <div class="activity-box">
+            <i class="act-icon fas fa-briefcase"></i>
+            <h3>Experience</h3>
+            <div class="activity-title">
+                <img class="act-logo" src="{{ asset('/logo/tssc-logo.jpg') }}" alt="{{ asset('/logo/tssc-logo.jpg') }}">Taman Surya Sport Club
+                <div class="act-sub">
+                    <div class="subtitle">UI Designer (Freelance)</div>
+                    <div class="sub-year">Jun 2016 - Jul 2016</div>
+                    <i class="act-map fas fa-map-marker"></i>West Jakarta
+                </div>                
+            </div>            
+        </div>
+    </div>
+    
     <div class="col-md-4">
         <div class="activity-box">            
             <i class="act-icon fas fa-graduation-cap"></i>
@@ -61,21 +76,6 @@
                     <div class="subtitle">English Course</div>
                     <div class="sub-year">2010 - 2011</div>
                     <i class="act-map fas fa-map-marker"></i>South Sulawesi
-                </div>                
-            </div>            
-        </div>
-    </div>
-    
-    <div class="col-md-4">
-        <div class="activity-box">
-            <i class="act-icon fas fa-briefcase"></i>
-            <h3>Experience</h3>
-            <div class="activity-title">
-                <img class="act-logo" src="{{ asset('/logo/tssc-logo.jpg') }}" alt="{{ asset('/logo/tssc-logo.jpg') }}">Taman Surya Sport Club
-                <div class="act-sub">
-                    <div class="subtitle">UI Designer (Freelance)</div>
-                    <div class="sub-year">Jun 2016 - Jul 2016</div>
-                    <i class="act-map fas fa-map-marker"></i>West Jakarta
                 </div>                
             </div>            
         </div>

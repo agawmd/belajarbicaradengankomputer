@@ -30,6 +30,8 @@ body {
 
 h3 {
   font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  color: #6D6027;  
 }
 
 .activity-box {
@@ -39,7 +41,7 @@ h3 {
 
 .activity-title {
     margin: 1rem auto !important;
-
+    color: #6D6027;
     font-weight: bold;
 }
 
