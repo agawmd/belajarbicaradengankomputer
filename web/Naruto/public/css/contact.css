@@ -10,13 +10,127 @@ body {
 
 /*Header Icon*/
 .line-break-up {
-    margin: 2rem auto 2rem auto !important;
+    margin: 3rem auto 3rem auto !important;
 }
 
 .line-break-down {
-    margin: 2rem auto 2rem auto !important;
+    margin: 3rem auto 3rem auto !important;
 }
 
+.contact-box {
+  margin: 2rem auto !important;
+}
+
+.contact-part {
+  margin: 10px auto !important;
+  letter-spacing: 1px;
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+}
+
+a {
+  color: inherit;
+}
+
+.contact-social {
+  margin: 35px !important;
+}
+
+h2, h5 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  color: #6D6027;
+}
+
+h5 {
+  text-transform: uppercase;
+}
+
+.icon {
+  margin: 5px !important;
+  border: transparent;
+  border-radius: 100%;
+  padding: 10px !important;
+  background-color: #D3CBB8;
+  color: black;
+}
+
+.icon:hover {
+  color: #6D6027;
+}
+
+.message-text {
+  font-size: 9pt;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: justify; 
+}
+
+.message-button {
+  background-color: #2ecc71;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 100%;
+  float: right;
+}
+
+.message-form {
+  margin-left: 35px !important;
+  margin-top: 15px !important;
+}
+
+.images {
+  padding: 5px !important;
+  width:  100%;
+  height: auto;
+}
+
+.message-box {
+  background-color: whitesmoke;
+  padding: 1rem !important;
+  margin: 2rem auto !important;
+}
+
+input[type=text], textarea {
+  font-size: 11pt;
+    width: 85%;
+    padding: 7px 7px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 85%;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1e824c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .header-box, .intro-box, .image-box {
     margin: 2rem auto !important;
 }
@@ -43,7 +157,7 @@ body {
     height: auto;
 }
 
-/*Mail Box*/
+Mail Box
 
 .mail-box {
   margin: 2rem auto !important;
@@ -87,7 +201,7 @@ p {
   margin: 2rem auto !important;
 }
 
-/*Contact Box*/
+Contact Box
 
 .contact-box {
   margin: 2rem auto !important;
@@ -125,7 +239,7 @@ p {
     width: 25px;
   height: auto;
   margin: 5px auto !important;
-}
+}*/
 
 
 /*.email, .phone, .web, .location {

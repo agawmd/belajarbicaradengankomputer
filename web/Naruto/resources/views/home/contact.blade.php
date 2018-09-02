@@ -10,7 +10,97 @@
     <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
+
+    <div class="col-md-4">
+        <div class="contact-box">
+            <h2>Say Hi It's Free!</h2>
+            <div class="contact-part">
+                <div class="row">
+                    <div class="col-sm-1"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="col-sm-11">
+                        Sapiria, Barombong District - Gowa Regency
+                        South Sulawesi                    
+                    </div>                    
+                </div>
+            </div>
+            <div class="contact-part">
+                <div class="row">
+                    <div class="col-sm-1"><i class="fas fa-at"></i></div>
+                    <div class="col-sm-11">
+                        <a>dagawaodemakani@gmail.com</a>                   
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-11">
+                        <a>waodemakanidaga@hotmail.com</a>
+                    </div>                    
+                </div>
+            </div>
+            <div class="contact-part">
+                <div class="row">
+                    <div class="col-sm-1"><i class="fas fa-mobile"></i></div>
+                    <div class="col-sm-11">
+                        <a>(+62) 813 4168 6169</a>                   
+                    </div>                    
+                </div>
+            </div>
+            <div class="contact-social">
+                <h5>I'm also on social network</h5>
+                <div class="contact-link">
+                    <a href="https://www.instagram.com/aga_wmd/" target="_blank"><i class="icon fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.co.uk/aga_wmd/" target="_blank"><i class="icon fab fa-pinterest"></i></a>                    
+                </div>
+            </div>
+        </div>
+    </div>  
     
+    <div class="col-md-4">
+
+    </div>
+    
+    <div class="col-md-4">
+        <div class="message-box" id="hiddenBox">
+            <h5>Everything Begins with a Hello</h5>
+            <div class="message-text">Get in Touch and Let's Start Great Project Together! I'll be there within 24 hours.</div>
+            <form class="message-form" method="POST" name="contactform" action="{{ route('home.handler') }}">
+                <p>
+                    <label for="fname"></label>
+                    <input type="text" placeholder="Name*" name="fname"/><br>
+                </p>
+                <p>
+                    <label for="femail"></label>
+                    <input type="text" placeholder="Email*" name="femail"/>
+                </p>
+                <p>
+                    <label for="fmessage"></label>
+                    <textarea placeholder="Message*" name="fmessage"></textarea>
+                </p>
+                <br><input type="submit" alt="Submit" value="Say Hello!" name="submit"/>
+            </form>                
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="line-break-down"></div>
+    </div>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>    
+    
+</div>
+@endsection
+<!--    <script>
+        function hiddenButton() {
+            var x = document.getElementById("hiddenBox");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>    -->
+
+
+<!--        <a><button class="message-button" onclick="hiddenButton()"><img class="images" src="{{ asset('/icon/tag/text-chat.png') }}" alt="{{ asset('/icon/tag/text-chat.png') }}"></button></a>-->
+<!--    
     <div class="col-md-2">
         <div class="header-box bounceIn">
             <div class="header-title">CONTACT</div>
@@ -77,17 +167,16 @@
                 <br><input type="submit" alt="Submit" value="Say Hello!"/>
             </form>
         </div>
-    </div>
-    
-    <div class="col-md-12">
-        <div class="line-break-down"></div>
-    </div>
-</div>
+    </div>-->
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>        
 
-@endsection
+
+
+
+
+
+
+
 
 <!--    <div class="col-md-12">
         <div class="maps">

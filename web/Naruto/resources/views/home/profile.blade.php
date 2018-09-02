@@ -29,7 +29,7 @@
                     <i class="icon-data fas fa-calendar-alt"></i>October 29th 1993
                 </div>                                          
                 <div class="data">
-                    <i class="icon-data fas fa-map-signs"></i>Sapiria, Barombong Distric - Gowa Regency 
+                    <i class="icon-data fas fa-map-signs"></i>Sapiria, Barombong District - Gowa Regency 
                 </div> 
                 <div class="data">
                     <i class="icon-data fas fa-map-marker-alt"></i>South Sulawesi -  Indonesia
@@ -38,9 +38,8 @@
 
             <div class="intro-social">
                 <h5>Find me on</h5>
-                <a href="https://www.linkedin.com/in/agawmd/" target="_blank"><i class="icon fab fa-linkedin-in"></i><a/>
-                <a href="https://www.instagram.com/aga_wmd/" target="_blank"><i class="icon fab fa-instagram"></i></a>
-                <a href="https://www.pinterest.co.uk/aga_wmd/" target="_blank"><i class="icon fab fa-pinterest"></i></a>                
+                <a href="https://www.linkedin.com/in/agawmd/" target="_blank" style="color: black;"><i class="icon fab fa-linkedin-in"></i><a/>
+                <a href="https://github.com/agawmd" target="_blank" style="color: black;"><i class="icon fab fa-github"></i></a>                
             </div>
 
         </div>        

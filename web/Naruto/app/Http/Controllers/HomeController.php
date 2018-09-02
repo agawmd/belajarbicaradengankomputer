@@ -30,6 +30,14 @@ class HomeController extends Controller
     
     public function resume() {
         return view('home.resume');
-    }    
+    }
+    
+    public function handler() {
+        return view('home.handler');
+    }
+    
+    public function confirmation() {
+        return view('home.confirmation');
+    }
 
 }
