@@ -16,7 +16,7 @@
         mail($to, $subject, $body);
         
         //redirect to confirmation
-        header('Location:confirmation.blade.php');
+        header('Location:{{ route('home.confirmation') }}');
     } else {
         //handle the error
     }

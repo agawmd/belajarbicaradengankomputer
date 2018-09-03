@@ -17,5 +17,5 @@ Route::get('/portfolio', 'HomeController@portfolio' )->name('home.portfolio');
 Route::get('/skill',     'HomeController@skill'     )->name('home.skill');
 Route::get('/contact',   'HomeController@contact'   )->name('home.contact');
 Route::get('/resume',    'HomeController@resume'    )->name('home.resume');
-Route::get('/handler',   'HomeController@handler'   )->name('home.handler');
+Route::post('/handler',   'HomeController@handler'   )->name('home.handler');
 Route::get('/confirmation',   'HomeController@confirmation'   )->name('home.confirmation');

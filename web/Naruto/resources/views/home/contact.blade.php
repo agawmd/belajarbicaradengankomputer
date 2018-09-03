@@ -27,11 +27,11 @@
                 <div class="row">
                     <div class="col-sm-1"><i class="fas fa-at"></i></div>
                     <div class="col-sm-11">
-                        <a>dagawaodemakani@gmail.com</a>                   
+                        <a href="mailto:dagawaodemakani@gmail.com?Subject=Hello%20again" target="_top">dagawaodemakani@gmail.com</a>                   
                     </div>
                     <div class="col-sm-1"></div>
                     <div class="col-sm-11">
-                        <a>waodemakanidaga@hotmail.com</a>
+                        <a href="mailto:waodemakanidaga@hotmail.com?Subject=Hello%20again" target="_top">waodemakanidaga@hotmail.com</a>
                     </div>                    
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="row">
                     <div class="col-sm-1"><i class="fas fa-mobile"></i></div>
                     <div class="col-sm-11">
-                        <a>(+62) 813 4168 6169</a>                   
+                        <a href="tel+6281341686169" target="_blank">(+62) 813 4168 6169</a>                   
                     </div>                    
                 </div>
             </div>
