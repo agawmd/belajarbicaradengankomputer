@@ -20,7 +20,7 @@
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
                     <a class="dropdown-item" href="{{ route('home.skill') }}">Skill</a>
                     <a class="dropdown-item" href="{{ route('home.portfolio') }}">Portfolio</a>
-                    <a class="dropdown-item" href="{{ route('home.contact') }}">Contact</a>
+                    <a class="dropdown-item" href="{{ route('Contact.contact') }}">Contact</a>
                 </div>
             </li>
         </ul>

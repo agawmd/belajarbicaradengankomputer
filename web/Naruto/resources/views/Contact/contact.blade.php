@@ -61,7 +61,8 @@
         <div class="message-box" id="hiddenBox">
             <h5>Everything Begins with a Hello</h5>
             <div class="message-text">Get in Touch and Let's Start Great Project Together! I'll be there within 24 hours.</div>
-            <form class="message-form" method="POST" name="contactform" action="{{ route('home.handler') }}">
+            <form class="message-form" method="POST" name="contactform" action="/contact">
+                {{ csrf_field() }}
                 <p>
                     <label for="fname"></label>
                     <input type="text" placeholder="Name*" name="fname"/><br>
