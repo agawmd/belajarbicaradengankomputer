@@ -16,3 +16,5 @@ Route::get('/profile',   'HomeController@profile'   )->name('home.profile');
 Route::get('/portfolio', 'HomeController@portfolio' )->name('home.portfolio');
 Route::get('/skill',     'HomeController@skill'     )->name('home.skill');
 Route::get('/resume',    'HomeController@resume'    )->name('home.resume');
+Route::get('/contact',   'ContactController@show'   )->name('Contact.contact');
+Route::post('/contact',  'ContactController@sendMail')->name('Contact.contact');
