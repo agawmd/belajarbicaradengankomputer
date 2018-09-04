@@ -7,6 +7,13 @@
 
 @section('content')
 <div class="row">
+    
+@if(session('message'))
+    <div class='alert alert-success'>
+            {{ session('message') }}
+    </div>
+@endif    
+    
     <div class="col-md-12">
         <div class="line-break-up"></div>
     </div>
@@ -61,7 +68,10 @@
         <div class="message-box" id="hiddenBox">
             <h5>Everything Begins with a Hello</h5>
             <div class="message-text">Get in Touch and Let's Start Great Project Together! I'll be there within 24 hours.</div>
-            <form class="message-form" method="POST" name="contactform" action="/contact">
+            @if(Session::has('status'))
+                <div class="alert alert-success">{{ Session::get('status') }}</div>
+            @endif
+            <form class="message-form" method="POST" action="">
                 {{ csrf_field() }}
                 <p>
                     <label for="fname"></label>
